@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hammond Collection Tracker</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%F0%9F%A6%96</text></svg>">
+<style>
+/* layout: sticky amber header with tabs; card grid below, one card per
+   listing, price-ascending within each tab; amber/fossil palette evoking
+   the Jurassic Park amber-in-resin motif without tipping into pastiche */
+:root{
+  --bg:#f6f1e4;
+  --surface:#fffdf8;
+  --ink:#241c10;
+  --muted:#7a6c52;
+  --line:#e4d9bf;
+  --accent:#b9780a;
+  --accent-ink:#3a2a06;
+  --good:#3f7d4a;
+  --warn:#a23b2e;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#15120c;
+    --surface:#1e1a12;
+    --ink:#f3ecd9;
+    --muted:#a8987a;
+    --line:#352c1b;
+    --accent:#e3a33a;
+    --accent-ink:#f3ecd9;
+    --good:#6fbf7a;
+    --warn:#e07a63;
+    color-scheme:dark;
+  }
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--bg);
+  color:var(--ink);
+  font-family:"Source Sans 3", system-ui, -apple-system, Segoe UI, sans-serif;
+  padding-inline:16px;
+}
+img{max-width:100%}
+h1,h2,h3{font-family:"Fraunces", Georgia, serif}
+
+.wrap{max-width:980px;margin:0 auto}
+
+header.top{
+  position:sticky;
+  top:0;
+  background:var(--bg);
+  padding-block:18px 10px;
+  border-bottom:1px solid var(--line);
+  z-index:5;
+}
+.title-row{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+h1{font-size:1.5rem;margin:0;font-weight:600;letter-spacing:.01em}
+h1 em{font-style:normal;color:var(--accent)}
+.sub{color:var(--muted);font-size:.85rem;margin-top:2px}
+.status{
+  display:flex;align-items:center;gap:8px;font-size:.8rem;color:var(--muted);
+  font-variant-numeric:tabular-nums;
+}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--good);flex:none}
+.dot.stale{background:var(--warn)}
+button.refresh{
+  border:1px solid var(--line);background:var(--surface);color:var(--ink);
+  border-radius:7px;padding:5px 10px;font-size:.78rem;cursor:pointer;
+}
+button.refresh:hover{border-color:var(--accent)}
+
+nav.tabs{
+  display:flex;gap:4px;overflow-x:auto;padding-block:10px 2px;
+  -ms-overflow-style:none;scrollbar-width:none;
+}
+nav.tabs::-webkit-scrollbar{display:none}
+nav.tabs button{
+  flex:none;border:1px solid var(--line);background:var(--surface);color:var(--muted);
+  padding:7px 14px;border-radius:999px;font-size:.85rem;cursor:pointer;white-space:nowrap;
+  font-family:inherit;
+}
+nav.tabs button .count{
+  margin-left:6px;color:var(--muted);font-variant-numeric:tabular-nums;font-size:.78rem;
+}
+nav.tabs button[aria-selected="true"]{
+  background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:600;
+}
+nav.tabs button[aria-selected="true"] .count{color:var(--accent-ink);opacity:.75}
+
+main{padding-block:18px 48px}
+
+.empty{
+  border:1px dashed var(--line);border-radius:12px;padding:40px 20px;text-align:center;
+  color:var(--muted);
+}
+.empty strong{color:var(--ink);display:block;margin-bottom:6px;font-size:1.05rem}
+.empty code{
+  background:var(--bg);border:1px solid var(--line);border-radius:5px;padding:1px 6px;
+  font-size:.85em;
+}
+
+.grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;
+}
+
+a.card{
+  display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);
+  border-radius:12px;overflow:hidden;text-decoration:none;color:inherit;min-width:0;
+  transition:border-color .15s ease, transform .15s ease;
+}
+a.card:hover{border-color:var(--accent);transform:translateY(-2px)}
+a.card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.thumb{aspect-ratio:1/1;background:var(--bg);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.thumb img{width:100%;height:100%;object-fit:cover}
+.thumb .ph{color:var(--muted);font-size:1.6rem}
+
+.card-body{padding:10px 12px 12px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.price{font-family:"Fraunces",Georgia,serif;font-size:1.25rem;font-weight:600;color:var(--accent-ink)}
+.ctitle{
+  font-size:.83rem;color:var(--ink);line-height:1.3;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
+.meta{display:flex;justify-content:space-between;gap:8px;font-size:.72rem;color:var(--muted)}
+.badge{
+  font-size:.68rem;text-transform:uppercase;letter-spacing:.04em;color:var(--warn);
+  border:1px solid currentColor;border-radius:4px;padding:1px 5px;align-self:flex-start;
+}
+
+footer{color:var(--muted);font-size:.75rem;text-align:center;padding-block:10px 30px}
+footer a{color:var(--accent)}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="top">
+    <div class="title-row">
+      <div>
+        <h1>Hammond <em>Collection</em> Tracker</h1>
+        <div class="sub">Anuncios ativos no eBay &middot; Jurassic World, Mattel</div>
+      </div>
+      <div class="status">
+        <span class="dot" id="dot"></span>
+        <span id="updated">carregando…</span>
+        <button class="refresh" id="refreshBtn" type="button">Atualizar</button>
+      </div>
+    </div>
+    <nav class="tabs" id="tabs" aria-label="Categorias"></nav>
+  </header>
+
+  <main id="main">
+    <div class="empty">
+      <strong>Carregando anuncios…</strong>
+      Buscando os dados mais recentes.
+    </div>
+  </main>
+
+  <footer>
+    Dados atualizados a cada 20 min por um robo no GitHub Actions. Clique num anuncio pra abrir no eBay.
+  </footer>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var DATA_URL = "data/listings.json";
+  var POLL_MS = 120000; // reconsulta a cada 2 min (o arquivo em si muda a cada 20 min)
+
+  var state = { categories: [], updatedAt: null, activeTab: null };
+
+  var tabsEl = document.getElementById("tabs");
+  var mainEl = document.getElementById("main");
+  var updatedEl = document.getElementById("updated");
+  var dotEl = document.getElementById("dot");
+  var refreshBtn = document.getElementById("refreshBtn");
+
+  function fmtPrice(value, currency){
+    if (value == null) return "preco sob consulta";
+    try{
+      return new Intl.NumberFormat("pt-BR", { style:"currency", currency: currency || "USD" }).format(value);
+    }catch(e){
+      return (currency || "") + " " + value.toFixed(2);
+    }
+  }
+
+  function relTime(iso){
+    if (!iso) return "sem dados ainda";
+    var d = new Date(iso);
+    if (isNaN(d.getTime())) return "sem dados ainda";
+    var diffMin = Math.round((Date.now() - d.getTime()) / 60000);
+    if (diffMin < 1) return "atualizado agora mesmo";
+    if (diffMin < 60) return "atualizado ha " + diffMin + " min";
+    var h = Math.round(diffMin/60);
+    return "atualizado ha " + h + "h";
+  }
+
+  function renderTabs(){
+    tabsEl.innerHTML = "";
+    state.categories.forEach(function(cat){
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.setAttribute("aria-selected", String(cat.name === state.activeTab));
+      btn.innerHTML = cat.name + '<span class="count">' + cat.items.length + "</span>";
+      btn.addEventListener("click", function(){
+        state.activeTab = cat.name;
+        renderTabs();
+        renderGrid();
+      });
+      tabsEl.appendChild(btn);
+    });
+  }
+
+  function cardHtml(item){
+    var img = item.image
+      ? '<img src="' + item.image.replace(/"/g,"&quot;") + '" alt="" loading="lazy">'
+      : '<span class="ph">🦴</span>';
+    var isAuction = (item.buyingOptions || []).indexOf("AUCTION") !== -1;
+    var badge = isAuction ? '<span class="badge">Leilao</span>' : "";
+    var title = (item.title || "").replace(/</g,"&lt;");
+    var seller = item.seller ? item.seller.replace(/</g,"&lt;") : "vendedor desconhecido";
+    var cond = item.condition ? item.condition.replace(/</g,"&lt;") : "";
+    return (
+      '<a class="card" href="' + (item.url||"#") + '" target="_blank" rel="noopener">' +
+        '<div class="thumb">' + img + '</div>' +
+        '<div class="card-body">' +
+          badge +
+          '<div class="price">' + fmtPrice(item.price, item.currency) + '</div>' +
+          '<div class="ctitle">' + title + '</div>' +
+          '<div class="meta"><span>' + cond + '</span><span>' + seller + '</span></div>' +
+        '</div>' +
+      '</a>'
+    );
+  }
+
+  function renderGrid(){
+    var cat = state.categories.find(function(c){ return c.name === state.activeTab; });
+    if (!cat || !cat.items.length){
+      mainEl.innerHTML = '<div class="empty"><strong>Nenhum anuncio nesta categoria agora</strong>Volte mais tarde, o robo atualiza a cada 20 minutos.</div>';
+      return;
+    }
+    mainEl.innerHTML = '<div class="grid">' + cat.items.map(cardHtml).join("") + '</div>';
+  }
+
+  function renderEmptyState(message, detail){
+    tabsEl.innerHTML = "";
+    mainEl.innerHTML = '<div class="empty"><strong>' + message + '</strong>' + detail + '</div>';
+  }
+
+  function applyData(json){
+    state.categories = (json.categories || []).filter(function(c){ return c.items && c.items.length; });
+    state.updatedAt = json.updated_at || null;
+    updatedEl.textContent = relTime(state.updatedAt);
+    dotEl.classList.remove("stale");
+
+    if (!state.categories.length){
+      renderEmptyState("Nenhum anuncio encontrado ainda", "Assim que o robo rodar e encontrar anuncios, eles aparecem aqui.");
+      return;
+    }
+    if (!state.activeTab || !state.categories.some(function(c){ return c.name === state.activeTab; })){
+      state.activeTab = state.categories[0].name;
+    }
+    renderTabs();
+    renderGrid();
+  }
+
+  function load(){
+    dotEl.classList.add("stale");
+    updatedEl.textContent = "atualizando…";
+    fetch(DATA_URL, { cache: "no-store" })
+      .then(function(r){
+        if (!r.ok) throw new Error("status " + r.status);
+        return r.json();
+      })
+      .then(applyData)
+      .catch(function(err){
+        dotEl.classList.add("stale");
+        updatedEl.textContent = "erro ao carregar";
+        renderEmptyState(
+          "Nao consegui carregar os dados",
+          'Confira se o GitHub Pages esta ativado e se o arquivo <code>data/listings.json</code> existe. Detalhe: ' + err.message
+        );
+      });
+  }
+
+  refreshBtn.addEventListener("click", load);
+  load();
+  setInterval(load, POLL_MS);
+})();
+</script>
+</body>
+</html>
