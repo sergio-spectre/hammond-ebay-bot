@@ -36,20 +36,36 @@ import requests
 # Configuracao
 # ----------------------------------------------------------------------------
 
-SEARCH_QUERIES = [
+# Buscas "estritas": a API do eBay so retorna item se TODAS as palavras da
+# query aparecerem no titulo, entao qualquer resultado dessas aqui ja vem
+# com "Hammond Collection" garantido no titulo.
+STRICT_SEARCH_QUERIES = [
     "Jurassic World Hammond Collection",
     "Hammond Collection Jurassic Park",
     "Mattel Hammond Collection dinosaur",
     "Hammond Collection True FX",
-    # Buscas extras para exclusivos/itens que vendedores as vezes anunciam
-    # sem escrever "Hammond Collection" no titulo (a API do eBay exige
-    # que TODAS as palavras da query apareçam no titulo, entao essas
-    # figuras passavam batido nas buscas genericas acima).
+]
+# Buscas "amplas": pegam exclusivos que vendedores as vezes anunciam sem
+# escrever "Hammond Collection" (ex.: o Buck da SDCC). Como essas buscas nao
+# exigem a palavra "Hammond", elas tambem trazem lixo de OUTRAS linhas da
+# Mattel que usam o mesmo nome de especie (Legacy, Camp Cretaceous, Dino
+# Trackers, Dino Escape, pelucia, blind bag etc.). Por isso, um item que so
+# aparece numa busca ampla (nunca numa estrita) precisa passar por um
+# segundo filtro de confirmacao (ver BROAD_CONFIRM_PATTERN mais abaixo).
+BROAD_SEARCH_QUERIES = [
     "Jurassic World Buck Convention Crasher",
     "Mattel Buck SDCC Jurassic",
     "Jurassic World Brachiosaurus Mattel",
     "Jurassic Park Brachiosaurus True FX",
 ]
+SEARCH_QUERIES = STRICT_SEARCH_QUERIES + BROAD_SEARCH_QUERIES
+
+# Confirma que um item achado so por busca ampla e mesmo Hammond Collection
+# (e nao Legacy, Camp Cretaceous, Dino Trackers, pelucia, Rebirth etc. que
+# por acaso citam o mesmo nome de dinossauro/personagem).
+BROAD_CONFIRM_PATTERN = re.compile(
+    r"hammond\s*collection|true\s*fx|convention\s*crasher", re.I
+)
 MARKETPLACE_ID = "EBAY_US"
 RESULTS_LIMIT = 200          # max por chamada na Browse API
 SORT = "newlyListed"
@@ -365,12 +381,32 @@ def main() -> int:
     token = get_ebay_token(client_id, client_secret)
 
     all_items = {}
-    for q in SEARCH_QUERIES:
+    found_via_strict: set[str] = set()
+    for q in STRICT_SEARCH_QUERIES:
         for it in search_ebay(token, q):
             item_id = it.get("itemId")
             if item_id:
                 all_items[item_id] = it
-    items = list(all_items.values())
+                found_via_strict.add(item_id)
+    for q in BROAD_SEARCH_QUERIES:
+        for it in search_ebay(token, q):
+            item_id = it.get("itemId")
+            if item_id:
+                all_items.setdefault(item_id, it)
+
+    # Itens que SO vieram de busca ampla precisam de confirmacao extra no
+    # titulo (ver BROAD_CONFIRM_PATTERN); senao e provavel que seja de outra
+    # linha da Mattel que por acaso cita o mesmo dinossauro/personagem.
+    items = []
+    skipped_broad_unconfirmed = 0
+    for item_id, it in all_items.items():
+        if item_id in found_via_strict:
+            items.append(it)
+            continue
+        if BROAD_CONFIRM_PATTERN.search(it.get("title", "")):
+            items.append(it)
+        else:
+            skipped_broad_unconfirmed += 1
 
     if not items:
         print("Nenhum anuncio encontrado nesta busca.")
@@ -499,7 +535,9 @@ def main() -> int:
 
     print(
         f"OK. {len(items)} anuncios verificados, {len(new_items)} novos, "
-        f"{skipped_outliers} outliers ignorados, mediana={median_price}, "
+        f"{skipped_outliers} outliers ignorados, "
+        f"{skipped_broad_unconfirmed} de busca ampla sem confirmacao Hammond, "
+        f"mediana={median_price}, "
         f"{discord_errors} erros no Discord. "
         f"Categorias: {', '.join(ordered_categories)}."
     )

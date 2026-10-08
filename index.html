@@ -8,7 +8,7 @@
 <style>
 /* tema: preto como cor principal, abas fixas na esquerda (viram uma tira
    horizontal no topo no celular), e uma secao de "Destaques" com os
-   melhores precos do momento, selecionada por padrao ao abrir o site. */
+   melhores precos relativos de cada categoria, selecionada por padrao. */
 :root{
   --bg:#0a0a0a;
   --surface:#141414;
@@ -20,6 +20,7 @@
   --accent-ink:#141414;
   --good:#7a9a86;
   --warn:#a3807a;
+  --bad:#b06a6a;
   color-scheme:dark;
 }
 *{box-sizing:border-box}
@@ -32,9 +33,34 @@ body{
 img{max-width:100%}
 h1,h2,h3{font-family:"Fraunces", Georgia, serif;margin:0}
 a{color:inherit}
+input,select,textarea,button{font-family:inherit}
+
+/* ---- tela de senha ---- */
+.gate{
+  position:fixed;inset:0;background:var(--bg);z-index:50;
+  display:flex;align-items:center;justify-content:center;padding:20px;
+}
+.gate-box{
+  width:100%;max-width:320px;background:var(--surface);border:1px solid var(--line);
+  border-radius:14px;padding:28px 24px;text-align:center;
+}
+.gate-box h1{font-size:1.2rem;margin-bottom:4px}
+.gate-box .sub{color:var(--muted);font-size:.8rem;margin-bottom:18px}
+.gate-box input{
+  width:100%;background:var(--surface-2);border:1px solid var(--line);color:var(--ink);
+  border-radius:8px;padding:10px 12px;font-size:.95rem;margin-bottom:10px;text-align:center;
+  letter-spacing:.04em;
+}
+.gate-box input:focus{outline:none;border-color:var(--accent)}
+.gate-box button{
+  width:100%;background:var(--accent);color:var(--accent-ink);border:none;border-radius:8px;
+  padding:10px 12px;font-size:.9rem;font-weight:600;cursor:pointer;
+}
+.gate-box .err{color:var(--bad);font-size:.78rem;margin-top:10px;min-height:1em}
+.app{display:none}
+.app.unlocked{display:flex}
 
 .app{
-  display:flex;
   min-height:100vh;
 }
 
@@ -89,6 +115,8 @@ nav.tabs button[aria-selected="true"]{
 nav.tabs button[aria-selected="true"] .count{color:var(--accent-ink);opacity:.75}
 nav.tabs button.highlight-tab{color:var(--accent)}
 nav.tabs button.highlight-tab[aria-selected="true"]{color:var(--accent-ink)}
+nav.tabs button.collection-tab{color:var(--good)}
+nav.tabs button.collection-tab[aria-selected="true"]{color:var(--accent-ink)}
 nav.tabs .divider{height:1px;background:var(--line);margin:8px 10px}
 
 /* ---- conteudo principal ---- */
@@ -125,10 +153,14 @@ a.card.deal{border-color:var(--good)}
 .thumb .ph{color:var(--muted);font-size:1.6rem}
 
 .card-body{padding:10px 12px 12px;display:flex;flex-direction:column;gap:6px;min-width:0}
-.price-row{display:flex;align-items:center;gap:7px}
+.price-row{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
 .price{font-family:"Fraunces",Georgia,serif;font-size:1.2rem;font-weight:600;color:var(--accent)}
 .deal-badge{
   font-size:.64rem;text-transform:uppercase;letter-spacing:.04em;color:var(--good);
+  border:1px solid currentColor;border-radius:4px;padding:1px 5px;
+}
+.rare-badge{
+  font-size:.64rem;text-transform:uppercase;letter-spacing:.04em;color:#c7a86b;
   border:1px solid currentColor;border-radius:4px;padding:1px 5px;
 }
 .cat-pill{
@@ -150,6 +182,68 @@ a.card.deal{border-color:var(--good)}
 
 footer{color:var(--muted);font-size:.72rem;padding-block:18px 10px}
 footer a{color:var(--accent)}
+
+/* ---- aba Minha Colecao ---- */
+.coll-toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.coll-toolbar button, .coll-toolbar label.file-btn{
+  border:1px solid var(--line);background:var(--surface-2);color:var(--ink);
+  border-radius:7px;padding:7px 12px;font-size:.78rem;cursor:pointer;
+}
+.coll-toolbar button:hover, .coll-toolbar label.file-btn:hover{border-color:var(--accent)}
+.coll-toolbar input[type=file]{display:none}
+.coll-toolbar .fx{
+  margin-left:auto;display:flex;align-items:center;gap:6px;font-size:.78rem;color:var(--muted);
+}
+.coll-toolbar .fx input{
+  width:74px;background:var(--surface-2);border:1px solid var(--line);color:var(--ink);
+  border-radius:6px;padding:5px 7px;font-size:.78rem;
+}
+
+.coll-summary{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:20px;
+}
+.coll-stat{
+  background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;
+}
+.coll-stat .k{font-size:.68rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.coll-stat .v{font-family:"Fraunces",Georgia,serif;font-size:1.25rem;margin-top:3px}
+.coll-stat .v.pos{color:var(--good)}
+.coll-stat .v.neg{color:var(--bad)}
+
+.coll-table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+table.coll-table{width:100%;border-collapse:collapse;font-size:.82rem;min-width:860px}
+table.coll-table th, table.coll-table td{
+  padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap;
+}
+table.coll-table th{color:var(--muted);font-weight:600;font-size:.7rem;text-transform:uppercase;letter-spacing:.03em;background:var(--surface)}
+table.coll-table td.num{text-align:right;font-variant-numeric:tabular-nums}
+table.coll-table td.profit.pos{color:var(--good)}
+table.coll-table td.profit.neg{color:var(--bad)}
+table.coll-table tr:hover td{background:var(--surface-2)}
+table.coll-table td.actions{white-space:nowrap}
+table.coll-table td.actions button{
+  border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:6px;
+  padding:3px 8px;font-size:.72rem;cursor:pointer;margin-right:4px;
+}
+table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--ink)}
+
+.coll-form{
+  background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:18px;
+}
+.coll-form .field{display:flex;flex-direction:column;gap:4px}
+.coll-form label{font-size:.68rem;color:var(--muted);text-transform:uppercase;letter-spacing:.03em}
+.coll-form input, .coll-form select, .coll-form textarea{
+  background:var(--surface-2);border:1px solid var(--line);color:var(--ink);
+  border-radius:7px;padding:8px 9px;font-size:.84rem;
+}
+.coll-form .field.wide{grid-column:1 / -1}
+.coll-form .actions-row{grid-column:1 / -1;display:flex;gap:8px;justify-content:flex-end}
+.coll-form .actions-row button{
+  border:none;border-radius:7px;padding:9px 16px;font-size:.84rem;cursor:pointer;font-weight:600;
+}
+.coll-form .btn-save{background:var(--accent);color:var(--accent-ink)}
+.coll-form .btn-cancel{background:var(--surface-2);color:var(--ink);border:1px solid var(--line)!important}
 
 /* ---- celular: sidebar vira tira horizontal no topo ---- */
 @media (max-width: 760px){
@@ -175,7 +269,19 @@ footer a{color:var(--accent)}
 </head>
 <body>
 
-<div class="app">
+<div class="gate" id="gate">
+  <div class="gate-box">
+    <h1>Hammond <span style="color:var(--accent)">Collection</span></h1>
+    <div class="sub">Acesso restrito &middot; digite a senha</div>
+    <form id="gateForm" autocomplete="off">
+      <input type="password" id="gatePw" placeholder="Senha" autocomplete="current-password" autofocus>
+      <button type="submit">Entrar</button>
+      <div class="err" id="gateErr"></div>
+    </form>
+  </div>
+</div>
+
+<div class="app" id="app">
   <aside class="sidebar">
     <div class="brand">
       <h1>Hammond <em>Collection</em></h1>
@@ -201,12 +307,83 @@ footer a{color:var(--accent)}
 (function(){
   "use strict";
 
+  // =====================================================================
+  // Tela de senha. So protege contra visitantes casuais (o codigo roda no
+  // navegador de quem acessar, entao nao e seguranca de verdade), mas
+  // impede que quem ache o link do GitHub Pages veja o conteudo sem saber
+  // a senha. So guarda o HASH da senha aqui, nunca o texto puro.
+  // =====================================================================
+  var GATE_HASH = "aca8d56e6fef9ec315b1a3d50a4fa6c19b84a9efebb6299a629be0ac970056a4";
+  var GATE_KEY = "hammond_gate_unlocked_v1";
+
+  var gateEl = document.getElementById("gate");
+  var appEl = document.getElementById("app");
+  var gateForm = document.getElementById("gateForm");
+  var gatePw = document.getElementById("gatePw");
+  var gateErr = document.getElementById("gateErr");
+
+  function sha256Hex(text){
+    var enc = new TextEncoder().encode(text);
+    return crypto.subtle.digest("SHA-256", enc).then(function(buf){
+      var bytes = Array.from(new Uint8Array(buf));
+      return bytes.map(function(b){ return b.toString(16).padStart(2, "0"); }).join("");
+    });
+  }
+
+  function unlockApp(){
+    gateEl.style.display = "none";
+    appEl.classList.add("unlocked");
+    boot();
+  }
+
+  function tryUnlock(pw){
+    if (!window.crypto || !window.crypto.subtle){
+      gateErr.textContent = "Navegador sem suporte a crypto.subtle; use um navegador atualizado.";
+      return;
+    }
+    sha256Hex(pw).then(function(hash){
+      if (hash === GATE_HASH){
+        try{ localStorage.setItem(GATE_KEY, "1"); }catch(e){}
+        unlockApp();
+      } else {
+        gateErr.textContent = "Senha incorreta.";
+        gatePw.value = "";
+        gatePw.focus();
+      }
+    });
+  }
+
+  gateForm.addEventListener("submit", function(ev){
+    ev.preventDefault();
+    gateErr.textContent = "";
+    tryUnlock(gatePw.value || "");
+  });
+
+  var alreadyUnlocked = false;
+  try{ alreadyUnlocked = localStorage.getItem(GATE_KEY) === "1"; }catch(e){}
+  if (alreadyUnlocked){
+    unlockApp();
+  } else {
+    gatePw.focus();
+  }
+
+  // =====================================================================
+  // App principal (so roda depois de desbloquear)
+  // =====================================================================
+  function boot(){
+
   var DATA_URL = "data/listings.json";
   var POLL_MS = 120000; // reconsulta a cada 2 min (o arquivo em si muda a cada 10 min)
   var HIGHLIGHTS_ID = "__highlights__";
-  var HIGHLIGHTS_COUNT = 12;
+  var COLLECTION_ID = "__collection__";
+  var HIGHLIGHTS_COUNT = 14;
+  var COLL_KEY = "hammond_minha_colecao_v1";
+  var FX_KEY = "hammond_fx_usd_brl_v1";
 
   var state = { categories: [], updatedAt: null, activeTab: HIGHLIGHTS_ID };
+  var collection = loadCollection();
+  var fx = loadFx();
+  var editingId = null;
 
   var tabsEl = document.getElementById("tabs");
   var mainEl = document.getElementById("main");
@@ -214,12 +391,32 @@ footer a{color:var(--accent)}
   var dotEl = document.getElementById("dot");
   var refreshBtn = document.getElementById("refreshBtn");
 
+  // ---- utilidades -------------------------------------------------------
+
   function fmtPrice(value, currency){
     if (value == null) return "preco sob consulta";
     try{
       return new Intl.NumberFormat("pt-BR", { style:"currency", currency: currency || "USD" }).format(value);
     }catch(e){
       return (currency || "") + " " + value.toFixed(2);
+    }
+  }
+
+  function fmtBRL(value){
+    if (value == null || isNaN(value)) return "—";
+    try{
+      return new Intl.NumberFormat("pt-BR", { style:"currency", currency:"BRL" }).format(value);
+    }catch(e){
+      return "R$ " + value.toFixed(2);
+    }
+  }
+
+  function fmtUSD(value){
+    if (value == null || isNaN(value)) return "—";
+    try{
+      return new Intl.NumberFormat("pt-BR", { style:"currency", currency:"USD" }).format(value);
+    }catch(e){
+      return "US$ " + value.toFixed(2);
     }
   }
 
@@ -232,6 +429,13 @@ footer a{color:var(--accent)}
     if (diffMin < 60) return "atualizado ha " + diffMin + " min";
     var h = Math.round(diffMin/60);
     return "atualizado ha " + h + "h";
+  }
+
+  function median(nums){
+    if (!nums.length) return null;
+    var s = nums.slice().sort(function(a,b){ return a-b; });
+    var mid = Math.floor(s.length/2);
+    return s.length % 2 ? s[mid] : (s[mid-1] + s[mid]) / 2;
   }
 
   function allSingleItems(){
@@ -247,11 +451,10 @@ footer a{color:var(--accent)}
 
   function dealThreshold(items){
     var prices = items.map(function(it){ return it.price; }).filter(function(p){ return p != null; });
-    if (!prices.length) return null;
-    prices.sort(function(a,b){ return a-b; });
-    var mid = prices[Math.floor(prices.length/2)];
-    return mid;
+    return median(prices);
   }
+
+  // ---- navegacao ----------------------------------------------------
 
   function renderTabs(){
     tabsEl.innerHTML = "";
@@ -267,6 +470,18 @@ footer a{color:var(--accent)}
       renderMain();
     });
     tabsEl.appendChild(hBtn);
+
+    var cBtn = document.createElement("button");
+    cBtn.type = "button";
+    cBtn.className = "collection-tab";
+    cBtn.setAttribute("aria-selected", String(state.activeTab === COLLECTION_ID));
+    cBtn.innerHTML = "💰 Minha Colecao";
+    cBtn.addEventListener("click", function(){
+      state.activeTab = COLLECTION_ID;
+      renderTabs();
+      renderMain();
+    });
+    tabsEl.appendChild(cBtn);
 
     var div = document.createElement("div");
     div.className = "divider";
@@ -293,6 +508,7 @@ footer a{color:var(--accent)}
       : '<span class="ph">🦴</span>';
     var isAuction = (item.buyingOptions || []).indexOf("AUCTION") !== -1;
     var isDeal = opts.deal === true;
+    var isRare = opts.rare === true;
     var title = (item.title || "").replace(/</g,"&lt;");
     var seller = item.seller ? item.seller.replace(/</g,"&lt;") : "vendedor desconhecido";
     var cond = item.condition ? item.condition.replace(/</g,"&lt;") : "";
@@ -304,6 +520,7 @@ footer a{color:var(--accent)}
           catPill +
           '<div class="price-row"><span class="price">' + fmtPrice(item.price, item.currency) + '</span>' +
             (isDeal ? '<span class="deal-badge">Bom preco</span>' : '') +
+            (isRare ? '<span class="rare-badge">Raro</span>' : '') +
             (isAuction ? '<span class="badge">Leilao</span>' : '') +
           '</div>' +
           '<div class="ctitle">' + title + '</div>' +
@@ -313,25 +530,69 @@ footer a{color:var(--accent)}
     );
   }
 
+  // ---- Destaques: valor relativo a propria categoria + raridade --------
+  //
+  // Antes isso pegava so os N itens mais baratos olhando o preco bruto de
+  // TODAS as categorias juntas — na pratica, uma figura comum de US$10
+  // sempre ganhava de um exclusivo caro (ex.: Buck, Brachiossauro), mesmo
+  // quando o exclusivo estava com um precinho otimo pro que ele costuma
+  // custar. Agora cada item e comparado com a MEDIANA DA PROPRIA CATEGORIA
+  // (ratio = preco / mediana da categoria) e categorias com poucos
+  // anuncios (mais raras/dificeis de achar) ganham peso extra, pra
+  // destacar tanto "bom preco de verdade" quanto "achado raro".
+
+  function rarityMultiplier(count){
+    if (count <= 2) return 0.55;
+    if (count <= 5) return 0.72;
+    if (count <= 10) return 0.86;
+    return 1.0;
+  }
+
+  function computeHighlightScores(items){
+    var byCat = {};
+    items.forEach(function(it){
+      if (it.price == null) return;
+      (byCat[it.__cat] = byCat[it.__cat] || []).push(it.price);
+    });
+    var catMedian = {}, catCount = {};
+    Object.keys(byCat).forEach(function(cat){
+      catMedian[cat] = median(byCat[cat]);
+      catCount[cat] = byCat[cat].length;
+    });
+    return items
+      .filter(function(it){ return it.price != null && catMedian[it.__cat]; })
+      .map(function(it){
+        var ratio = it.price / catMedian[it.__cat];
+        var count = catCount[it.__cat];
+        var score = ratio * rarityMultiplier(count);
+        return Object.assign({}, it, {
+          __ratio: ratio,
+          __catCount: count,
+          __score: score,
+        });
+      });
+  }
+
   function renderHighlights(){
     var items = allSingleItems();
     if (!items.length){
-      mainEl.innerHTML = '<div class="empty"><strong>Nenhum anuncio ainda</strong>Assim que o robo encontrar anuncios, os melhores precos aparecem aqui.</div>';
+      mainEl.innerHTML = '<div class="empty"><strong>Nenhum anuncio ainda</strong>Assim que o robo encontrar anuncios, os melhores achados aparecem aqui.</div>';
       return;
     }
-    var threshold = dealThreshold(items);
-    items.sort(function(a,b){
-      if (a.price == null) return 1;
-      if (b.price == null) return -1;
-      return a.price - b.price;
-    });
-    var top = items.slice(0, HIGHLIGHTS_COUNT);
+    var scored = computeHighlightScores(items);
+    scored.sort(function(a,b){ return a.__score - b.__score; });
+    var top = scored.slice(0, HIGHLIGHTS_COUNT);
     var cards = top.map(function(it){
-      return cardHtml(it, { deal: threshold != null && it.price != null && it.price <= threshold });
+      return cardHtml(it, {
+        deal: it.__ratio <= 1,
+        rare: it.__catCount <= 5,
+      });
     }).join("");
     mainEl.innerHTML =
       '<div class="highlights-section">' +
-        '<div class="main-head"><h2>Melhores achados agora</h2><div class="sub">Os ' + top.length + ' anuncios mais baratos de figuras avulsas, de todas as abas.</div></div>' +
+        '<div class="main-head"><h2>Melhores achados agora</h2><div class="sub">' +
+          'Ranking por preco relativo a mediana de cada categoria + raridade (categorias com poucos anuncios ganham destaque), nao preco bruto.' +
+        '</div></div>' +
         '<div class="grid">' + cards + '</div>' +
       '</div>';
   }
@@ -351,16 +612,275 @@ footer a{color:var(--accent)}
       '<div class="grid">' + cards + '</div>';
   }
 
+  // ---- Minha Colecao: registro manual de compras + lucro -----------------
+
+  function loadCollection(){
+    try{
+      var raw = localStorage.getItem(COLL_KEY);
+      return raw ? JSON.parse(raw) : [];
+    }catch(e){ return []; }
+  }
+
+  function saveCollection(){
+    try{ localStorage.setItem(COLL_KEY, JSON.stringify(collection)); }catch(e){}
+  }
+
+  function loadFx(){
+    var fallback = { rate: 5.4, updatedAt: null, manual: false };
+    try{
+      var raw = localStorage.getItem(FX_KEY);
+      return raw ? JSON.parse(raw) : fallback;
+    }catch(e){ return fallback; }
+  }
+
+  function saveFx(){
+    try{ localStorage.setItem(FX_KEY, JSON.stringify(fx)); }catch(e){}
+  }
+
+  function fetchFx(){
+    fetch("https://api.frankfurter.app/latest?from=USD&to=BRL", { cache: "no-store" })
+      .then(function(r){ return r.ok ? r.json() : Promise.reject(new Error("status " + r.status)); })
+      .then(function(j){
+        var rate = j && j.rates && j.rates.BRL;
+        if (rate){
+          fx = { rate: rate, updatedAt: new Date().toISOString(), manual: false };
+          saveFx();
+          if (state.activeTab === COLLECTION_ID) renderMain();
+        }
+      })
+      .catch(function(){ /* mantem a cotacao salva/local em caso de erro */ });
+  }
+
+  function collEntryCost(e){
+    var paid = Number(e.paidUsd) || 0;
+    var ship = Number(e.shipUsd) || 0;
+    var fees = Number(e.feesUsd) || 0;
+    return paid + ship + fees;
+  }
+
+  function collEntryProfit(e){
+    var costUsd = collEntryCost(e);
+    var costBrl = costUsd * (fx.rate || 0);
+    var resaleBrl = Number(e.resaleBrl) || 0;
+    return resaleBrl - costBrl;
+  }
+
+  function uid(){
+    return "c" + Date.now().toString(36) + Math.random().toString(36).slice(2,7);
+  }
+
+  function categoryOptionsHtml(selected){
+    var names = state.categories.map(function(c){ return c.name; });
+    if (selected && names.indexOf(selected) === -1) names.push(selected);
+    if (!names.length) names = [selected || ""];
+    return names.map(function(n){
+      return '<option value="' + n.replace(/"/g,"&quot;") + '"' + (n === selected ? " selected" : "") + '>' + n + '</option>';
+    }).join("");
+  }
+
+  function collFormHtml(entry){
+    entry = entry || { id:null, category:"", title:"", purchaseDate:"", paidUsd:"", shipUsd:"", feesUsd:"", resaleBrl:"", notes:"" };
+    return (
+      '<form class="coll-form" id="collForm">' +
+        '<div class="field"><label>Categoria</label>' +
+          '<select name="category">' + categoryOptionsHtml(entry.category) + '</select>' +
+        '</div>' +
+        '<div class="field wide"><label>Titulo / apelido</label>' +
+          '<input type="text" name="title" value="' + (entry.title||"").replace(/"/g,"&quot;") + '" placeholder="Ex.: Blue (BAF) lacrado"></div>' +
+        '<div class="field"><label>Data da compra</label>' +
+          '<input type="date" name="purchaseDate" value="' + (entry.purchaseDate||"") + '"></div>' +
+        '<div class="field"><label>Pago (US$)</label>' +
+          '<input type="number" step="0.01" min="0" name="paidUsd" value="' + (entry.paidUsd ?? "") + '"></div>' +
+        '<div class="field"><label>Frete (US$)</label>' +
+          '<input type="number" step="0.01" min="0" name="shipUsd" value="' + (entry.shipUsd ?? "") + '"></div>' +
+        '<div class="field"><label>Outras taxas (US$)</label>' +
+          '<input type="number" step="0.01" min="0" name="feesUsd" value="' + (entry.feesUsd ?? "") + '"></div>' +
+        '<div class="field"><label>Revenda estimada (R$)</label>' +
+          '<input type="number" step="0.01" min="0" name="resaleBrl" value="' + (entry.resaleBrl ?? "") + '"></div>' +
+        '<div class="field wide"><label>Notas</label>' +
+          '<input type="text" name="notes" value="' + (entry.notes||"").replace(/"/g,"&quot;") + '" placeholder="Opcional"></div>' +
+        '<div class="actions-row">' +
+          '<button type="button" class="btn-cancel" id="collCancelBtn">Cancelar</button>' +
+          '<button type="submit" class="btn-save">Salvar</button>' +
+        '</div>' +
+      '</form>'
+    );
+  }
+
+  function renderCollection(){
+    var totalCostUsd = 0, totalResaleBrl = 0, totalProfitBrl = 0;
+    collection.forEach(function(e){
+      totalCostUsd += collEntryCost(e);
+      totalResaleBrl += Number(e.resaleBrl) || 0;
+      totalProfitBrl += collEntryProfit(e);
+    });
+    var totalCostBrl = totalCostUsd * (fx.rate || 0);
+
+    var rowsHtml = collection.length ? collection.map(function(e){
+      var cost = collEntryCost(e);
+      var costBrl = cost * (fx.rate || 0);
+      var profit = collEntryProfit(e);
+      var profitClass = profit > 0 ? "pos" : (profit < 0 ? "neg" : "");
+      return (
+        '<tr data-id="' + e.id + '">' +
+          '<td>' + (e.purchaseDate || "—") + '</td>' +
+          '<td>' + (e.category || "—").replace(/</g,"&lt;") + '</td>' +
+          '<td>' + (e.title || "—").replace(/</g,"&lt;") + '</td>' +
+          '<td class="num">' + fmtUSD(cost) + '</td>' +
+          '<td class="num">' + fmtBRL(costBrl) + '</td>' +
+          '<td class="num">' + fmtBRL(Number(e.resaleBrl) || 0) + '</td>' +
+          '<td class="num profit ' + profitClass + '">' + fmtBRL(profit) + '</td>' +
+          '<td class="actions">' +
+            '<button type="button" class="editBtn">Editar</button>' +
+            '<button type="button" class="delBtn">Excluir</button>' +
+          '</td>' +
+        '</tr>'
+      );
+    }).join("") : '<tr><td colspan="8" style="color:var(--muted);text-align:center;padding:24px">Nenhum item registrado ainda.</td></tr>';
+
+    mainEl.innerHTML =
+      '<div class="main-head"><h2>Minha Colecao</h2><div class="sub">Registro manual de compras, custo total e valor de revenda estimado no Brasil. Fica salvo so neste navegador — use Exportar pra fazer backup.</div></div>' +
+      '<div class="coll-toolbar">' +
+        '<button type="button" id="addEntryBtn">+ Registrar compra</button>' +
+        '<button type="button" id="exportBtn">Exportar JSON</button>' +
+        '<label class="file-btn">Importar JSON<input type="file" id="importInput" accept="application/json"></label>' +
+        '<div class="fx">' +
+          'Cotacao US$→R$ <input type="number" step="0.01" min="0" id="fxInput" value="' + (fx.rate || "") + '">' +
+          '<button type="button" id="fxRefreshBtn" title="Buscar cotacao atual">↻</button>' +
+        '</div>' +
+      '</div>' +
+      '<div id="collFormWrap"></div>' +
+      '<div class="coll-summary">' +
+        '<div class="coll-stat"><div class="k">Itens registrados</div><div class="v">' + collection.length + '</div></div>' +
+        '<div class="coll-stat"><div class="k">Custo total</div><div class="v">' + fmtBRL(totalCostBrl) + '</div></div>' +
+        '<div class="coll-stat"><div class="k">Revenda estimada</div><div class="v">' + fmtBRL(totalResaleBrl) + '</div></div>' +
+        '<div class="coll-stat"><div class="k">Lucro estimado</div><div class="v ' + (totalProfitBrl > 0 ? "pos" : (totalProfitBrl < 0 ? "neg" : "")) + '">' + fmtBRL(totalProfitBrl) + '</div></div>' +
+      '</div>' +
+      '<div class="coll-table-wrap"><table class="coll-table">' +
+        '<thead><tr>' +
+          '<th>Data</th><th>Categoria</th><th>Item</th><th>Custo (US$)</th><th>Custo (R$)</th>' +
+          '<th>Revenda (R$)</th><th>Lucro (R$)</th><th></th>' +
+        '</tr></thead>' +
+        '<tbody>' + rowsHtml + '</tbody>' +
+      '</table></div>';
+
+    document.getElementById("addEntryBtn").addEventListener("click", function(){
+      editingId = null;
+      openCollForm();
+    });
+    document.getElementById("exportBtn").addEventListener("click", exportCollection);
+    document.getElementById("importInput").addEventListener("change", importCollection);
+    document.getElementById("fxInput").addEventListener("change", function(ev){
+      var v = parseFloat(ev.target.value);
+      if (!isNaN(v) && v > 0){
+        fx = { rate: v, updatedAt: new Date().toISOString(), manual: true };
+        saveFx();
+        renderCollection();
+      }
+    });
+    document.getElementById("fxRefreshBtn").addEventListener("click", fetchFx);
+
+    mainEl.querySelectorAll(".editBtn").forEach(function(btn){
+      btn.addEventListener("click", function(){
+        var id = btn.closest("tr").dataset.id;
+        editingId = id;
+        openCollForm();
+      });
+    });
+    mainEl.querySelectorAll(".delBtn").forEach(function(btn){
+      btn.addEventListener("click", function(){
+        var id = btn.closest("tr").dataset.id;
+        if (!confirm("Excluir este item da colecao?")) return;
+        collection = collection.filter(function(e){ return e.id !== id; });
+        saveCollection();
+        renderCollection();
+      });
+    });
+  }
+
+  function openCollForm(){
+    var entry = editingId ? collection.find(function(e){ return e.id === editingId; }) : null;
+    var wrap = document.getElementById("collFormWrap");
+    wrap.innerHTML = collFormHtml(entry);
+    document.getElementById("collCancelBtn").addEventListener("click", function(){
+      editingId = null;
+      wrap.innerHTML = "";
+    });
+    document.getElementById("collForm").addEventListener("submit", function(ev){
+      ev.preventDefault();
+      var fd = new FormData(ev.target);
+      var data = {
+        id: editingId || uid(),
+        category: fd.get("category") || "",
+        title: fd.get("title") || "",
+        purchaseDate: fd.get("purchaseDate") || "",
+        paidUsd: fd.get("paidUsd") || 0,
+        shipUsd: fd.get("shipUsd") || 0,
+        feesUsd: fd.get("feesUsd") || 0,
+        resaleBrl: fd.get("resaleBrl") || 0,
+        notes: fd.get("notes") || "",
+      };
+      if (editingId){
+        collection = collection.map(function(e){ return e.id === editingId ? data : e; });
+      } else {
+        collection.push(data);
+      }
+      editingId = null;
+      saveCollection();
+      renderCollection();
+    });
+  }
+
+  function exportCollection(){
+    var blob = new Blob([JSON.stringify({ collection: collection, fx: fx }, null, 2)], { type: "application/json" });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement("a");
+    a.href = url;
+    a.download = "minha-colecao-hammond.json";
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+  }
+
+  function importCollection(ev){
+    var file = ev.target.files && ev.target.files[0];
+    if (!file) return;
+    var reader = new FileReader();
+    reader.onload = function(){
+      try{
+        var parsed = JSON.parse(reader.result);
+        var incoming = Array.isArray(parsed) ? parsed : (parsed.collection || []);
+        if (!Array.isArray(incoming)) throw new Error("formato invalido");
+        if (!confirm("Importar " + incoming.length + " item(ns)? Isso substitui a colecao atual salva neste navegador.")) return;
+        collection = incoming;
+        saveCollection();
+        if (parsed.fx && parsed.fx.rate){
+          fx = parsed.fx;
+          saveFx();
+        }
+        renderCollection();
+      }catch(e){
+        alert("Nao consegui ler esse arquivo: " + e.message);
+      }
+    };
+    reader.readAsText(file);
+    ev.target.value = "";
+  }
+
+  // ---- roteamento geral --------------------------------------------------
+
   function renderMain(){
     if (state.activeTab === HIGHLIGHTS_ID){
       renderHighlights();
+    } else if (state.activeTab === COLLECTION_ID){
+      renderCollection();
     } else {
       renderCategory();
     }
   }
 
   function renderEmptyState(message, detail){
-    tabsEl.innerHTML = "";
     mainEl.innerHTML = '<div class="empty"><strong>' + message + '</strong>' + detail + '</div>';
   }
 
@@ -370,11 +890,11 @@ footer a{color:var(--accent)}
     updatedEl.textContent = relTime(state.updatedAt);
     dotEl.classList.remove("stale");
 
-    if (!state.categories.length){
+    renderTabs();
+    if (!state.categories.length && state.activeTab !== COLLECTION_ID){
       renderEmptyState("Nenhum anuncio encontrado ainda", "Assim que o robo rodar e encontrar anuncios, eles aparecem aqui.");
       return;
     }
-    renderTabs();
     renderMain();
   }
 
@@ -390,6 +910,7 @@ footer a{color:var(--accent)}
       .catch(function(err){
         dotEl.classList.add("stale");
         updatedEl.textContent = "erro ao carregar";
+        renderTabs();
         renderEmptyState(
           "Nao consegui carregar os dados",
           'Confira se o GitHub Pages esta ativado e se o arquivo <code>data/listings.json</code> existe. Detalhe: ' + err.message
@@ -400,6 +921,11 @@ footer a{color:var(--accent)}
   refreshBtn.addEventListener("click", load);
   load();
   setInterval(load, POLL_MS);
+
+  // busca a cotacao atual uma vez por carregamento, se nao for manual
+  if (!fx.manual) fetchFx();
+
+  } // boot()
 })();
 </script>
 </body>
