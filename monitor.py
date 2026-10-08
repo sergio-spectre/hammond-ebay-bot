@@ -1,26 +1,30 @@
 #!/usr/bin/env python3
 """
-Monitor de precos: eBay "Hammond Collection" (Jurassic World, Mattel) -> Discord
+Monitor de precos: eBay "Hammond Collection" (Jurassic World, Mattel) -> Discord + site
 
 O que faz:
   1. Autentica na eBay Browse API (OAuth client credentials).
   2. Busca anuncios ativos para a linha "Hammond Collection" da Mattel.
-  3. Descarta anuncios com preco muito acima da mediana (outliers).
-  4. Compara com os anuncios ja notificados (seen_items.json).
-  5. Envia os anuncios novos (e nao-outliers) para um webhook do Discord.
-  6. Atualiza seen_items.json (o workflow do GitHub Actions faz o commit de volta).
+  3. Classifica cada anuncio por especie de dinossauro (Rex, Raptor, etc.),
+     e separa lotes/leiloes/anuncios com mais de um bicho num tab proprio.
+  4. Ordena cada grupo do menor pro maior preco.
+  5. Descarta anuncios com preco muito acima da mediana (outliers).
+  6. Salva tudo em data/listings.json (o site le esse arquivo).
+  7. Compara com os anuncios ja notificados (seen_items.json) e manda os
+     anuncios novos (e nao-outliers) para um webhook do Discord.
 
 Variaveis de ambiente esperadas:
-  EBAY_CLIENT_ID       - Client ID (App ID) do eBay Developer Program
-  EBAY_CLIENT_SECRET   - Client Secret (Cert ID) do eBay Developer Program
-  DISCORD_WEBHOOK_URL  - URL do webhook do canal do Discord
-
-Ajustes rapidos ficam nas constantes logo abaixo.
+  EBAY_CLIENT_ID       - Client ID (App ID) do eBay Developer Program (Production)
+  EBAY_CLIENT_SECRET   - Client Secret (Cert ID) do eBay Developer Program (Production)
+  DISCORD_WEBHOOK_URL  - URL do webhook do canal do Discord (opcional: se nao
+                          estiver definida, o script so atualiza o site e pula
+                          o Discord)
 """
 
 import base64
 import json
 import os
+import re
 import statistics
 import sys
 import time
@@ -32,24 +36,49 @@ import requests
 # Configuracao
 # ----------------------------------------------------------------------------
 
-SEARCH_QUERY = "Jurassic World Hammond Collection"
-MARKETPLACE_ID = "EBAY_US"          # troque para EBAY_GB, EBAY_DE, etc. se quiser outro site do eBay
-RESULTS_LIMIT = 50                  # max 200 por chamada na Browse API
-SORT = "newlyListed"                # prioriza os anuncios mais recentes
+SEARCH_QUERIES = [
+    "Jurassic World Hammond Collection",
+]
+MARKETPLACE_ID = "EBAY_US"
+RESULTS_LIMIT = 200          # max por chamada na Browse API
+SORT = "newlyListed"
 
-# Um anuncio e considerado "outlier" (preco muito acima dos outros) e NAO e
-# enviado se o preco dele for maior que OUTLIER_MULTIPLIER vezes a mediana
-# dos precos encontrados nesta mesma busca.
 OUTLIER_MULTIPLIER = 1.5
-
-# Por quantos dias mantemos um item na lista de "ja visto" antes de esquecer
-# dele (evita que seen_items.json cresca para sempre).
 SEEN_TTL_DAYS = 45
 
-STATE_FILE = Path(__file__).parent / "seen_items.json"
+ROOT = Path(__file__).parent
+STATE_FILE = ROOT / "seen_items.json"
+DATA_FILE = ROOT / "data" / "listings.json"
 
 EBAY_OAUTH_URL = "https://api.ebay.com/identity/v1/oauth2/token"
 EBAY_SEARCH_URL = "https://api.ebay.com/buy/browse/v1/item_summary/search"
+
+# Especies/tabs. A ordem aqui define a ordem das abas no site.
+SPECIES = [
+    ("T-Rex", re.compile(r"\bt-?\s?rex\b|tyrannosaurus", re.I)),
+    ("Raptor", re.compile(r"raptor", re.I)),  # velociraptor, indoraptor, atrociraptor, blue, charlie, delta, echo...
+    ("Triceratops", re.compile(r"triceratops", re.I)),
+    ("Spinosaurus", re.compile(r"spinosaurus", re.I)),
+    ("Stegosaurus", re.compile(r"stegosaurus", re.I)),
+    ("Brachiosaurus", re.compile(r"brachiosaurus", re.I)),
+    ("Mosasaurus", re.compile(r"mosasaurus", re.I)),
+    ("Pteranodon", re.compile(r"pteranodon", re.I)),
+    ("Indominus Rex", re.compile(r"indominus", re.I)),
+    ("Parasaurolophus", re.compile(r"parasaurolophus", re.I)),
+    ("Ankylosaurus", re.compile(r"ankylosaurus", re.I)),
+    ("Dilophosaurus", re.compile(r"dilophosaurus", re.I)),
+    ("Giganotosaurus", re.compile(r"giganotosaurus", re.I)),
+    ("Carnotaurus", re.compile(r"carnotaurus", re.I)),
+    ("Baryonyx", re.compile(r"baryonyx", re.I)),
+    ("Allosaurus", re.compile(r"allosaurus", re.I)),
+    ("Pachycephalosaurus", re.compile(r"pachycephalosaurus", re.I)),
+    ("Compsognathus", re.compile(r"compsognathus", re.I)),
+]
+
+LOT_PATTERN = re.compile(
+    r"\blot\b|\blote\b|\bbundle\b|\bset of\b|\bx\s?\d\b|\d\s?x\b|\bcollection of\b",
+    re.I,
+)
 
 
 # ----------------------------------------------------------------------------
@@ -74,26 +103,59 @@ def get_ebay_token(client_id: str, client_secret: str) -> str:
     return resp.json()["access_token"]
 
 
-def search_ebay(token: str) -> list[dict]:
-    resp = requests.get(
-        EBAY_SEARCH_URL,
-        headers={
-            "Authorization": f"Bearer {token}",
-            "X-EBAY-C-MARKETPLACE-ID": MARKETPLACE_ID,
-        },
-        params={
-            "q": SEARCH_QUERY,
-            "limit": str(RESULTS_LIMIT),
-            "sort": SORT,
-        },
-        timeout=30,
-    )
-    resp.raise_for_status()
-    return resp.json().get("itemSummaries", [])
+def search_ebay(token: str, query: str) -> list[dict]:
+    items = []
+    offset = 0
+    while True:
+        resp = requests.get(
+            EBAY_SEARCH_URL,
+            headers={
+                "Authorization": f"Bearer {token}",
+                "X-EBAY-C-MARKETPLACE-ID": MARKETPLACE_ID,
+            },
+            params={
+                "q": query,
+                "limit": str(min(RESULTS_LIMIT, 200)),
+                "offset": str(offset),
+                "sort": SORT,
+            },
+            timeout=30,
+        )
+        resp.raise_for_status()
+        payload = resp.json()
+        batch = payload.get("itemSummaries", [])
+        items.extend(batch)
+        total = payload.get("total", 0)
+        offset += len(batch)
+        if not batch or offset >= total or offset >= RESULTS_LIMIT:
+            break
+    return items
 
 
 # ----------------------------------------------------------------------------
-# Estado (itens ja notificados)
+# Classificacao
+# ----------------------------------------------------------------------------
+
+def classify(title: str, buying_options: list[str]) -> str:
+    matches = [name for name, pattern in SPECIES if pattern.search(title)]
+    is_auction = "AUCTION" in (buying_options or [])
+    is_lot_text = bool(LOT_PATTERN.search(title))
+    if is_auction or is_lot_text or len(matches) > 1:
+        return "Lotes e Leilao"
+    if len(matches) == 1:
+        return matches[0]
+    return "Outros"
+
+
+def item_price(it: dict):
+    try:
+        return float(it["price"]["value"])
+    except (KeyError, TypeError, ValueError):
+        return None
+
+
+# ----------------------------------------------------------------------------
+# Estado (itens ja notificados no Discord)
 # ----------------------------------------------------------------------------
 
 def load_state() -> dict:
@@ -115,7 +177,7 @@ def prune_state(state: dict) -> dict:
 # Discord
 # ----------------------------------------------------------------------------
 
-def send_discord_alert(webhook_url: str, item: dict) -> None:
+def send_discord_alert(webhook_url: str, item: dict, category: str) -> None:
     title = item.get("title", "Anuncio sem titulo")
     price = item.get("price", {})
     price_str = f"{price.get('value', '?')} {price.get('currency', '')}".strip()
@@ -129,6 +191,7 @@ def send_discord_alert(webhook_url: str, item: dict) -> None:
         "url": url,
         "color": 0x2ECC71,
         "fields": [
+            {"name": "Categoria", "value": category, "inline": True},
             {"name": "Preco", "value": price_str or "N/A", "inline": True},
             {"name": "Condicao", "value": condition or "N/A", "inline": True},
             {"name": "Vendedor", "value": seller, "inline": True},
@@ -143,16 +206,10 @@ def send_discord_alert(webhook_url: str, item: dict) -> None:
     }
 
     resp = requests.post(webhook_url, json=payload, timeout=30)
-    # Discord manda 429 com Retry-After quando o rate limit estoura
     if resp.status_code == 429:
         retry_after = resp.json().get("retry_after", 1)
         time.sleep(float(retry_after) + 0.5)
         resp = requests.post(webhook_url, json=payload, timeout=30)
-    resp.raise_for_status()
-
-
-def send_discord_text(webhook_url: str, content: str) -> None:
-    resp = requests.post(webhook_url, json={"content": content}, timeout=30)
     resp.raise_for_status()
 
 
@@ -170,7 +227,6 @@ def main() -> int:
         for name, val in [
             ("EBAY_CLIENT_ID", client_id),
             ("EBAY_CLIENT_SECRET", client_secret),
-            ("DISCORD_WEBHOOK_URL", webhook_url),
         ]
         if not val
     ]
@@ -179,60 +235,96 @@ def main() -> int:
         return 1
 
     token = get_ebay_token(client_id, client_secret)
-    items = search_ebay(token)
+
+    all_items = {}
+    for q in SEARCH_QUERIES:
+        for it in search_ebay(token, q):
+            item_id = it.get("itemId")
+            if item_id:
+                all_items[item_id] = it
+    items = list(all_items.values())
 
     if not items:
         print("Nenhum anuncio encontrado nesta busca.")
         return 0
 
-    prices = []
-    for it in items:
-        try:
-            prices.append(float(it["price"]["value"]))
-        except (KeyError, TypeError, ValueError):
-            continue
-
+    prices = [p for p in (item_price(it) for it in items) if p is not None]
     median_price = statistics.median(prices) if prices else None
     outlier_ceiling = median_price * OUTLIER_MULTIPLIER if median_price else None
 
     state = prune_state(load_state())
+    now = time.time()
 
+    groups: dict[str, list[dict]] = {}
     new_count = 0
     skipped_outliers = 0
-    now = time.time()
 
     for it in items:
         item_id = it.get("itemId")
         if not item_id:
             continue
 
-        # marca como visto de qualquer forma (mesmo se for outlier, nao
-        # queremos alertar sobre ele mais tarde se o preco nao mudar)
+        price_val = item_price(it)
+        if outlier_ceiling is not None and price_val is not None and price_val > outlier_ceiling:
+            skipped_outliers += 1
+            continue
+
+        title = it.get("title", "")
+        buying_options = it.get("buyingOptions", [])
+        category = classify(title, buying_options)
+
+        price = it.get("price", {})
+        entry = {
+            "id": item_id,
+            "title": title,
+            "price": price_val,
+            "currency": price.get("currency"),
+            "url": it.get("itemWebUrl"),
+            "image": (it.get("image") or {}).get("imageUrl"),
+            "condition": it.get("condition"),
+            "seller": (it.get("seller") or {}).get("username"),
+            "buyingOptions": buying_options,
+        }
+        groups.setdefault(category, []).append(entry)
+
         already_seen = item_id in state
         state[item_id] = now
-
         if already_seen:
             continue
 
-        try:
-            price_val = float(it["price"]["value"])
-        except (KeyError, TypeError, ValueError):
-            price_val = None
-
-        if outlier_ceiling is not None and price_val is not None and price_val > outlier_ceiling:
-            skipped_outliers += 1
-            print(f"Ignorando outlier: {it.get('title')} ({price_val})")
-            continue
-
-        send_discord_alert(webhook_url, it)
+        if webhook_url:
+            send_discord_alert(webhook_url, it, category)
+            time.sleep(1)
         new_count += 1
-        time.sleep(1)  # nao martelar o webhook
+
+    for cat in groups:
+        groups[cat].sort(key=lambda e: (e["price"] is None, e["price"]))
+
+    # ordem fixa das abas: especies na ordem definida, "Outros" e "Lotes e
+    # Leilao" por ultimo
+    ordered_categories = [name for name, _ in SPECIES if name in groups]
+    for extra in ("Outros", "Lotes e Leilao"):
+        if extra in groups:
+            ordered_categories.append(extra)
+
+    output = {
+        "updated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "median_price": median_price,
+        "total_items": sum(len(v) for v in groups.values()),
+        "categories": [
+            {"name": cat, "items": groups[cat]} for cat in ordered_categories
+        ],
+    }
+
+    DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
+    DATA_FILE.write_text(json.dumps(output, indent=2, ensure_ascii=False))
 
     save_state(state)
 
     print(
-        f"OK. {len(items)} anuncios verificados, {new_count} novos enviados, "
-        f"{skipped_outliers} outliers ignorados, mediana={median_price}."
+        f"OK. {len(items)} anuncios verificados, {new_count} novos, "
+        f"{skipped_outliers} outliers ignorados, mediana={median_price}. "
+        f"Categorias: {', '.join(ordered_categories)}."
     )
     return 0
 
