@@ -57,6 +57,8 @@ BROAD_SEARCH_QUERIES = [
     "Mattel Buck SDCC Jurassic",
     "Jurassic World Brachiosaurus Mattel",
     "Jurassic Park Brachiosaurus True FX",
+    "Jurassic World Hammond Brachiosaurus",
+    "Mattel Hammond Collection Brachiosaurus",
 ]
 SEARCH_QUERIES = STRICT_SEARCH_QUERIES + BROAD_SEARCH_QUERIES
 
