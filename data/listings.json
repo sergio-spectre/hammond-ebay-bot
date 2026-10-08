@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-08T19:27:51Z",
-  "median_price": 56.055,
-  "total_items": 472,
+  "updated_at": "2026-10-08T19:49:06Z",
+  "median_price": 55.99,
+  "total_items": 473,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -199,6 +199,20 @@
           "seller": "radixfinds",
           "buyingOptions": [
             "FIXED_PRICE"
+          ]
+        },
+        {
+          "id": "v1|178568257691|0",
+          "title": "SDCC 2026 Mattel Jurassic World Hammond Collection 25th Comic-Style Velociraptor",
+          "price": 44.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/178568257691?_skw=Mattel+Hammond+Collection+dinosaur&hash=item29937f609b:g:8OsAAeSwVRNqx~DZ",
+          "image": "https://i.ebayimg.com/images/g/8OsAAeSwVRNqx~DZ/s-l225.jpg",
+          "condition": "New",
+          "seller": "pin3368",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
           ]
         },
         {
