@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T14:30:45Z",
+  "updated_at": "2026-10-08T14:56:09Z",
   "median_price": 57.99,
   "total_items": 474,
   "categories": [
@@ -1667,6 +1667,20 @@
           ]
         },
         {
+          "id": "v1|168730814552|0",
+          "title": "Mattel Jurassic World Hammond Collection Velociraptor SDCC 2026 exclusive",
+          "price": 40.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/168730814552?_skw=Mattel+Hammond+Collection+dinosaur&hash=item274923e858:g:Ow8AAeSw2YBquX9-",
+          "image": "https://i.ebayimg.com/images/g/Ow8AAeSw2YBquX9-/s-l225.jpg",
+          "condition": "New",
+          "seller": "hellofafi",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
           "id": "v1|147624675591|0",
           "title": "Jurassic World Hammond Collection Comic Velociraptor 25th SDCC 2026 JMC71 New",
           "price": 42.95,
@@ -1744,20 +1758,6 @@
           "image": "https://i.ebayimg.com/images/g/VasAAeSwGNdqwvtK/s-l225.jpg",
           "condition": "New",
           "seller": "cojak-collectables",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|168730814552|0",
-          "title": "Mattel Jurassic World Hammond Collection Velociraptor SDCC 2026 exclusive",
-          "price": 50.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/168730814552?_skw=Mattel+Hammond+Collection+dinosaur&hash=item274923e858:g:Ow8AAeSw2YBquX9-",
-          "image": "https://i.ebayimg.com/images/g/Ow8AAeSw2YBquX9-/s-l225.jpg",
-          "condition": "New",
-          "seller": "hellofafi",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
