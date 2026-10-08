@@ -378,10 +378,42 @@ def main() -> int:
 
     prices = [p for p in (item_price(it) for it in items) if p is not None]
     median_price = statistics.median(prices) if prices else None
-    outlier_ceiling = median_price * OUTLIER_MULTIPLIER if median_price else None
 
     state = prune_state(load_state())
     now = time.time()
+
+    # Classifica tudo primeiro (sem descartar por preco ainda). O filtro de
+    # outlier compara cada item com a MEDIANA DA PROPRIA CATEGORIA, nao com
+    # uma mediana global: assim um exclusivo caro de verdade (ex.: Buck da
+    # SDCC, ~US$350, ou o Brachiossauro, uma peca grande/premium) nao e
+    # descartado so por custar bem mais que um raptor comum de US$15. Uma
+    # mediana global derrubava esses itens antes mesmo de serem
+    # classificados.
+    classified: list[tuple[dict, str, float | None]] = []
+    for it in items:
+        item_id = it.get("itemId")
+        if not item_id:
+            continue
+        title = it.get("title", "")
+        if is_other_product_line(title):
+            continue
+        buying_options = it.get("buyingOptions", [])
+        category = classify(title, buying_options)
+        price_val = item_price(it)
+        classified.append((it, category, price_val))
+
+    prices_by_category: dict[str, list[float]] = {}
+    for _, category, price_val in classified:
+        if price_val is not None:
+            prices_by_category.setdefault(category, []).append(price_val)
+
+    ceiling_by_category: dict[str, float] = {}
+    for category, cat_prices in prices_by_category.items():
+        # So aplica o filtro de outlier em categorias com itens suficientes
+        # pra uma mediana fazer sentido (lotes/leiloes ficam de fora, pois
+        # tem precos naturalmente mais espalhados).
+        if len(cat_prices) >= 3 and category != "Lotes e Leilao":
+            ceiling_by_category[category] = statistics.median(cat_prices) * OUTLIER_MULTIPLIER
 
     groups: dict[str, list[dict]] = {}
     skipped_outliers = 0
@@ -390,34 +422,25 @@ def main() -> int:
     # site de atualizar).
     new_items: list[tuple[dict, str]] = []
 
-    for it in items:
+    for it, category, price_val in classified:
         item_id = it.get("itemId")
-        if not item_id:
-            continue
 
-        title = it.get("title", "")
-        if is_other_product_line(title):
-            continue
-
-        price_val = item_price(it)
-        if outlier_ceiling is not None and price_val is not None and price_val > outlier_ceiling:
+        ceiling = ceiling_by_category.get(category)
+        if ceiling is not None and price_val is not None and price_val > ceiling:
             skipped_outliers += 1
             continue
-
-        buying_options = it.get("buyingOptions", [])
-        category = classify(title, buying_options)
 
         price = it.get("price", {})
         entry = {
             "id": item_id,
-            "title": title,
+            "title": it.get("title", ""),
             "price": price_val,
             "currency": price.get("currency"),
             "url": it.get("itemWebUrl"),
             "image": (it.get("image") or {}).get("imageUrl"),
             "condition": it.get("condition"),
             "seller": (it.get("seller") or {}).get("username"),
-            "buyingOptions": buying_options,
+            "buyingOptions": it.get("buyingOptions", []),
         }
         groups.setdefault(category, []).append(entry)
 
