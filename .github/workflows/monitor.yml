@@ -2,11 +2,12 @@ name: Monitor Hammond Collection no eBay
 
 on:
   schedule:
-    - cron: "*/20 * * * *"
-  workflow_dispatch: {}
+    # roda a cada 10 minutos (horario UTC)
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}   # permite rodar manualmente pela aba Actions
 
 permissions:
-  contents: write
+  contents: write   # necessario para o workflow commitar o seen_items.json
 
 concurrency:
   group: hammond-ebay-monitor
@@ -38,8 +39,8 @@ jobs:
         run: |
           git config user.name "hammond-ebay-bot"
           git config user.email "actions@users.noreply.github.com"
-          if ! git diff --quiet -- data/; then
-            git add data/
+          if ! git diff --quiet -- seen_items.json data/listings.json; then
+            git add seen_items.json data/listings.json
             git commit -m "Atualiza dados de anuncios"
             git push
           else

@@ -72,7 +72,7 @@ EBAY_SEARCH_URL = "https://api.ebay.com/buy/browse/v1/item_summary/search"
 # na aba generica "Raptor" em vez da aba "Blue".
 SPECIES = [
     # --- variantes/figuras nomeadas (checar primeiro) ---
-    ("Buck (Convention Crasher T-Rex)", re.compile(r"convention crasher|\bbuck\b", re.I)),
+    ("Buck (Convention Crasher T-Rex, SDCC 2025)", re.compile(r"convention crasher|\bbuck\b", re.I)),
     ("Comic-Style Velociraptor (SDCC)", re.compile(r"comic-?style|25th anniversary", re.I)),
     ("Jimmy Buffett ‘Bubbles Up’ (SDCC)", re.compile(r"jimmy buffe?tt?|bubbles up", re.I)),
     ("Release 'n Rampage (Ghost + Cage)", re.compile(r"release\s*n'?\s*rampage", re.I)),
