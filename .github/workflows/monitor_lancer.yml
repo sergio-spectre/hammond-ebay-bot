@@ -1,0 +1,45 @@
+name: Monitor Cambio Lancer MIVEC
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lancer-monitor
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run monitor
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python monitor_lancer.py
+
+      - name: Commit updated state (se mudou)
+        run: |
+          git config user.name "lancer-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if ! git diff --quiet -- seen_items_lancer.json data/lancer.json; then
+            git add seen_items_lancer.json data/lancer.json
+            git commit -m "Atualiza dados do cambio Lancer"
+            git push
+          else
+            echo "Nada para commitar."
+          fi
