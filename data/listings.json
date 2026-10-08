@@ -1,25 +1,11 @@
 {
-  "updated_at": "2026-10-08T04:05:43Z",
+  "updated_at": "2026-10-08T04:27:39Z",
   "median_price": 54.99,
-  "total_items": 341,
+  "total_items": 322,
   "categories": [
     {
       "name": "Comic-Style Velociraptor (SDCC)",
       "items": [
-        {
-          "id": "v1|298738507169|0",
-          "title": "Funko Pop! Movies Jurassic Park 25th Anniversary John Hammond #546 w/ Protector",
-          "price": 15.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/298738507169?_skw=Hammond+Collection+Jurassic+Park&hash=item458e33dda1:g:TvwAAeSw4lBqxUyy",
-          "image": "https://i.ebayimg.com/images/g/TvwAAeSw4lBqxUyy/s-l225.jpg",
-          "condition": "New other (see details)",
-          "seller": "guti_5202",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
         {
           "id": "v1|407256116713|0",
           "title": "Jurassic World Hammond Collection 25th Anniversary Comic Velociraptor SDCC 2026",
@@ -84,6 +70,20 @@
           "seller": "radixfinds",
           "buyingOptions": [
             "FIXED_PRICE"
+          ]
+        },
+        {
+          "id": "v1|278429452159|0",
+          "title": "SDCC Jurassic World Hammond Collection 25th Comic-Style Velociraptor",
+          "price": 45.38,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/278429452159?_skw=Jurassic+World+Hammond+Collection&hash=item40d3b0477f:g:TLEAAeSwiBtqYeq8",
+          "image": "https://i.ebayimg.com/images/g/TLEAAeSwiBtqYeq8/s-l225.jpg",
+          "condition": "New",
+          "seller": "cheeserolls1905",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
           ]
         },
         {
@@ -508,19 +508,6 @@
           "buyingOptions": [
             "FIXED_PRICE"
           ]
-        },
-        {
-          "id": "v1|327385569752|0",
-          "title": "Funko Pop Dr. Ian Malcolm #552 John Hammond #546 Dennis Nedry #541 Jurassic Park",
-          "price": 48.99,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/327385569752?_skw=Hammond+Collection+Jurassic+Park&hash=item4c39b359d8:g:~0oAAeSwWAZqwF0F",
-          "image": "https://i.ebayimg.com/images/g/~0oAAeSwWAZqwF0F/s-l225.jpg",
-          "condition": "New",
-          "seller": "jbcoinsncards",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
         }
       ]
     },
@@ -626,33 +613,6 @@
       "name": "Dr. John Hammond",
       "items": [
         {
-          "id": "v1|860009692566|0",
-          "title": "1993 Topps Jurassic Park Trading Card John Hammond #13",
-          "price": 2.49,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/860009692566?_skw=Hammond+Collection+Jurassic+Park&hash=itemc83c927d96:g:Pi0AAeSwesVqwxkN",
-          "image": "https://i.ebayimg.com/images/g/Pi0AAeSwesVqwxkN/s-l225.jpg",
-          "condition": "Ungraded",
-          "seller": "samueltoucan96",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|336824843721|0",
-          "title": "1993 Topps Jurassic Park John Hammond Sir Richard Attenborough #13 fm0",
-          "price": 3.65,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/336824843721?_skw=Hammond+Collection+Jurassic+Park&hash=item4e6c533dc9:g:8F8AAeSwOTVqwOf8",
-          "image": "https://i.ebayimg.com/images/g/8F8AAeSwOTVqwOf8/s-l225.jpg",
-          "condition": "Ungraded",
-          "seller": "comc_consignment",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
           "id": "v1|407271414758|0",
           "title": "FLAWED Universal Studios Jurassic Park 30th Anniversary Mystery Pin John Hammond",
           "price": 3.99,
@@ -661,114 +621,6 @@
           "image": "https://i.ebayimg.com/images/g/yqAAAeSwSihqxUNH/s-l225.jpg",
           "condition": "Unspecified",
           "seller": "pinheadss",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|237109080631|0",
-          "title": "1993 Topps Jurassic Park Deluxe Gold John Hammond #13 4g8",
-          "price": 6.58,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/237109080631?_skw=Hammond+Collection+Jurassic+Park&hash=item3734cd7237:g:UHQAAeSw~fxqxHqd",
-          "image": "https://i.ebayimg.com/images/g/UHQAAeSw~fxqxHqd/s-l225.jpg",
-          "condition": "Ungraded",
-          "seller": "comc_consignment",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|237108395099|0",
-          "title": "1993 Topps Jurassic Park Deluxe Gold John Hammond #13 0a2",
-          "price": 10.03,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/237108395099?_skw=Hammond+Collection+Jurassic+Park&hash=item3734c2fc5b:g:DPQAAeSwt7tqxBYy",
-          "image": "https://i.ebayimg.com/images/g/DPQAAeSwt7tqxBYy/s-l225.jpg",
-          "condition": "Ungraded",
-          "seller": "comc_consignment",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|820194863081|0",
-          "title": "Funko Pop! Town: Jurassic Park John Hammond w/ Gates #30 Damaged Box",
-          "price": 14.43,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/820194863081?_skw=Hammond+Collection+Jurassic+Park&hash=itembef76c67e9:g:fMsAAeSwevlqvxYW",
-          "image": "https://i.ebayimg.com/images/g/fMsAAeSwevlqvxYW/s-l225.jpg",
-          "condition": "New",
-          "seller": "juvilyn09",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|287629019407|0",
-          "title": "Funko Pop Town Jurassic Park John Hammond with Gates Vinyl Figure No. 30 Target",
-          "price": 15.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/287629019407?_skw=Hammond+Collection+Jurassic+Park&hash=item42f806890f:g:UgYAAeSwejZqxAo8",
-          "image": "https://i.ebayimg.com/images/g/UgYAAeSwejZqxAo8/s-l225.jpg",
-          "condition": "New",
-          "seller": "li-179070",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|327392527245|0",
-          "title": "Funko Pop! Movies Jurassic Park - John Hammond #546 Vinyl Figure",
-          "price": 18.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/327392527245?_skw=Hammond+Collection+Jurassic+Park&hash=item4c3a1d838d:g:oQgAAeSwyIdqxaFI",
-          "image": "https://i.ebayimg.com/images/g/oQgAAeSwyIdqxaFI/s-l225.jpg",
-          "condition": "Used",
-          "seller": "cwalsh1155",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|920000935150|0",
-          "title": "Funko Bitty POP! 4 Pack: Jurassic Park - John Hammond, Tyrannosaurus (Fossil), S",
-          "price": 23.11,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/920000935150?_skw=Hammond+Collection+Jurassic+Park&hash=itemd6345434ee:g:sOUAAeSw1MJqv6fe",
-          "image": "https://i.ebayimg.com/images/g/sOUAAeSw1MJqv6fe/s-l225.jpg",
-          "condition": "New",
-          "seller": "rarewaves-usa",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|407274762055|0",
-          "title": "Funko POP! Town Jurassic Park John Hammond with Gates Exclusive New With Box",
-          "price": 25.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/407274762055?_skw=Hammond+Collection+Jurassic+Park&hash=item5ed377af47:g:QOYAAeSw~6pqxwVr",
-          "image": "https://i.ebayimg.com/images/g/QOYAAeSw~6pqxwVr/s-l225.jpg",
-          "condition": "New",
-          "seller": "cortez_collectibles",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|820207136454|0",
-          "title": "Funko POP! Town: Jurassic Park John Hammond w/ Gates # 30 (Target Exclusive) NEW",
-          "price": 39.19,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/820207136454?_skw=Hammond+Collection+Jurassic+Park&hash=itembef827aec6:g:0AQAAOSwj11jTNnY",
-          "image": "https://i.ebayimg.com/images/g/0AQAAOSwj11jTNnY/s-l225.jpg",
-          "condition": "New",
-          "seller": "perezfamily_3",
           "buyingOptions": [
             "FIXED_PRICE"
           ]
@@ -805,6 +657,19 @@
           "image": "https://i.ebayimg.com/images/g/ALUAAeSw5s1qxmJz/s-l225.jpg",
           "condition": "New",
           "seller": "wilflo-6",
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ]
+        },
+        {
+          "id": "v1|128090275306|0",
+          "title": "Jurassic World Hammond Collection Indominus Rex",
+          "price": 69.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/128090275306?_skw=Mattel+Hammond+Collection+dinosaur&hash=item1dd2c67dea:g:1YIAAeSwkOJqsIjG",
+          "image": "https://i.ebayimg.com/images/g/1YIAAeSwkOJqsIjG/s-l225.jpg",
+          "condition": "New",
+          "seller": "hwoarang0427",
           "buyingOptions": [
             "FIXED_PRICE"
           ]
@@ -1941,6 +1806,20 @@
           "buyingOptions": [
             "FIXED_PRICE"
           ]
+        },
+        {
+          "id": "v1|168761565894|0",
+          "title": "Hammond collection concavinator",
+          "price": 55.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/168761565894?_skw=Jurassic+World+Hammond+Collection&hash=item274af922c6:g:oF8AAeSwFh9qickS",
+          "image": "https://i.ebayimg.com/images/g/oF8AAeSwFh9qickS/s-l225.jpg",
+          "condition": "New",
+          "seller": "gitana_anderson",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
         }
       ]
     },
@@ -2238,6 +2117,20 @@
           "seller": "unkiescollectables",
           "buyingOptions": [
             "FIXED_PRICE"
+          ]
+        },
+        {
+          "id": "v1|820151285308|0",
+          "title": "HAMMOND COLLECTION JURASSIC WORLD TROODON DINOSAUR FIGURE FAST SHIPPING ",
+          "price": 45.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/820151285308?_skw=Mattel+Hammond+Collection+dinosaur&hash=itembef4d3763c:g:nTkAAeSwnkFqsEeh",
+          "image": "https://i.ebayimg.com/images/g/nTkAAeSwnkFqsEeh/s-l225.jpg",
+          "condition": "New",
+          "seller": "gavinbain",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
           ]
         },
         {
@@ -2991,6 +2884,20 @@
           "seller": "toys-figuraciones",
           "buyingOptions": [
             "FIXED_PRICE"
+          ]
+        },
+        {
+          "id": "v1|127641937721|0",
+          "title": "Jurassic World Hammond Collection Museaurus (True FX) Dinosaur Figure JKM89 🆕",
+          "price": 22.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/127641937721?_skw=Hammond+Collection+True+FX&hash=item1db80d6739:g:UWgAAeSwlQFpdCq4",
+          "image": "https://i.ebayimg.com/images/g/UWgAAeSwlQFpdCq4/s-l225.jpg",
+          "condition": "New",
+          "seller": "solosta",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
           ]
         },
         {
@@ -4289,6 +4196,20 @@
           ]
         },
         {
+          "id": "v1|257780015391|0",
+          "title": "2026 JURASSIC World Hammond Collection SCORPIOS  REX",
+          "price": 67.49,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/257780015391?_skw=Hammond+Collection+Jurassic+Park&hash=item3c04e2e11f:g:3MoAAeSwPspqwTBD",
+          "image": "https://i.ebayimg.com/images/g/3MoAAeSwPspqwTBD/s-l225.jpg",
+          "condition": "New",
+          "seller": "beardedbargains",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
           "id": "v1|820187475648|0",
           "title": "JURASSIC World Hammond Collection SCORPIOS REX Dinosaur ",
           "price": 68.0,
@@ -4388,124 +4309,6 @@
       "name": "Outros",
       "items": [
         {
-          "id": "v1|257777672529|0",
-          "title": "1993 Topps Jurassic Park Sir Richard Attenborough Hammond's Dream #24 05v0",
-          "price": 1.52,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/257777672529?_skw=Hammond+Collection+Jurassic+Park&hash=item3c04bf2151:g:8S4AAeSwnBlqwOht",
-          "image": "https://i.ebayimg.com/images/g/8S4AAeSwnBlqwOht/s-l225.jpg",
-          "condition": "Ungraded",
-          "seller": "comc_consignment",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|237103425348|0",
-          "title": "1993 Topps Jurassic Park Sir Richard Attenborough Hammond's Dream #24 0s5",
-          "price": 1.68,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/237103425348?_skw=Hammond+Collection+Jurassic+Park&hash=item3734772744:g:hPAAAeSwxn9qwOg4",
-          "image": "https://i.ebayimg.com/images/g/hPAAAeSwxn9qwOg4/s-l225.jpg",
-          "condition": "Ungraded",
-          "seller": "comc_consignment",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|336829268025|0",
-          "title": "1993 Topps Jurassic Park Sir Richard Attenborough Hammond's Dream #24 2k3",
-          "price": 1.69,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/336829268025?_skw=Hammond+Collection+Jurassic+Park&hash=item4e6c96c039:g:YoQAAeSwe1Bqw9zZ",
-          "image": "https://i.ebayimg.com/images/g/YoQAAeSwe1Bqw9zZ/s-l225.jpg",
-          "condition": "Ungraded",
-          "seller": "comc_consignment",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|257782347049|0",
-          "title": "1993 Topps Jurassic Park Deluxe Gold Hammond's Dream #24 4g8",
-          "price": 1.69,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/257782347049?_skw=Hammond+Collection+Jurassic+Park&hash=item3c05067529:g:~pQAAeSwcjxqwutF",
-          "image": "https://i.ebayimg.com/images/g/~pQAAeSwcjxqwutF/s-l225.jpg",
-          "condition": "Ungraded",
-          "seller": "comc_consignment",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|257777603766|0",
-          "title": "1993 Topps Jurassic Park Sir Richard Attenborough Hammond's Dream #24 0b6",
-          "price": 3.12,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/257777603766?_skw=Hammond+Collection+Jurassic+Park&hash=item3c04be14b6:g:0loAAeSwJUJqwOg6",
-          "image": "https://i.ebayimg.com/images/g/0loAAeSwJUJqwOg6/s-l225.jpg",
-          "condition": "Ungraded",
-          "seller": "comc_consignment",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|237112001178|0",
-          "title": "1993 Topps Jurassic Park Deluxe Gold Hammond's Dream #24 0a2",
-          "price": 3.13,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/237112001178?_skw=Hammond+Collection+Jurassic+Park&hash=item3734fa029a:g:UuIAAeSw4PpqxdTO",
-          "image": "https://i.ebayimg.com/images/g/UuIAAeSw4PpqxdTO/s-l225.jpg",
-          "condition": "Ungraded",
-          "seller": "comc_consignment",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|257777484432|0",
-          "title": "1993 SkyBox Jurassic Park Skycaps Tim Hammond Dinosauraholic #13 0bt4",
-          "price": 6.58,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/257777484432?_skw=Hammond+Collection+Jurassic+Park&hash=item3c04bc4290:g:TEcAAeSwkixqvyXi",
-          "image": "https://i.ebayimg.com/images/g/TEcAAeSwkixqvyXi/s-l225.jpg",
-          "condition": "Ungraded",
-          "seller": "comc_consignment",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|336824220392|546145076929",
-          "title": "Funko Bitty Pop Single JURASSIC PARK  ~ YOU PICK ~",
-          "price": 10.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/336824220392?_skw=Hammond+Collection+Jurassic+Park&hash=item4e6c49bae8:g:XdQAAeSwNYZqwARB",
-          "image": "https://i.ebayimg.com/images/g/XdQAAeSwNYZqwARB/s-l225.jpg",
-          "condition": "New",
-          "seller": "toylantis",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|127641937721|0",
-          "title": "Jurassic World Hammond Collection Museaurus (True FX) Dinosaur Figure JKM89 🆕",
-          "price": 22.99,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/127641937721?_skw=Hammond+Collection+True+FX&hash=item1db80d6739:g:UWgAAeSwlQFpdCq4",
-          "image": "https://i.ebayimg.com/images/g/UWgAAeSwlQFpdCq4/s-l225.jpg",
-          "condition": "New",
-          "seller": "solosta",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
           "id": "v1|147590458275|0",
           "title": "Jurassic World Hammond Collection SDCC 2025 Inflatable Con Attendee incomplete",
           "price": 54.99,
@@ -4514,34 +4317,6 @@
           "image": "https://i.ebayimg.com/images/g/ag0AAeSwhCxqsgfm/s-l225.jpg",
           "condition": "Used",
           "seller": "thegiantnerd",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|168761565894|0",
-          "title": "Hammond collection concavinator",
-          "price": 55.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/168761565894?_skw=Jurassic+World+Hammond+Collection&hash=item274af922c6:g:oF8AAeSwFh9qickS",
-          "image": "https://i.ebayimg.com/images/g/oF8AAeSwFh9qickS/s-l225.jpg",
-          "condition": "New",
-          "seller": "gitana_anderson",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|257780015391|0",
-          "title": "2026 JURASSIC World Hammond Collection SCORPIOS  REX",
-          "price": 67.49,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/257780015391?_skw=Hammond+Collection+Jurassic+Park&hash=item3c04e2e11f:g:3MoAAeSwPspqwTBD",
-          "image": "https://i.ebayimg.com/images/g/3MoAAeSwPspqwTBD/s-l225.jpg",
-          "condition": "New",
-          "seller": "beardedbargains",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -4565,19 +4340,6 @@
     {
       "name": "Lotes e Leilao",
       "items": [
-        {
-          "id": "v1|227550828717|0",
-          "title": "FUNKO BITTY POP LOT OF 4 JURASSIC  PARK VELOCIRAPTOR JOHN HAMMOND TRICERATOPS TY",
-          "price": 5.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/227550828717?_skw=Hammond+Collection+Jurassic+Park&hash=item34fb1618ad:g:uVsAAeSwOTVqvpqn",
-          "image": "https://i.ebayimg.com/images/g/uVsAAeSwOTVqvpqn/s-l225.jpg",
-          "condition": "Used",
-          "seller": "feets2009",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
         {
           "id": "v1|168770605974|0",
           "title": "Mattel Hammond Collection John Raymond Arnold Figure",
@@ -4657,20 +4419,6 @@
           "image": "https://i.ebayimg.com/images/g/3nEAAeSwRMlqvsMe/s-l225.jpg",
           "condition": "New",
           "seller": "jfringer",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "AUCTION"
-          ]
-        },
-        {
-          "id": "v1|198696124401|0",
-          "title": "Hammond Collection Stegosaurus Dinosaur Figure Jurassic World",
-          "price": 35.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/198696124401?_skw=Mattel+Hammond+Collection+dinosaur&hash=item2e43363ff1:g:7QcAAeSw~yNqxl-F",
-          "image": "https://i.ebayimg.com/images/g/7QcAAeSw~yNqxl-F/s-l225.jpg",
-          "condition": "New",
-          "seller": "njdkm1525",
           "buyingOptions": [
             "FIXED_PRICE",
             "AUCTION"
@@ -4777,7 +4525,7 @@
           "title": "Mattel Hammond Collection Jurassic Park Dilophosaurus Figure",
           "price": 65.0,
           "currency": "USD",
-          "url": "https://www.ebay.com/itm/168770604630?_skw=Mattel+Hammond+Collection+dinosaur&hash=item274b830e56:g:nwYAAeSwZ2hqxbPr",
+          "url": "https://www.ebay.com/itm/168770604630?_skw=Hammond+Collection+Jurassic+Park&hash=item274b830e56:g:nwYAAeSwZ2hqxbPr",
           "image": "https://i.ebayimg.com/images/g/nwYAAeSwZ2hqxbPr/s-l225.jpg",
           "condition": "New",
           "seller": "coltsbrent",
