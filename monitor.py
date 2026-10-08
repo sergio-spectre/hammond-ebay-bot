@@ -72,7 +72,7 @@ EBAY_SEARCH_URL = "https://api.ebay.com/buy/browse/v1/item_summary/search"
 # na aba generica "Raptor" em vez da aba "Blue".
 SPECIES = [
     # --- variantes/figuras nomeadas (checar primeiro) ---
-    ("Buck (Convention Crasher T-Rex, SDCC 2025)", re.compile(r"convention crasher|\bbuck\b", re.I)),
+    ("Buck (T-Rex Convention Crasher)", re.compile(r"convention crasher|\bbuck\b", re.I)),
     ("Comic-Style Velociraptor (SDCC)", re.compile(r"comic-?style|25th anniversary", re.I)),
     ("Jimmy Buffett ‘Bubbles Up’ (SDCC)", re.compile(r"jimmy buffe?tt?|bubbles up", re.I)),
     ("Release 'n Rampage (Ghost + Cage)", re.compile(r"release\s*n'?\s*rampage", re.I)),
@@ -81,9 +81,11 @@ SPECIES = [
     ("Delta", re.compile(r"\bdelta\b", re.I)),
     ("Dolores (Aquilops)", re.compile(r"\bdolores\b|aquilops", re.I)),
     ("Velociraptor The Lost World", re.compile(r"lost world.*(raptor|velociraptor)|(raptor|velociraptor).*lost world", re.I)),
-    ("Young T-Rex (The Lost World)", re.compile(r"young.*t-?\s?rex|young.*tyrannosaurus", re.I)),
-    ("Young Stegosaurus (The Lost World)", re.compile(r"young.*stegosaurus", re.I)),
+    ("Young T-Rex (The Lost World)", re.compile(r"(young|juvenile).*t-?\s?rex|(young|juvenile).*tyrannosaurus", re.I)),
+    ("Young Stegosaurus (The Lost World)", re.compile(r"(young|juvenile).*stegosaurus", re.I)),
     ("Juvenile Triceratops", re.compile(r"juvenile.*triceratops", re.I)),
+    ("Outhouse Chaos Set", re.compile(r"outhouse chaos", re.I)),
+    ("Isla Sorna Velociraptor Encounter Pack", re.compile(r"isla sorna.*(encounter|raptor pack)|velociraptor encounter pack", re.I)),
     # --- personagens ---
     ("Dr. Alan Grant", re.compile(r"alan grant", re.I)),
     ("Dr. Ian Malcolm", re.compile(r"ian malcolm", re.I)),
@@ -93,8 +95,10 @@ SPECIES = [
     ("Dennis Nedry", re.compile(r"dennis nedry|\bnedry\b", re.I)),
     ("Dr. John Hammond", re.compile(r"john hammond|dr\.?\s?hammond", re.I)),
     ("Dr. Henry Wu", re.compile(r"henry wu", re.I)),
+    ("Steven Spielberg", re.compile(r"steven spielberg|spielberg", re.I)),
     ("Owen Grady", re.compile(r"owen grady", re.I)),
     ("Claire Dearing", re.compile(r"claire dearing", re.I)),
+    ("Duncan Kincaid", re.compile(r"duncan kincaid", re.I)),
     # --- especies/figuras genericas (checklist completo) ---
     ("T-Rex", re.compile(r"\bt-?\s?rex\b|tyrannosaurus", re.I)),
     ("Indominus Rex", re.compile(r"indominus", re.I)),
@@ -134,6 +138,10 @@ SPECIES = [
     ("Compsognathus", re.compile(r"compsognathus", re.I)),
     ("Mosasaurus", re.compile(r"mosasaurus", re.I)),
     ("Pteranodon", re.compile(r"pteranodon", re.I)),
+    ("Monolophosaurus", re.compile(r"monolophosaurus", re.I)),
+    ("Archaeornithomimus", re.compile(r"archaeornithomimus", re.I)),
+    ("Tylosaurus", re.compile(r"tylosaurus", re.I)),
+    ("Anurognathus", re.compile(r"anurognathus", re.I)),
 ]
 
 LOT_PATTERN = re.compile(
