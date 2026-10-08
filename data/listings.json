@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T13:41:46Z",
+  "updated_at": "2026-10-08T14:03:07Z",
   "median_price": 57.99,
   "total_items": 476,
   "categories": [
@@ -535,19 +535,6 @@
           ]
         },
         {
-          "id": "v1|920014678037|0",
-          "title": "Jurassic World / Hammond Collection / Aquilops 'Dolores' / Mattel / Ships Now",
-          "price": 94.99,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/920014678037?_skw=Jurassic+World+Hammond+Collection&hash=itemd63525e815:g:UNcAAeSwU9tqxTPm",
-          "image": "https://i.ebayimg.com/images/g/UNcAAeSwU9tqxTPm/s-l225.jpg",
-          "condition": "New",
-          "seller": "zklc-collectibles",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
           "id": "v1|307219926091|0",
           "title": "Jurassic World Park Hammond Collection Aquilops ‘Dolores’ Screen Scale Dinosaur",
           "price": 95.0,
@@ -611,6 +598,19 @@
           "image": "https://i.ebayimg.com/images/g/a2EAAeSwRbVqxv5W/s-l225.jpg",
           "condition": "New",
           "seller": "deadstockscoots",
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ]
+        },
+        {
+          "id": "v1|920014678037|0",
+          "title": "Jurassic World / Hammond Collection / Aquilops 'Dolores' / Mattel / Ships Now",
+          "price": 114.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/920014678037?_skw=Jurassic+World+Hammond+Collection&hash=itemd63525e815:g:UNcAAeSwU9tqxTPm",
+          "image": "https://i.ebayimg.com/images/g/UNcAAeSwU9tqxTPm/s-l225.jpg",
+          "condition": "New",
+          "seller": "zklc-collectibles",
           "buyingOptions": [
             "FIXED_PRICE"
           ]
@@ -3712,6 +3712,19 @@
           ]
         },
         {
+          "id": "v1|116758994411|0",
+          "title": "Jurassic World Hammond Collection TROODON True FX Park Dinosaur Mattel Minty New",
+          "price": 32.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/116758994411?_skw=Hammond+Collection+True+FX&hash=item1b2f60ddeb:g:JbQAAeSwdiBotI3p",
+          "image": "https://i.ebayimg.com/images/g/JbQAAeSwdiBotI3p/s-l225.jpg",
+          "condition": "New",
+          "seller": "tiz_bargains",
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ]
+        },
+        {
           "id": "v1|188865199413|0",
           "title": "Jurassic World Mattel 2025 Hammond Collection True FX (TROODON) 8+ New Release!",
           "price": 36.37,
@@ -5032,19 +5045,6 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|800514393901|0",
-          "title": "Jurassic World Hammond Collection Ornitholestes Mattel NEW Sealed True FX JKM91",
-          "price": 15.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/800514393901?_skw=Hammond+Collection+True+FX&hash=itemba6260472d:g:rv8AAeSw9Vhqwrgo",
-          "image": "https://i.ebayimg.com/images/g/rv8AAeSw9Vhqwrgo/s-l225.jpg",
-          "condition": "New",
-          "seller": "gre8store",
-          "buyingOptions": [
-            "FIXED_PRICE"
           ]
         },
         {
