@@ -58,7 +58,8 @@ MAX_DISCORD_ALERTS_PER_RUN = 20
 # titulo bater num desses padroes E NAO mencionar "Hammond Collection" (ou
 # so "Hammond" perto de "Collection"), o anuncio e descartado.
 OTHER_LINE_PATTERN = re.compile(
-    r"\bamber collection\b|\blegacy collection\b|\bworld tour\b|\bepic evolution\b|\bprotoceratops lockup\b",
+    r"\bamber collection\b|\blegacy collection\b|\bworld tour\b|\bepic evolution\b|\bprotoceratops lockup\b"
+    r"|\btopps\b|\bskybox\b|\btrading card\b|\bfunko\b|\bbitty pop\b|\bcard #",
     re.I,
 )
 HAMMOND_PATTERN = re.compile(r"hammond\s*collection", re.I)
@@ -115,7 +116,7 @@ SPECIES = [
     ("Dilophosaurus", re.compile(r"dilophosaurus", re.I)),
     ("Pachycephalosaurus", re.compile(r"pachycephalosaurus", re.I)),
     ("Geosternbergia", re.compile(r"geosternbergia", re.I)),
-    ("Concavenator", re.compile(r"concavenator", re.I)),
+    ("Concavenator", re.compile(r"concav[ei]nator", re.I)),
     ("Ankylosaurus", re.compile(r"ankylosaurus", re.I)),
     ("Corythosaurus", re.compile(r"corythosaurus", re.I)),
     ("Irritator", re.compile(r"irritator", re.I)),
@@ -133,12 +134,12 @@ SPECIES = [
     ("Stegosaurus", re.compile(r"stegosaurus", re.I)),
     ("Spinosaurus", re.compile(r"spinosaurus", re.I)),
     ("Sinoceratops", re.compile(r"sinoceratops", re.I)),
-    ("Mussaurus", re.compile(r"mussaurus", re.I)),
+    ("Mussaurus", re.compile(r"mussaurus|museaurus", re.I)),
     ("Ornitholestes", re.compile(r"ornitholestes|omitholestes", re.I)),
     ("Dryosaurus", re.compile(r"dryosaurus", re.I)),
     ("Hypsilophodon", re.compile(r"hypsilophodon", re.I)),
     ("Mutadon", re.compile(r"mutadon", re.I)),
-    ("Scorpios Rex", re.compile(r"scorpios\s?rex", re.I)),
+    ("Scorpios Rex", re.compile(r"scorpios\s*rex", re.I)),
     ("Compsognathus", re.compile(r"compsognathus", re.I)),
     ("Mosasaurus", re.compile(r"mosasaurus", re.I)),
     ("Pteranodon", re.compile(r"pteranodon", re.I)),
