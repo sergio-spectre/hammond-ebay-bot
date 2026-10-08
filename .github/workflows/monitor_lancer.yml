@@ -43,3 +43,5 @@ jobs:
           else
             echo "Nada para commitar."
           fi
+
+# reindex trigger
