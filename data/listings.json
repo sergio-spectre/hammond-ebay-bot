@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-08T09:47:21Z",
-  "median_price": 58.495000000000005,
-  "total_items": 475,
+  "updated_at": "2026-10-08T10:04:03Z",
+  "median_price": 57.99,
+  "total_items": 476,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -701,6 +701,19 @@
     {
       "name": "Juvenile Triceratops",
       "items": [
+        {
+          "id": "v1|407257760003|0",
+          "title": "Hammond Collection Juvenile Triceratops - Loose Figure Only Jurassic World",
+          "price": 39.96,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/407257760003?_skw=Jurassic+World+Hammond+Collection&hash=item5ed2744103:g:TF4AAeSwRWxqvUy2",
+          "image": "https://i.ebayimg.com/images/g/TF4AAeSwRWxqvUy2/s-l225.jpg",
+          "condition": "Used",
+          "seller": "mundieunlimited",
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ]
+        },
         {
           "id": "v1|198676100575|0",
           "title": "Mattel Jurassic Park Hammond Collection Juvenile Triceratops NEW",
@@ -3309,20 +3322,6 @@
             "FIXED_PRICE",
             "BEST_OFFER"
           ]
-        },
-        {
-          "id": "v1|117444063752|0",
-          "title": "Jurassic World Hammond Collection THERIZINOSAURUS Brand New MISB",
-          "price": 150.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/117444063752?_skw=Mattel+Hammond+Collection+dinosaur&hash=item1b58363208:g:7IMAAeSwCAxqwE8B",
-          "image": "https://i.ebayimg.com/images/g/7IMAAeSwCAxqwE8B/s-l225.jpg",
-          "condition": "New",
-          "seller": "indianasobchak",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
         }
       ]
     },
@@ -4867,6 +4866,20 @@
           "seller": "brick_emporium",
           "buyingOptions": [
             "FIXED_PRICE"
+          ]
+        },
+        {
+          "id": "v1|137759979522|0",
+          "title": "Mattel Jurassic Park World Hammond Collection Mussaurus Dinosaur Figure NEW",
+          "price": 26.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/137759979522?_skw=Mattel+Hammond+Collection+dinosaur&hash=item2013227802:g:vTQAAeSw8SBqsDCB",
+          "image": "https://i.ebayimg.com/images/g/vTQAAeSw8SBqsDCB/s-l225.jpg",
+          "condition": "New",
+          "seller": "patt-1605",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
           ]
         },
         {
