@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-08T12:53:00Z",
+  "updated_at": "2026-10-08T13:19:05Z",
   "median_price": 57.99,
-  "total_items": 477,
+  "total_items": 476,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -202,20 +202,6 @@
           ]
         },
         {
-          "id": "v1|278429452159|0",
-          "title": "SDCC Jurassic World Hammond Collection 25th Comic-Style Velociraptor",
-          "price": 45.26,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/278429452159?_skw=Jurassic+World+Hammond+Collection&hash=item40d3b0477f:g:TLEAAeSwiBtqYeq8",
-          "image": "https://i.ebayimg.com/images/g/TLEAAeSwiBtqYeq8/s-l225.jpg",
-          "condition": "New",
-          "seller": "cheeserolls1905",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
           "id": "v1|298715540095|0",
           "title": "SDCC 2026 Jurassic World Hammond Collection 25th Anniversary Comic Velociraptor",
           "price": 48.4,
@@ -237,20 +223,6 @@
           "image": "https://i.ebayimg.com/images/g/0c0AAeSw~Dtqve6f/s-l225.jpg",
           "condition": "New",
           "seller": "chriwill_4423",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|227543440246|0",
-          "title": "SHIPS TODAY SDCC Jurassic World Hammond Collection 25th Comic-Style Velociraptor",
-          "price": 64.95,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/227543440246?_skw=Mattel+Hammond+Collection+dinosaur&hash=item34faa55b76:g:d6IAAeSwC7ZqurVV",
-          "image": "https://i.ebayimg.com/images/g/d6IAAeSwC7ZqurVV/s-l225.jpg",
-          "condition": "New",
-          "seller": "turboveedub",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -729,6 +701,19 @@
     {
       "name": "Juvenile Triceratops",
       "items": [
+        {
+          "id": "v1|407257760003|0",
+          "title": "Hammond Collection Juvenile Triceratops - Loose Figure Only Jurassic World",
+          "price": 39.96,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/407257760003?_skw=Jurassic+World+Hammond+Collection&hash=item5ed2744103:g:TF4AAeSwRWxqvUy2",
+          "image": "https://i.ebayimg.com/images/g/TF4AAeSwRWxqvUy2/s-l225.jpg",
+          "condition": "Used",
+          "seller": "mundieunlimited",
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ]
+        },
         {
           "id": "v1|198676100575|0",
           "title": "Mattel Jurassic Park Hammond Collection Juvenile Triceratops NEW",
