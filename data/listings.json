@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-08T10:50:54Z",
+  "updated_at": "2026-10-08T11:14:35Z",
   "median_price": 57.99,
-  "total_items": 476,
+  "total_items": 477,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -4124,6 +4124,20 @@
           "image": "https://i.ebayimg.com/images/g/X64AAeSweVZqvny6/s-l225.jpg",
           "condition": "New",
           "seller": "mtcrs13-5",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|287512552269|0",
+          "title": "NEW Jurassic World Park 3 Hammond Collection Spinosaurus Dinosaur Mattel True FX",
+          "price": 174.95,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/287512552269?_skw=Hammond+Collection+True+FX&hash=item42f115634d:g:Q1AAAeSwlP5qdwms",
+          "image": "https://i.ebayimg.com/images/g/Q1AAAeSwlP5qdwms/s-l225.jpg",
+          "condition": "New",
+          "seller": "s_adistribution",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
