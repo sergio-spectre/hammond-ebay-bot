@@ -48,6 +48,10 @@ SORT = "newlyListed"
 
 OUTLIER_MULTIPLIER = 1.5
 SEEN_TTL_DAYS = 45
+# Se mais de X itens novos aparecerem numa unica execucao (ex.: primeira vez
+# que uma busca nova entra no ar), manda 1 mensagem-resumo no Discord em vez
+# de 1 mensagem por item, pra nao estourar o rate limit do webhook.
+MAX_DISCORD_ALERTS_PER_RUN = 20
 
 # Anuncios que vem de buscas mais largas podem trazer coisa de fora da linha
 # Hammond Collection (ex.: "Amber Collection", "Legacy Collection"). Se o
@@ -294,6 +298,40 @@ def send_discord_alert(webhook_url: str, item: dict, category: str) -> None:
     resp.raise_for_status()
 
 
+def send_discord_summary(webhook_url: str, new_items: list[tuple[dict, str]]) -> None:
+    """Manda 1 mensagem so, resumindo varios itens novos de uma vez (usado
+    quando ha itens novos demais pra notificar 1 por 1 sem estourar o rate
+    limit do Discord)."""
+    by_category: dict[str, list[dict]] = {}
+    for it, category in new_items:
+        by_category.setdefault(category, []).append(it)
+
+    lines = []
+    for category, cat_items in by_category.items():
+        prices = [item_price(it) for it in cat_items]
+        prices = [p for p in prices if p is not None]
+        price_range = f" (de {min(prices):.2f} a {max(prices):.2f})" if prices else ""
+        lines.append(f"**{category}**: {len(cat_items)} anuncio(s){price_range}")
+
+    embed = {
+        "title": f"{len(new_items)} novos anuncios de Hammond Collection!",
+        "description": "\n".join(lines)[:4000],
+        "color": 0x2ECC71,
+        "footer": {"text": "Lista completa no site."},
+    }
+    payload = {
+        "content": "Muitos anuncios novos de uma vez, aqui vai o resumo:",
+        "embeds": [embed],
+    }
+
+    resp = requests.post(webhook_url, json=payload, timeout=30)
+    if resp.status_code == 429:
+        retry_after = resp.json().get("retry_after", 1)
+        time.sleep(float(retry_after) + 0.5)
+        resp = requests.post(webhook_url, json=payload, timeout=30)
+    resp.raise_for_status()
+
+
 # ----------------------------------------------------------------------------
 # Main
 # ----------------------------------------------------------------------------
@@ -337,8 +375,11 @@ def main() -> int:
     now = time.time()
 
     groups: dict[str, list[dict]] = {}
-    new_count = 0
     skipped_outliers = 0
+    # (item_bruto_da_api, categoria) dos itens novos, pra notificar DEPOIS
+    # de ja termos salvo o site (assim um erro no Discord nunca impede o
+    # site de atualizar).
+    new_items: list[tuple[dict, str]] = []
 
     for it in items:
         item_id = it.get("itemId")
@@ -376,10 +417,7 @@ def main() -> int:
         if already_seen:
             continue
 
-        if webhook_url:
-            send_discord_alert(webhook_url, it, category)
-            time.sleep(1)
-        new_count += 1
+        new_items.append((it, category))
 
     for cat in groups:
         groups[cat].sort(key=lambda e: (e["price"] is None, e["price"]))
@@ -400,14 +438,37 @@ def main() -> int:
         ],
     }
 
+    # 1) Salva o site e o estado PRIMEIRO. Se o Discord der algum problema
+    # depois disso, o site continua atualizado.
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     DATA_FILE.write_text(json.dumps(output, indent=2, ensure_ascii=False))
-
     save_state(state)
 
+    # 2) Notifica o Discord. Se forem muitos itens novos de uma vez (ex.:
+    # primeira vez que uma busca nova entra no ar), manda um resumo em vez
+    # de inundar o canal com uma mensagem por item (o que estourava o
+    # rate limit do Discord e derrubava o script no meio).
+    discord_errors = 0
+    if webhook_url and new_items:
+        if len(new_items) > MAX_DISCORD_ALERTS_PER_RUN:
+            try:
+                send_discord_summary(webhook_url, new_items)
+            except Exception as exc:  # nao deixa o Discord quebrar o run
+                discord_errors += 1
+                print(f"Aviso: falha ao mandar resumo pro Discord: {exc}", file=sys.stderr)
+        else:
+            for it, category in new_items:
+                try:
+                    send_discord_alert(webhook_url, it, category)
+                except Exception as exc:
+                    discord_errors += 1
+                    print(f"Aviso: falha ao notificar item no Discord: {exc}", file=sys.stderr)
+                time.sleep(1)
+
     print(
-        f"OK. {len(items)} anuncios verificados, {new_count} novos, "
-        f"{skipped_outliers} outliers ignorados, mediana={median_price}. "
+        f"OK. {len(items)} anuncios verificados, {len(new_items)} novos, "
+        f"{skipped_outliers} outliers ignorados, mediana={median_price}, "
+        f"{discord_errors} erros no Discord. "
         f"Categorias: {', '.join(ordered_categories)}."
     )
     return 0
