@@ -1,0 +1,47 @@
+name: Monitor Hammond Collection no eBay
+
+on:
+  schedule:
+    - cron: "*/20 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hammond-ebay-monitor
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run monitor
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python monitor.py
+
+      - name: Commit updated state (se mudou)
+        run: |
+          git config user.name "hammond-ebay-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if ! git diff --quiet -- data/; then
+            git add data/
+            git commit -m "Atualiza dados de anuncios"
+            git push
+          else
+            echo "Nada para commitar."
+          fi
