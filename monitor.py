@@ -41,6 +41,14 @@ SEARCH_QUERIES = [
     "Hammond Collection Jurassic Park",
     "Mattel Hammond Collection dinosaur",
     "Hammond Collection True FX",
+    # Buscas extras para exclusivos/itens que vendedores as vezes anunciam
+    # sem escrever "Hammond Collection" no titulo (a API do eBay exige
+    # que TODAS as palavras da query apareçam no titulo, entao essas
+    # figuras passavam batido nas buscas genericas acima).
+    "Jurassic World Buck Convention Crasher",
+    "Mattel Buck SDCC Jurassic",
+    "Jurassic World Brachiosaurus Mattel",
+    "Jurassic Park Brachiosaurus True FX",
 ]
 MARKETPLACE_ID = "EBAY_US"
 RESULTS_LIMIT = 200          # max por chamada na Browse API
