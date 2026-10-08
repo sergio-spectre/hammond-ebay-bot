@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-08T02:47:37Z",
+  "updated_at": "2026-10-08T02:52:20Z",
   "median_price": 70.0,
-  "total_items": 136,
+  "total_items": 137,
   "categories": [
     {
       "name": "Raptor",
@@ -141,6 +141,20 @@
           ]
         },
         {
+          "id": "v1|278429452159|0",
+          "title": "SDCC Jurassic World Hammond Collection 25th Comic-Style Velociraptor",
+          "price": 45.38,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/278429452159?_skw=Jurassic+World+Hammond+Collection&hash=item40d3b0477f:g:TLEAAeSwiBtqYeq8",
+          "image": "https://i.ebayimg.com/images/g/TLEAAeSwiBtqYeq8/s-l225.jpg",
+          "condition": "New",
+          "seller": "cheeserolls1905",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
           "id": "v1|227555998205|0",
           "title": "Hammond Collection Velociraptor The Lost World Tiger Raptor Mattel 1:18 Scale",
           "price": 49.99,
@@ -176,20 +190,6 @@
           "image": "https://i.ebayimg.com/images/g/4MoAAeSw~C5qw8M7/s-l225.jpg",
           "condition": "New",
           "seller": "cjaven-87",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|820192631193|0",
-          "title": "SDCC 2026 Mattel Jurassic World Hammond Collection 25th Comic-Style Velociraptor",
-          "price": 59.35,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/820192631193?_skw=Jurassic+World+Hammond+Collection&hash=itembef74a5999:g:0c0AAeSw~Dtqve6f",
-          "image": "https://i.ebayimg.com/images/g/0c0AAeSw~Dtqve6f/s-l225.jpg",
-          "condition": "New",
-          "seller": "chriwill_4423",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -1886,6 +1886,20 @@
           "image": "https://i.ebayimg.com/images/g/0W4AAeSw78VqxbS8/s-l225.jpg",
           "condition": "New",
           "seller": "coltsbrent",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "AUCTION"
+          ]
+        },
+        {
+          "id": "v1|189058742924|0",
+          "title": "Jurassic World Hammond Collection Indominus Rex NEW Sealed",
+          "price": 90.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/189058742924?_skw=Jurassic+World+Hammond+Collection&hash=item2c04c77a8c:g:eHYAAeSwTMVqvsB1",
+          "image": "https://i.ebayimg.com/images/g/eHYAAeSwTMVqvsB1/s-l225.jpg",
+          "condition": "New",
+          "seller": "jfringer",
           "buyingOptions": [
             "FIXED_PRICE",
             "AUCTION"
