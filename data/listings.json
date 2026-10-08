@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-08T14:03:07Z",
+  "updated_at": "2026-10-08T14:30:45Z",
   "median_price": 57.99,
-  "total_items": 476,
+  "total_items": 474,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -202,20 +202,6 @@
           ]
         },
         {
-          "id": "v1|278429452159|0",
-          "title": "SDCC Jurassic World Hammond Collection 25th Comic-Style Velociraptor",
-          "price": 45.26,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/278429452159?_skw=Jurassic+World+Hammond+Collection&hash=item40d3b0477f:g:TLEAAeSwiBtqYeq8",
-          "image": "https://i.ebayimg.com/images/g/TLEAAeSwiBtqYeq8/s-l225.jpg",
-          "condition": "New",
-          "seller": "cheeserolls1905",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
           "id": "v1|298715540095|0",
           "title": "SDCC 2026 Jurassic World Hammond Collection 25th Anniversary Comic Velociraptor",
           "price": 48.4,
@@ -237,20 +223,6 @@
           "image": "https://i.ebayimg.com/images/g/0c0AAeSw~Dtqve6f/s-l225.jpg",
           "condition": "New",
           "seller": "chriwill_4423",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|227543440246|0",
-          "title": "SHIPS TODAY SDCC Jurassic World Hammond Collection 25th Comic-Style Velociraptor",
-          "price": 64.95,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/227543440246?_skw=Mattel+Hammond+Collection+dinosaur&hash=item34faa55b76:g:d6IAAeSwC7ZqurVV",
-          "image": "https://i.ebayimg.com/images/g/d6IAAeSwC7ZqurVV/s-l225.jpg",
-          "condition": "New",
-          "seller": "turboveedub",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -702,24 +674,6 @@
           "image": "https://i.ebayimg.com/images/g/3dIAAeSwwqpqvsmG/s-l225.jpg",
           "condition": "Used",
           "seller": "farley_singles",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Young Stegosaurus (The Lost World)",
-      "items": [
-        {
-          "id": "v1|336817001521|0",
-          "title": "Mattel Jurassic Park Hammond Collection Juvenile Baby Stegosaurus",
-          "price": 120.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/336817001521?_skw=Mattel+Hammond+Collection+dinosaur&hash=item4e6bdb9431:g:M7QAAeSwM95qulOo",
-          "image": "https://i.ebayimg.com/images/g/M7QAAeSwM95qulOo/s-l225.jpg",
-          "condition": "New",
-          "seller": "beast_le",
           "buyingOptions": [
             "FIXED_PRICE"
           ]
@@ -3867,6 +3821,20 @@
       "name": "Stegosaurus",
       "items": [
         {
+          "id": "v1|960037670105|0",
+          "title": "Jurassic World STEGOSAURUS Dinosaur Complete Hammond Collection Mattel",
+          "price": 29.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/960037670105?_skw=Mattel+Hammond+Collection+dinosaur&hash=itemdf86b44cd9:g:pxsAAeSwA8xqx6aO",
+          "image": "https://i.ebayimg.com/images/g/pxsAAeSwA8xqx6aO/s-l225.jpg",
+          "condition": "Used",
+          "seller": "vintageloot.md",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
           "id": "v1|178316948995|0",
           "title": "Jurassic World Hammond Collection Stegosaurus Action Figure True FX New",
           "price": 34.99,
@@ -4882,20 +4850,6 @@
           "seller": "brick_emporium",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|137759979522|0",
-          "title": "Mattel Jurassic Park World Hammond Collection Mussaurus Dinosaur Figure NEW",
-          "price": 26.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/137759979522?_skw=Mattel+Hammond+Collection+dinosaur&hash=item2013227802:g:vTQAAeSw8SBqsDCB",
-          "image": "https://i.ebayimg.com/images/g/vTQAAeSw8SBqsDCB/s-l225.jpg",
-          "condition": "New",
-          "seller": "patt-1605",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
           ]
         },
         {
@@ -6475,6 +6429,19 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "AUCTION"
+          ]
+        },
+        {
+          "id": "v1|178567723974|0",
+          "title": "JURASSIC PARK HAMMOND COLLECTION IAN MALCOLM + DR. ELLIE SATTLER Lot Of 2 New",
+          "price": 39.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/178567723974?_skw=Mattel+Hammond+Collection+dinosaur&hash=item2993773bc6:g:J0AAAeSw8Ttqx6gf",
+          "image": "https://i.ebayimg.com/images/g/J0AAAeSw8Ttqx6gf/s-l225.jpg",
+          "condition": "New",
+          "seller": "guma-4609",
+          "buyingOptions": [
+            "FIXED_PRICE"
           ]
         },
         {
