@@ -373,14 +373,21 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
   function boot(){
 
   var DATA_URL = "data/listings.json";
+  var LANCER_DATA_URL = "data/lancer.json";
   var POLL_MS = 120000; // reconsulta a cada 2 min (o arquivo em si muda a cada 10 min)
   var HIGHLIGHTS_ID = "__highlights__";
   var COLLECTION_ID = "__collection__";
+  var LANCER_ID = "__lancer__";
   var HIGHLIGHTS_COUNT = 14;
   var COLL_KEY = "hammond_minha_colecao_v1";
   var FX_KEY = "hammond_fx_usd_brl_v1";
+  var ACTIVE_TAB_KEY = "hammond_active_tab_v1";
 
-  var state = { categories: [], updatedAt: null, activeTab: HIGHLIGHTS_ID };
+  var savedTab = null;
+  try{ savedTab = localStorage.getItem(ACTIVE_TAB_KEY); }catch(e){}
+
+  var state = { categories: [], updatedAt: null, activeTab: savedTab || HIGHLIGHTS_ID };
+  var lancerState = { items: [], updatedAt: null };
   var collection = loadCollection();
   var fx = loadFx();
   var editingId = null;
@@ -456,6 +463,13 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
 
   // ---- navegacao ----------------------------------------------------
 
+  function setActiveTab(id){
+    state.activeTab = id;
+    try{ localStorage.setItem(ACTIVE_TAB_KEY, id); }catch(e){}
+    renderTabs();
+    renderMain();
+  }
+
   function renderTabs(){
     tabsEl.innerHTML = "";
 
@@ -464,11 +478,7 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
     hBtn.className = "highlight-tab";
     hBtn.setAttribute("aria-selected", String(state.activeTab === HIGHLIGHTS_ID));
     hBtn.innerHTML = "🔥 Destaques";
-    hBtn.addEventListener("click", function(){
-      state.activeTab = HIGHLIGHTS_ID;
-      renderTabs();
-      renderMain();
-    });
+    hBtn.addEventListener("click", function(){ setActiveTab(HIGHLIGHTS_ID); });
     tabsEl.appendChild(hBtn);
 
     var cBtn = document.createElement("button");
@@ -476,12 +486,16 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
     cBtn.className = "collection-tab";
     cBtn.setAttribute("aria-selected", String(state.activeTab === COLLECTION_ID));
     cBtn.innerHTML = "💰 Minha Colecao";
-    cBtn.addEventListener("click", function(){
-      state.activeTab = COLLECTION_ID;
-      renderTabs();
-      renderMain();
-    });
+    cBtn.addEventListener("click", function(){ setActiveTab(COLLECTION_ID); });
     tabsEl.appendChild(cBtn);
+
+    var lBtn = document.createElement("button");
+    lBtn.type = "button";
+    lBtn.className = "collection-tab";
+    lBtn.setAttribute("aria-selected", String(state.activeTab === LANCER_ID));
+    lBtn.innerHTML = "🔧 Cambio Lancer" + '<span class="count">' + lancerState.items.length + "</span>";
+    lBtn.addEventListener("click", function(){ setActiveTab(LANCER_ID); });
+    tabsEl.appendChild(lBtn);
 
     var div = document.createElement("div");
     div.className = "divider";
@@ -492,11 +506,7 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
       btn.type = "button";
       btn.setAttribute("aria-selected", String(cat.name === state.activeTab));
       btn.innerHTML = cat.name + '<span class="count">' + cat.items.length + "</span>";
-      btn.addEventListener("click", function(){
-        state.activeTab = cat.name;
-        renderTabs();
-        renderMain();
-      });
+      btn.addEventListener("click", function(){ setActiveTab(cat.name); });
       tabsEl.appendChild(btn);
     });
   }
@@ -610,6 +620,57 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
     mainEl.innerHTML =
       '<div class="main-head"><h2>' + cat.name + '</h2><div class="sub">' + cat.items.length + ' anuncio(s), do menor pro maior preco.</div></div>' +
       '<div class="grid">' + cards + '</div>';
+  }
+
+  // ---- Cambio Lancer: anuncios do Mercado Livre e OLX ---------------------
+
+  function lancerCardHtml(item){
+    var img = item.image
+      ? '<img src="' + item.image.replace(/"/g,"&quot;") + '" alt="" loading="lazy">'
+      : '<span class="ph">🔧</span>';
+    var title = (item.title || "").replace(/</g,"&lt;");
+    var loc = item.location ? item.location.replace(/</g,"&lt;") : "local nao informado";
+    var source = item.source || "—";
+    return (
+      '<a class="card" href="' + (item.url||"#") + '" target="_blank" rel="noopener">' +
+        '<div class="thumb">' + img + '</div>' +
+        '<div class="card-body">' +
+          '<span class="cat-pill">' + source + '</span>' +
+          '<div class="price-row"><span class="price">' + fmtPrice(item.price, item.currency || "BRL") + '</span></div>' +
+          '<div class="ctitle">' + title + '</div>' +
+          '<div class="meta"><span>' + loc + '</span></div>' +
+        '</div>' +
+      '</a>'
+    );
+  }
+
+  function renderLancer(){
+    if (!lancerState.items.length){
+      mainEl.innerHTML =
+        '<div class="main-head"><h2>Cambio Lancer MIVEC</h2><div class="sub">' +
+          'Cambio manual, motor 2.0 MIVEC, 2008-2019. Mercado Livre + OLX, sem limite de preco.' +
+        '</div></div>' +
+        '<div class="empty"><strong>Nenhum anuncio ainda</strong>Assim que o robo encontrar um anuncio, ele aparece aqui. Roda a cada 30 minutos.</div>';
+      return;
+    }
+    var cards = lancerState.items.map(lancerCardHtml).join("");
+    mainEl.innerHTML =
+      '<div class="main-head"><h2>Cambio Lancer MIVEC</h2><div class="sub">' +
+        lancerState.items.length + ' anuncio(s) no Mercado Livre e OLX, do menor pro maior preco. Cambio manual, motor 2.0 MIVEC, 2008-2019, sem limite de preco.' +
+      '</div></div>' +
+      '<div class="grid">' + cards + '</div>';
+  }
+
+  function loadLancer(){
+    fetch(LANCER_DATA_URL, { cache: "no-store" })
+      .then(function(r){ return r.ok ? r.json() : Promise.reject(new Error("status " + r.status)); })
+      .then(function(json){
+        lancerState.items = json.items || [];
+        lancerState.updatedAt = json.updated_at || null;
+        if (state.activeTab === LANCER_ID) renderMain();
+        renderTabs();
+      })
+      .catch(function(){ /* aba de cambio e opcional; falha aqui nao derruba o resto do site */ });
   }
 
   // ---- Minha Colecao: registro manual de compras + lucro -----------------
@@ -875,6 +936,8 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
       renderHighlights();
     } else if (state.activeTab === COLLECTION_ID){
       renderCollection();
+    } else if (state.activeTab === LANCER_ID){
+      renderLancer();
     } else {
       renderCategory();
     }
@@ -891,7 +954,7 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
     dotEl.classList.remove("stale");
 
     renderTabs();
-    if (!state.categories.length && state.activeTab !== COLLECTION_ID){
+    if (!state.categories.length && state.activeTab !== COLLECTION_ID && state.activeTab !== LANCER_ID){
       renderEmptyState("Nenhum anuncio encontrado ainda", "Assim que o robo rodar e encontrar anuncios, eles aparecem aqui.");
       return;
     }
@@ -918,9 +981,10 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
       });
   }
 
-  refreshBtn.addEventListener("click", load);
+  refreshBtn.addEventListener("click", function(){ load(); loadLancer(); });
   load();
-  setInterval(load, POLL_MS);
+  loadLancer();
+  setInterval(function(){ load(); loadLancer(); }, POLL_MS);
 
   // busca a cotacao atual uma vez por carregamento, se nao for manual
   if (!fx.manual) fetchFx();
