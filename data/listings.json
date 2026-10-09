@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-09T19:25:58Z",
+  "updated_at": "2026-10-09T19:45:18Z",
   "median_price": 56.97,
-  "total_items": 479,
+  "total_items": 481,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -157,6 +157,20 @@
           "image": "https://i.ebayimg.com/images/g/8OsAAeSwVRNqx~DZ/s-l225.jpg",
           "condition": "New",
           "seller": "pin3368",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|278429452159|0",
+          "title": "SDCC Jurassic World Hammond Collection 25th Comic-Style Velociraptor",
+          "price": 45.22,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/278429452159?_skw=Jurassic+World+Hammond+Collection&hash=item40d3b0477f:g:TLEAAeSwiBtqYeq8",
+          "image": "https://i.ebayimg.com/images/g/TLEAAeSwiBtqYeq8/s-l225.jpg",
+          "condition": "New",
+          "seller": "cheeserolls1905",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -1134,7 +1148,7 @@
         },
         {
           "id": "v1|920022497655|0",
-          "title": "Hammond Collection T-Rex *WORN TAIL (check desc",
+          "title": "Hammond Collection Tyrannosaurus Rex *WORN TAIL (check desc",
           "price": 185.0,
           "currency": "USD",
           "url": "https://www.ebay.com/itm/920022497655?_skw=Mattel+Hammond+Collection+dinosaur&hash=itemd6359d3977:g:qcYAAeSwEYtqyHuq",
@@ -4198,6 +4212,19 @@
           ]
         },
         {
+          "id": "v1|286757148836|0",
+          "title": "Jurassic World Hammond Collection Stegosaurus Action Figure True FX New",
+          "price": 75.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/286757148836?_skw=Hammond+Collection+True+FX&hash=item42c40ed8a4:g:aJcAAeSwboVol6rt",
+          "image": "https://i.ebayimg.com/images/g/aJcAAeSwboVol6rt/s-l225.jpg",
+          "condition": "New",
+          "seller": "anime.gadgetsemergencyroom",
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ]
+        },
+        {
           "id": "v1|117449109207|0",
           "title": "Jurassic World Hammond Collection Stegosaurus Dinosaur Action Figure Mattel 2025",
           "price": 77.32,
@@ -4273,10 +4300,10 @@
         },
         {
           "id": "v1|820221408208|0",
-          "title": "Mattel Jurassic World Hammond Collection Spinosaurus True FX Dinosaur Figure ",
+          "title": "Hammond Collection Spinosaurus Mattel Jurassic World Near MINT!",
           "price": 140.0,
           "currency": "USD",
-          "url": "https://www.ebay.com/itm/820221408208?_skw=Hammond+Collection+True+FX&hash=itembef90173d0:g:qF4AAeSwi2pqyTwn",
+          "url": "https://www.ebay.com/itm/820221408208?_skw=Jurassic+World+Hammond+Collection&hash=itembef90173d0:g:qF4AAeSwi2pqyTwn",
           "image": "https://i.ebayimg.com/images/g/qF4AAeSwi2pqyTwn/s-l225.jpg",
           "condition": "Used",
           "seller": "chamb0311",
