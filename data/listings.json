@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-09T15:19:26Z",
+  "updated_at": "2026-10-09T15:40:34Z",
   "median_price": 55.0,
-  "total_items": 484,
+  "total_items": 485,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -1660,19 +1660,6 @@
           ]
         },
         {
-          "id": "v1|327390281188|0",
-          "title": "VELOCIRAPTOR TIGER True FX Jurassic World Hammond Collection Mattel 2024",
-          "price": 34.43,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/327390281188?_skw=Hammond+Collection+True+FX&hash=item4c39fb3de4:g:Z68AAeSw~kFqxC6n",
-          "image": "https://i.ebayimg.com/images/g/Z68AAeSw~kFqxC6n/s-l225.jpg",
-          "condition": "New",
-          "seller": "thehunterscollectorshunter",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
           "id": "v1|820218286139|0",
           "title": "Hammond Collection Female Velociraptor Action Figure",
           "price": 35.0,
@@ -3218,6 +3205,19 @@
           ]
         },
         {
+          "id": "v1|920023918000|0",
+          "title": "2023 Mattel Jurassic Park Hammond Collection Brachiosaurus MISB Sealed New",
+          "price": 400.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/920023918000?_skw=Mattel+Hammond+Collection+dinosaur&hash=itemd635b2e5b0:g:tEAAAeSwi21qyQYh",
+          "image": "https://i.ebayimg.com/images/g/tEAAAeSwi21qyQYh/s-l225.jpg",
+          "condition": "New",
+          "seller": "olispoe41",
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ]
+        },
+        {
           "id": "v1|237066591215|0",
           "title": "Mattel Jurassic Park Hammond Collection 30th Anniversary Brachiosaurus NO BOX",
           "price": 400.0,
@@ -3276,7 +3276,7 @@
           "title": "Mattel Jurassic World Hammond Collection Brachiosaurus Sealed Box Dinosaur 27\"",
           "price": 450.0,
           "currency": "USD",
-          "url": "https://www.ebay.com/itm/198470499535?_skw=Jurassic+World+Brachiosaurus+Mattel&hash=item2e35c37ccf:g:fvQAAeSwve5px-38",
+          "url": "https://www.ebay.com/itm/198470499535?_skw=Jurassic+World+Hammond+Brachiosaurus&hash=item2e35c37ccf:g:fvQAAeSwve5px-38",
           "image": "https://i.ebayimg.com/images/g/fvQAAeSwve5px-38/s-l225.jpg",
           "condition": "New",
           "seller": "merjcho",
@@ -4266,6 +4266,20 @@
           ]
         },
         {
+          "id": "v1|317193751697|0",
+          "title": "Jurassic World Hammond Collection Stegosaurus Action Figure True FX New",
+          "price": 61.95,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/317193751697?_skw=Hammond+Collection+True+FX&hash=item49da388c91:g:fa8AAeSwQvBopSPY",
+          "image": "https://i.ebayimg.com/images/g/fa8AAeSwQvBopSPY/s-l225.jpg",
+          "condition": "New",
+          "seller": "general_merchandise_supply",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
           "id": "v1|117449109207|0",
           "title": "Jurassic World Hammond Collection Stegosaurus Dinosaur Action Figure Mattel 2025",
           "price": 77.32,
@@ -4419,20 +4433,6 @@
           "seller": "theroyalalbatross",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|327361496402|0",
-          "title": "Mattel Jurassic World Hammond Collection Spinosaurus True FX Jurassic Park III",
-          "price": 180.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/327361496402?_skw=Hammond+Collection+True+FX&hash=item4c38440552:g:c3AAAeSweGhqq0m8",
-          "image": "https://i.ebayimg.com/images/g/c3AAAeSweGhqq0m8/s-l225.jpg",
-          "condition": "New",
-          "seller": "strattoncardz",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
           ]
         },
         {
@@ -4623,6 +4623,20 @@
           "seller": "best_omotenashi",
           "buyingOptions": [
             "FIXED_PRICE"
+          ]
+        },
+        {
+          "id": "v1|306447461504|0",
+          "title": "Mattel Jurassic World Park 3 Hammond Collection Spinosaurus True FX Toy Rex",
+          "price": 299.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/306447461504?_skw=Hammond+Collection+True+FX&hash=item4759b12c80:g:CgsAAeSwqAVonEA3",
+          "image": "https://i.ebayimg.com/images/g/CgsAAeSwqAVonEA3/s-l225.jpg",
+          "condition": "New",
+          "seller": "hanax.jpboi",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
           ]
         }
       ]
