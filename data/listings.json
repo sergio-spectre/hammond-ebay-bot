@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-09T16:50:17Z",
+  "updated_at": "2026-10-09T17:13:32Z",
   "median_price": 55.5,
-  "total_items": 482,
+  "total_items": 483,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -124,7 +124,7 @@
         {
           "id": "v1|407256116713|0",
           "title": "Jurassic World Hammond Collection 25th Anniversary Comic Velociraptor SDCC 2026",
-          "price": 22.99,
+          "price": 21.69,
           "currency": "USD",
           "url": "https://www.ebay.com/itm/407256116713?_skw=Mattel+Hammond+Collection+dinosaur&hash=item5ed25b2de9:g:bb4AAeSwpEBqvH9B",
           "image": "https://i.ebayimg.com/images/g/bb4AAeSwpEBqvH9B/s-l225.jpg",
@@ -416,6 +416,19 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|880001533254|0",
+          "title": "Jurassic World Park Hammond Collection Velociraptor Blue and baby blue",
+          "price": 72.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/880001533254?_skw=Mattel+Hammond+Collection+dinosaur&hash=itemcce42dc546:g:3L0AAeSwcKBqyRsH",
+          "image": "https://i.ebayimg.com/images/g/3L0AAeSwcKBqyRsH/s-l225.jpg",
+          "condition": "Used",
+          "seller": "batman3012",
+          "buyingOptions": [
+            "FIXED_PRICE"
           ]
         },
         {
@@ -3223,7 +3236,7 @@
           "title": "2022 Mattel Jurassic Park Hammond Collection Brachiosaurus - New",
           "price": 450.0,
           "currency": "USD",
-          "url": "https://www.ebay.com/itm/257763294107?_skw=Mattel+Hammond+Collection+dinosaur&hash=item3c03e3bb9b:g:l4gAAeSwbdtqtWSQ",
+          "url": "https://www.ebay.com/itm/257763294107?_skw=Jurassic+World+Brachiosaurus+Mattel&hash=item3c03e3bb9b:g:l4gAAeSwbdtqtWSQ",
           "image": "https://i.ebayimg.com/images/g/l4gAAeSwbdtqtWSQ/s-l225.jpg",
           "condition": "New",
           "seller": "michelle_884",
