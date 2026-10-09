@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-09T21:46:44Z",
-  "median_price": 56.99,
+  "updated_at": "2026-10-09T22:01:25Z",
+  "median_price": 56.97,
   "total_items": 479,
   "categories": [
     {
@@ -149,6 +149,19 @@
           ]
         },
         {
+          "id": "v1|307196956691|0",
+          "title": "SDCC Jurassic World Hammond Collection 25th Comic-Style Velociraptor In Hand",
+          "price": 40.5,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/307196956691?_skw=Mattel+Hammond+Collection+dinosaur&hash=item47865d9013:g:uoMAAeSwstBqY7Pt",
+          "image": "https://i.ebayimg.com/images/g/uoMAAeSwstBqY7Pt/s-l225.jpg",
+          "condition": "New",
+          "seller": "mum2sweeties",
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ]
+        },
+        {
           "id": "v1|178568257691|0",
           "title": "SDCC 2026 Mattel Jurassic World Hammond Collection 25th Comic-Style Velociraptor",
           "price": 44.99,
@@ -157,6 +170,20 @@
           "image": "https://i.ebayimg.com/images/g/8OsAAeSwVRNqx~DZ/s-l225.jpg",
           "condition": "New",
           "seller": "pin3368",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|278429452159|0",
+          "title": "SDCC Jurassic World Hammond Collection 25th Comic-Style Velociraptor",
+          "price": 45.22,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/278429452159?_skw=Jurassic+World+Hammond+Collection&hash=item40d3b0477f:g:TLEAAeSwiBtqYeq8",
+          "image": "https://i.ebayimg.com/images/g/TLEAAeSwiBtqYeq8/s-l225.jpg",
+          "condition": "New",
+          "seller": "cheeserolls1905",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -852,33 +879,6 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|117456708156|0",
-          "title": "2021 Jurassic World Hammond Collection Dr Ian Malcolm Figure Premium Posable NEW",
-          "price": 18.99,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/117456708156?_skw=Mattel+Hammond+Collection+dinosaur&hash=item1b58f7223c:g:JpIAAeSwUr5qUPQH",
-          "image": "https://i.ebayimg.com/images/g/JpIAAeSwUr5qUPQH/s-l225.jpg",
-          "condition": "New",
-          "seller": "kmbcollectables",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|158378977925|0",
-          "title": "2-Jurassic World Hammond Collection Dr. Ian Malcolm Mattel",
-          "price": 24.99,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/158378977925?_skw=Mattel+Hammond+Collection+dinosaur&hash=item24e01f6a85:g:Tq8AAeSwd99pH~wD",
-          "image": "https://i.ebayimg.com/images/g/Tq8AAeSwd99pH~wD/s-l225.jpg",
-          "condition": "New",
-          "seller": "angel11067",
-          "buyingOptions": [
-            "FIXED_PRICE"
           ]
         }
       ]
