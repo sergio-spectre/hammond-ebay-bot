@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T08:23:05Z",
+  "updated_at": "2026-10-09T08:48:03Z",
   "median_price": 55.0,
   "total_items": 485,
   "categories": [
@@ -1391,6 +1391,20 @@
           "seller": "daemonic_malekith",
           "buyingOptions": [
             "FIXED_PRICE"
+          ]
+        },
+        {
+          "id": "v1|860025396376|0",
+          "title": "Jurassic World Hammond Collection Indominus Rex",
+          "price": 86.45,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/860025396376?_skw=Jurassic+World+Hammond+Collection&hash=itemc83d821c98:g:KpIAAeSwpCRqpOxX",
+          "image": "https://i.ebayimg.com/images/g/KpIAAeSwpCRqpOxX/s-l225.jpg",
+          "condition": "New",
+          "seller": "dhv0510",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
           ]
         },
         {
@@ -3416,20 +3430,6 @@
           "image": "https://i.ebayimg.com/images/g/qm4AAeSwtChqxt~b/s-l225.jpg",
           "condition": "Used",
           "seller": "cisc88",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|407261821197|0",
-          "title": "Hammond Collection Jurassic World Carnotaurus READ DESCRIPTION LOOK THE PICT",
-          "price": 130.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/407261821197?_skw=Jurassic+World+Hammond+Collection&hash=item5ed2b2390d:g:FAoAAeSw1N1qv9ab",
-          "image": "https://i.ebayimg.com/images/g/FAoAAeSw1N1qv9ab/s-l225.jpg",
-          "condition": "Used",
-          "seller": "jerburi_61",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
