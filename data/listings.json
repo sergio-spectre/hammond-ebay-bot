@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-09T17:54:08Z",
-  "median_price": 56.24,
-  "total_items": 482,
+  "updated_at": "2026-10-09T18:16:20Z",
+  "median_price": 56.120000000000005,
+  "total_items": 483,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -122,19 +122,6 @@
       "name": "Comic-Style Velociraptor (SDCC)",
       "items": [
         {
-          "id": "v1|407256116713|0",
-          "title": "Jurassic World Hammond Collection 25th Anniversary Comic Velociraptor SDCC 2026",
-          "price": 21.69,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/407256116713?_skw=Mattel+Hammond+Collection+dinosaur&hash=item5ed25b2de9:g:bb4AAeSwpEBqvH9B",
-          "image": "https://i.ebayimg.com/images/g/bb4AAeSwpEBqvH9B/s-l225.jpg",
-          "condition": "New",
-          "seller": "hecgue_5789",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
           "id": "v1|800766963325|0",
           "title": "SDCC Jurassic World Hammond Collection 25th Anniversary Comic-Style Velociraptor",
           "price": 32.99,
@@ -170,6 +157,20 @@
           "image": "https://i.ebayimg.com/images/g/8OsAAeSwVRNqx~DZ/s-l225.jpg",
           "condition": "New",
           "seller": "pin3368",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|278429452159|0",
+          "title": "SDCC Jurassic World Hammond Collection 25th Comic-Style Velociraptor",
+          "price": 45.22,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/278429452159?_skw=Jurassic+World+Hammond+Collection&hash=item40d3b0477f:g:TLEAAeSwiBtqYeq8",
+          "image": "https://i.ebayimg.com/images/g/TLEAAeSwiBtqYeq8/s-l225.jpg",
+          "condition": "New",
+          "seller": "cheeserolls1905",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -1754,6 +1755,19 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|920024258149|0",
+          "title": "Jurassic Park Hammond Collection Velociraptor 1993 Movie Figure Mattel HFG56 NEW",
+          "price": 45.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/920024258149?_skw=Mattel+Hammond+Collection+dinosaur&hash=itemd635b81665:g:g7EAAeSwVKFqySp-",
+          "image": "https://i.ebayimg.com/images/g/g7EAAeSwVKFqySp-/s-l225.jpg",
+          "condition": "New",
+          "seller": "olispoe41",
+          "buyingOptions": [
+            "FIXED_PRICE"
           ]
         },
         {
