@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-09T23:01:19Z",
-  "median_price": 56.99,
-  "total_items": 480,
+  "updated_at": "2026-10-09T23:24:40Z",
+  "median_price": 57.49,
+  "total_items": 484,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -253,7 +253,7 @@
           "title": "Mattel Creations Jurassic World JIMMY BUFFET Bubbles Up Hammond Collection SDCC",
           "price": 87.5,
           "currency": "USD",
-          "url": "https://www.ebay.com/itm/227550961480?_skw=Hammond+Collection+Jurassic+Park&hash=item34fb181f48:g:XJYAAeSwWsdqwZ~D",
+          "url": "https://www.ebay.com/itm/227550961480?_skw=Jurassic+World+Hammond+Collection&hash=item34fb181f48:g:XJYAAeSwWsdqwZ~D",
           "image": "https://i.ebayimg.com/images/g/XJYAAeSwWsdqwZ~D/s-l225.jpg",
           "condition": "New",
           "seller": "onerealdude",
@@ -837,14 +837,14 @@
           ]
         },
         {
-          "id": "v1|257791121501|0",
-          "title": "JURASSIC WORLD HAMMOND COLLECTION DR ALAN GRANT T-REX DILOPHOSAURUS SCUTOSAURUS",
-          "price": 400.0,
+          "id": "v1|920024968272|0",
+          "title": "Mattel Jurassic Park Hammond Collection Dr. Alan Grant Action Figure Boxed Hat",
+          "price": 80.0,
           "currency": "USD",
-          "url": "https://www.ebay.com/itm/257791121501?_skw=Jurassic+World+Hammond+Collection&hash=item3c058c585d:g:JdcAAeSwF3dqyWjy",
-          "image": "https://i.ebayimg.com/images/g/JdcAAeSwF3dqyWjy/s-l225.jpg",
-          "condition": "Used",
-          "seller": "ironman-2099",
+          "url": "https://www.ebay.com/itm/920024968272?_skw=Hammond+Collection+Jurassic+Park&hash=itemd635c2ec50:g:STIAAeSwOW9qyXQZ",
+          "image": "https://i.ebayimg.com/images/g/STIAAeSwOW9qyXQZ/s-l225.jpg",
+          "condition": "New",
+          "seller": "olispoe41",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -855,6 +855,20 @@
     {
       "name": "Dr. Ian Malcolm",
       "items": [
+        {
+          "id": "v1|920024974890|0",
+          "title": "Mattel Jurassic Park Hammond Collection Dr. Ian Malcolm Action Figure Boxed",
+          "price": 8.5,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/920024974890?_skw=Hammond+Collection+Jurassic+Park&hash=itemd635c3062a:g:klIAAeSwlARqyXWa",
+          "image": "https://i.ebayimg.com/images/g/klIAAeSwlARqyXWa/s-l225.jpg",
+          "condition": "New",
+          "seller": "olispoe41",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
         {
           "id": "v1|189028638242|0",
           "title": "2021 Jurassic Park Hammond Collection DR IAN MALCOLM 3.75\" ACTION FIGURE NEW",
@@ -895,25 +909,25 @@
             "FIXED_PRICE",
             "BEST_OFFER"
           ]
-        },
-        {
-          "id": "v1|158378977925|0",
-          "title": "2-Jurassic World Hammond Collection Dr. Ian Malcolm Mattel",
-          "price": 24.99,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/158378977925?_skw=Mattel+Hammond+Collection+dinosaur&hash=item24e01f6a85:g:Tq8AAeSwd99pH~wD",
-          "image": "https://i.ebayimg.com/images/g/Tq8AAeSwd99pH~wD/s-l225.jpg",
-          "condition": "New",
-          "seller": "angel11067",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
         }
       ]
     },
     {
       "name": "Dr. Ellie Sattler",
       "items": [
+        {
+          "id": "v1|920024955290|0",
+          "title": "Mattel Jurassic Park Hammond Collection Dr. Ellie Sattler Figure Alt Hands",
+          "price": 19.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/920024955290?_skw=Hammond+Collection+Jurassic+Park&hash=itemd635c2b99a:g:O-IAAeSw9n9qyXN3",
+          "image": "https://i.ebayimg.com/images/g/O-IAAeSw9n9qyXN3/s-l225.jpg",
+          "condition": "New",
+          "seller": "olispoe41",
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ]
+        },
         {
           "id": "v1|227552205421|0",
           "title": "Mattel Hammond Collection Jurassic Park Dr. Ellie Sattler Figure Set 2022",
@@ -977,6 +991,39 @@
           "seller": "thegamecrusher",
           "buyingOptions": [
             "FIXED_PRICE"
+          ]
+        },
+        {
+          "id": "v1|920024947161|0",
+          "title": "Mattel Hammond Collection John Raymond Arnold Jurassic Park Action Figure Boxed",
+          "price": 9.5,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/920024947161?_skw=Hammond+Collection+Jurassic+Park&hash=itemd635c299d9:g:9S0AAeSwbz9qyXK0",
+          "image": "https://i.ebayimg.com/images/g/9S0AAeSwbz9qyXK0/s-l225.jpg",
+          "condition": "New",
+          "seller": "olispoe41",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dennis Nedry",
+      "items": [
+        {
+          "id": "v1|920024971841|0",
+          "title": "Mattel Jurassic Park Hammond Collection Dennis Nedry Figure Accessories 8+ Boxed",
+          "price": 130.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/920024971841?_skw=Hammond+Collection+Jurassic+Park&hash=itemd635c2fa41:g:pTsAAeSwZXVqyXTQ",
+          "image": "https://i.ebayimg.com/images/g/pTsAAeSwZXVqyXTQ/s-l225.jpg",
+          "condition": "New",
+          "seller": "olispoe41",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
           ]
         }
       ]
@@ -1158,6 +1205,19 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|920024942953|0",
+          "title": "Hammond Collection Jurassic Park Tyrannosaurus Rex ",
+          "price": 235.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/920024942953?_skw=Hammond+Collection+Jurassic+Park&hash=itemd635c28969:g:WBcAAeSwTEZqyXGk",
+          "image": "https://i.ebayimg.com/images/g/WBcAAeSwTEZqyXGk/s-l225.jpg",
+          "condition": "New",
+          "seller": "olispoe41",
+          "buyingOptions": [
+            "FIXED_PRICE"
           ]
         },
         {
@@ -1797,6 +1857,20 @@
           ]
         },
         {
+          "id": "v1|366712774125|0",
+          "title": "Jurassic Park World Hammond Collection Velociraptor JP1 Brown New Mattel",
+          "price": 49.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/366712774125?_skw=Hammond+Collection+Jurassic+Park&hash=item5561c8dded:g:4MoAAeSw~C5qw8M7",
+          "image": "https://i.ebayimg.com/images/g/4MoAAeSw~C5qw8M7/s-l225.jpg",
+          "condition": "New",
+          "seller": "cjaven-87",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
           "id": "v1|820218250039|0",
           "title": "Hammond Collection Pyroraptor",
           "price": 50.0,
@@ -1819,20 +1893,6 @@
           "image": "https://i.ebayimg.com/images/g/VasAAeSwGNdqwvtK/s-l225.jpg",
           "condition": "New",
           "seller": "cojak-collectables",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|366712774125|0",
-          "title": "Jurassic Park World Hammond Collection Velociraptor JP1 Brown New Mattel",
-          "price": 53.99,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/366712774125?_skw=Hammond+Collection+Jurassic+Park&hash=item5561c8dded:g:4MoAAeSw~C5qw8M7",
-          "image": "https://i.ebayimg.com/images/g/4MoAAeSw~C5qw8M7/s-l225.jpg",
-          "condition": "New",
-          "seller": "cjaven-87",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -2204,7 +2264,7 @@
         {
           "id": "v1|366712819744|0",
           "title": "Jurassic Park World Hammond Collection Ceratosaurus JP3 Loose",
-          "price": 139.99,
+          "price": 134.99,
           "currency": "USD",
           "url": "https://www.ebay.com/itm/366712819744?_skw=Hammond+Collection+Jurassic+Park&hash=item5561c99020:g:HssAAeSwDhRqw8kz",
           "image": "https://i.ebayimg.com/images/g/HssAAeSwDhRqw8kz/s-l225.jpg",
