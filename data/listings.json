@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-09T23:44:05Z",
-  "median_price": 56.99,
-  "total_items": 480,
+  "updated_at": "2026-10-09T23:59:47Z",
+  "median_price": 57.49,
+  "total_items": 479,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -1359,8 +1359,8 @@
           "title": "Jurassic World Hammond Collection Indominus Rex Figure",
           "price": 80.49,
           "currency": "USD",
-          "url": "https://www.ebay.com/itm/800753987756?_skw=Jurassic+World+Hammond+Collection&hash=itemba70a830ac:i:800753987756",
-          "image": null,
+          "url": "https://www.ebay.com/itm/800753987756?_skw=Jurassic+World+Hammond+Collection&hash=itemba70a830ac:g:8S0AAeSw~KNqyXt4",
+          "image": "https://i.ebayimg.com/images/g/8S0AAeSw~KNqyXt4/s-l225.jpg",
           "condition": "New",
           "seller": "straw_hat_toys",
           "buyingOptions": [
@@ -3859,6 +3859,20 @@
       "name": "Allosaurus",
       "items": [
         {
+          "id": "v1|860027778553|0",
+          "title": "Jurassic World Hammond Collection Allosaurus",
+          "price": 65.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/860027778553?_skw=Jurassic+World+Hammond+Collection&hash=itemc83da675f9:g:9pcAAeSwK8dqyX1e",
+          "image": "https://i.ebayimg.com/images/g/9pcAAeSwK8dqyX1e/s-l225.jpg",
+          "condition": "Used",
+          "seller": "allisondiane99",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
           "id": "v1|128125073473|0",
           "title": "Jurassic World Hammond Collection Allosaurus Action Figure New In Box",
           "price": 65.0,
@@ -3922,32 +3936,6 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|206598866364|0",
-          "title": "Mattel Jurassic World Hammond Collection Allosaurus Figure Dinosaur Toy",
-          "price": 105.45,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/206598866364?_skw=Mattel+Hammond+Collection+dinosaur&hash=item301a4085bc:g:RfMAAeSwgwVqwKP2",
-          "image": "https://i.ebayimg.com/images/g/RfMAAeSwgwVqwKP2/s-l225.jpg",
-          "condition": "New",
-          "seller": "t09028_93",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|366706389123|0",
-          "title": "NEW Mattel JURASSIC WORLD Hammond Collection Allosaurus Figure Dinosaur Toy",
-          "price": 117.52,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/366706389123?_skw=Mattel+Hammond+Collection+dinosaur&hash=item5561677083:g:vgYAAeSwFBxqv8is",
-          "image": "https://i.ebayimg.com/images/g/vgYAAeSwFBxqv8is/s-l225.jpg",
-          "condition": "New",
-          "seller": "ruu_japan",
-          "buyingOptions": [
-            "FIXED_PRICE"
           ]
         }
       ]
