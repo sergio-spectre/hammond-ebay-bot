@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-09T22:26:12Z",
-  "median_price": 56.97,
-  "total_items": 481,
+  "updated_at": "2026-10-09T22:46:45Z",
+  "median_price": 56.99,
+  "total_items": 482,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -831,6 +831,20 @@
           "image": "https://i.ebayimg.com/images/g/lGAAAeSwZQZqx~~B/s-l225.jpg",
           "condition": "New",
           "seller": "brakat7242",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|257791121501|0",
+          "title": "JURASSIC WORLD HAMMOND COLLECTION DR ALAN GRANT T-REX DILOPHOSAURUS SCUTOSAURUS",
+          "price": 400.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/257791121501?_skw=Jurassic+World+Hammond+Collection&hash=item3c058c585d:g:JdcAAeSwF3dqyWjy",
+          "image": "https://i.ebayimg.com/images/g/JdcAAeSwF3dqyWjy/s-l225.jpg",
+          "condition": "Used",
+          "seller": "ironman-2099",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
