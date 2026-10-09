@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-09T03:27:22Z",
+  "updated_at": "2026-10-09T03:50:33Z",
   "median_price": 55.0,
-  "total_items": 484,
+  "total_items": 487,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -189,6 +189,20 @@
           ]
         },
         {
+          "id": "v1|278429452159|0",
+          "title": "SDCC Jurassic World Hammond Collection 25th Comic-Style Velociraptor",
+          "price": 45.26,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/278429452159?_skw=Jurassic+World+Hammond+Collection&hash=item40d3b0477f:g:TLEAAeSwiBtqYeq8",
+          "image": "https://i.ebayimg.com/images/g/TLEAAeSwiBtqYeq8/s-l225.jpg",
+          "condition": "New",
+          "seller": "cheeserolls1905",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
           "id": "v1|298715540095|0",
           "title": "SDCC 2026 Jurassic World Hammond Collection 25th Anniversary Comic Velociraptor",
           "price": 48.4,
@@ -210,6 +224,20 @@
           "image": "https://i.ebayimg.com/images/g/0c0AAeSw~Dtqve6f/s-l225.jpg",
           "condition": "New",
           "seller": "chriwill_4423",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|227543440246|0",
+          "title": "SHIPS TODAY SDCC Jurassic World Hammond Collection 25th Comic-Style Velociraptor",
+          "price": 64.95,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/227543440246?_skw=Mattel+Hammond+Collection+dinosaur&hash=item34faa55b76:g:d6IAAeSwC7ZqurVV",
+          "image": "https://i.ebayimg.com/images/g/d6IAAeSwC7ZqurVV/s-l225.jpg",
+          "condition": "New",
+          "seller": "turboveedub",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -6794,6 +6822,20 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|920022302398|0",
+          "title": "Jurassic World Hammond Collection Lot Indominus Rex Carnotaurus Dinosaur",
+          "price": 280.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/920022302398?_skw=Jurassic+World+Hammond+Collection&hash=itemd6359a3ebe:g:agsAAeSw7v1qyF-u",
+          "image": "https://i.ebayimg.com/images/g/agsAAeSw7v1qyF-u/s-l225.jpg",
+          "condition": "Used",
+          "seller": "micguer-14",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "AUCTION"
           ]
         },
         {
