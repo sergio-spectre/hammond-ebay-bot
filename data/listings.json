@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-09T21:01:46Z",
-  "median_price": 56.595,
-  "total_items": 480,
+  "updated_at": "2026-10-09T21:25:59Z",
+  "median_price": 56.99,
+  "total_items": 479,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -149,19 +149,6 @@
           ]
         },
         {
-          "id": "v1|307196956691|0",
-          "title": "SDCC Jurassic World Hammond Collection 25th Comic-Style Velociraptor In Hand",
-          "price": 40.5,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/307196956691?_skw=Mattel+Hammond+Collection+dinosaur&hash=item47865d9013:g:uoMAAeSwstBqY7Pt",
-          "image": "https://i.ebayimg.com/images/g/uoMAAeSwstBqY7Pt/s-l225.jpg",
-          "condition": "New",
-          "seller": "mum2sweeties",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
           "id": "v1|178568257691|0",
           "title": "SDCC 2026 Mattel Jurassic World Hammond Collection 25th Comic-Style Velociraptor",
           "price": 44.99,
@@ -170,20 +157,6 @@
           "image": "https://i.ebayimg.com/images/g/8OsAAeSwVRNqx~DZ/s-l225.jpg",
           "condition": "New",
           "seller": "pin3368",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|278429452159|0",
-          "title": "SDCC Jurassic World Hammond Collection 25th Comic-Style Velociraptor",
-          "price": 45.22,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/278429452159?_skw=Jurassic+World+Hammond+Collection&hash=item40d3b0477f:g:TLEAAeSwiBtqYeq8",
-          "image": "https://i.ebayimg.com/images/g/TLEAAeSwiBtqYeq8/s-l225.jpg",
-          "condition": "New",
-          "seller": "cheeserolls1905",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -6764,6 +6737,20 @@
           "image": "https://i.ebayimg.com/images/g/us0AAeSwf-1qxXAr/s-l225.jpg",
           "condition": "Used",
           "seller": "hollow011",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|327396751705|0",
+          "title": "Hammond Collection Dinosaur Figure Lot",
+          "price": 499.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/327396751705?_skw=Mattel+Hammond+Collection+dinosaur&hash=item4c3a5df959:g:3woAAeSwB9ZqyVRK",
+          "image": "https://i.ebayimg.com/images/g/3woAAeSwB9ZqyVRK/s-l225.jpg",
+          "condition": "Used",
+          "seller": "hitstun421",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
