@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-09T02:25:19Z",
+  "updated_at": "2026-10-09T02:45:30Z",
   "median_price": 55.0,
-  "total_items": 483,
+  "total_items": 484,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -1169,20 +1169,6 @@
           "image": "https://i.ebayimg.com/images/g/kwUAAeSwkVVquaeI/s-l225.jpg",
           "condition": "Used",
           "seller": "frankiescollectibles_89",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|407277323102|0",
-          "title": "Jurassic Park Hammond Collection Tyrannosaurus Rex T-Rex Action Figure",
-          "price": 260.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/407277323102?_skw=Hammond+Collection+Jurassic+Park&hash=item5ed39ec35e:g:zJoAAeSwS2xqr0Tq",
-          "image": "https://i.ebayimg.com/images/g/zJoAAeSwS2xqr0Tq/s-l225.jpg",
-          "condition": "New",
-          "seller": "cortez_collectibles",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -3244,6 +3230,19 @@
           ]
         },
         {
+          "id": "v1|257732466822|0",
+          "title": "Jurassic World Brachiosaurus Hammond Collection Action Figure, 30th Anniversary",
+          "price": 449.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/257732466822?_skw=Jurassic+World+Brachiosaurus+Mattel&hash=item3c020d5886:g:seQAAeSwksBqnuiI",
+          "image": "https://i.ebayimg.com/images/g/seQAAeSwksBqnuiI/s-l225.jpg",
+          "condition": "New",
+          "seller": "goodbyeretail",
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ]
+        },
+        {
           "id": "v1|257763294107|0",
           "title": "2022 Mattel Jurassic Park Hammond Collection Brachiosaurus - New",
           "price": 450.0,
@@ -4095,6 +4094,20 @@
           "image": "https://i.ebayimg.com/images/g/-hcAAeSwX8podH5g/s-l225.jpg",
           "condition": "New",
           "seller": "sweettoys4u",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|366721609339|0",
+          "title": "Mattel Hammond Collection Stegosaurus Lost World Jurassic Park ",
+          "price": 40.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/366721609339?_skw=Hammond+Collection+Jurassic+Park&hash=item55624fae7b:g:ZUIAAeSwNndqyEz0",
+          "image": "https://i.ebayimg.com/images/g/ZUIAAeSwNndqyEz0/s-l225.jpg",
+          "condition": "New",
+          "seller": "g-j0118",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
