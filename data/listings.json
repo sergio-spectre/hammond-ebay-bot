@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-10T15:52:16Z",
+  "updated_at": "2026-10-10T16:12:28Z",
   "median_price": 56.53,
-  "total_items": 476,
+  "total_items": 477,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -3221,7 +3221,7 @@
           "title": "Mattel Jurassic World Hammond Collection Brachiosaurus Sealed Box Dinosaur 27\"",
           "price": 450.0,
           "currency": "USD",
-          "url": "https://www.ebay.com/itm/198470499535?_skw=Jurassic+World+Brachiosaurus+Mattel&hash=item2e35c37ccf:g:fvQAAeSwve5px-38",
+          "url": "https://www.ebay.com/itm/198470499535?_skw=Jurassic+World+Hammond+Brachiosaurus&hash=item2e35c37ccf:g:fvQAAeSwve5px-38",
           "image": "https://i.ebayimg.com/images/g/fvQAAeSwve5px-38/s-l225.jpg",
           "condition": "New",
           "seller": "merjcho",
@@ -3434,20 +3434,6 @@
           ]
         },
         {
-          "id": "v1|820218310943|0",
-          "title": "Hammond Collection Therizinosaurus",
-          "price": 65.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/820218310943?_skw=Mattel+Hammond+Collection+dinosaur&hash=itembef8d2311f:g:oX4AAeSw4IFqyADC",
-          "image": "https://i.ebayimg.com/images/g/oX4AAeSw4IFqyADC/s-l225.jpg",
-          "condition": "Used",
-          "seller": "brakat7242",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
           "id": "v1|960033961196|0",
           "title": "Hammond Collection Therizinosaurus  Jurassic World Dominion Dinosaur 10”",
           "price": 109.99,
@@ -3456,6 +3442,20 @@
           "image": "https://i.ebayimg.com/images/g/WY4AAeSwGNRqxv2h/s-l225.jpg",
           "condition": "Used",
           "seller": "sotos-sells",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|189041644526|0",
+          "title": "Jurassic World Hammond Collection Therizinosaurus Figure",
+          "price": 195.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/189041644526?_skw=Hammond+Collection+Jurassic+Park&hash=item2c03c293ee:g:vPQAAeSwevlqwnMz",
+          "image": "https://i.ebayimg.com/images/g/vPQAAeSwevlqwnMz/s-l225.jpg",
+          "condition": "Used",
+          "seller": "pic991924",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -6592,6 +6592,20 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "AUCTION"
+          ]
+        },
+        {
+          "id": "v1|880004438413|0",
+          "title": "Hammond Collection Dilophosaurus, Stygimoloch, Velociraptor Lot!",
+          "price": 95.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/880004438413?_skw=Mattel+Hammond+Collection+dinosaur&hash=itemcce45a198d:g:EJ0AAeSw5Vdqyl6t",
+          "image": "https://i.ebayimg.com/images/g/EJ0AAeSw5Vdqyl6t/s-l225.jpg",
+          "condition": "New",
+          "seller": "bldumas84",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
           ]
         },
         {
