@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T21:12:55Z",
+  "updated_at": "2026-10-10T21:34:21Z",
   "median_price": 55.0,
   "total_items": 475,
   "categories": [
@@ -1710,6 +1710,20 @@
           "image": "https://i.ebayimg.com/images/g/VasAAeSwGNdqwvtK/s-l225.jpg",
           "condition": "New",
           "seller": "cojak-collectables",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|880005132002|0",
+          "title": "VELOCIRAPTOR JURASSIC PARK WORLD HAMMOND COLLECTION 2026 SDCC MATTEL - SEALED ✅",
+          "price": 55.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/880005132002?_skw=Mattel+Hammond+Collection+dinosaur&hash=itemcce464aee2:g:u7IAAeSwajxqyq2G",
+          "image": "https://i.ebayimg.com/images/g/u7IAAeSwajxqyq2G/s-l225.jpg",
+          "condition": "New",
+          "seller": "bldumas84",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -4170,7 +4184,7 @@
           "title": "Jurassic World Hammond Collection Spinosaurus Jurassic Park III",
           "price": 150.0,
           "currency": "USD",
-          "url": "https://www.ebay.com/itm/377542331823?_skw=Hammond+Collection+Jurassic+Park&hash=item57e746cdaf:g:AXAAAeSw7tFqwb-n",
+          "url": "https://www.ebay.com/itm/377542331823?_skw=Jurassic+World+Hammond+Collection&hash=item57e746cdaf:g:AXAAAeSw7tFqwb-n",
           "image": "https://i.ebayimg.com/images/g/AXAAAeSw7tFqwb-n/s-l225.jpg",
           "condition": "New",
           "seller": "inquisitiveturquoise",
@@ -6509,20 +6523,6 @@
           "image": "https://i.ebayimg.com/images/g/gGEAAeSw32NqsZN~/s-l225.jpg",
           "condition": "New",
           "seller": "jediknight2598",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "AUCTION"
-          ]
-        },
-        {
-          "id": "v1|168770607552|0",
-          "title": "Mattel Hammond Collection Jurassic World Dimetrodon Action Figure Boxed",
-          "price": 60.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/168770607552?_skw=Jurassic+World+Hammond+Collection&hash=item274b8319c0:g:0W4AAeSw78VqxbS8",
-          "image": "https://i.ebayimg.com/images/g/0W4AAeSw78VqxbS8/s-l225.jpg",
-          "condition": "New",
-          "seller": "coltsbrent",
           "buyingOptions": [
             "FIXED_PRICE",
             "AUCTION"
