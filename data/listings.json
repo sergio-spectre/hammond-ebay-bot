@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T16:12:28Z",
+  "updated_at": "2026-10-10T16:35:16Z",
   "median_price": 56.53,
   "total_items": 477,
   "categories": [
@@ -132,6 +132,19 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|377559902632|0",
+          "title": "Jurassic World Hammond Collection 25th Anniversary Comic Velociraptor SDCC 2026",
+          "price": 36.87,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/377559902632?_skw=Mattel+Hammond+Collection+dinosaur&hash=item57e852e9a8:g:S1cAAeSwARRqZjPF",
+          "image": "https://i.ebayimg.com/images/g/S1cAAeSwARRqZjPF/s-l225.jpg",
+          "condition": "New",
+          "seller": "the10thinning",
+          "buyingOptions": [
+            "FIXED_PRICE"
           ]
         },
         {
@@ -6507,20 +6520,6 @@
           "image": "https://i.ebayimg.com/images/g/ykoAAeSwp0JqxbFA/s-l225.jpg",
           "condition": "New",
           "seller": "coltsbrent",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "AUCTION"
-          ]
-        },
-        {
-          "id": "v1|189046705777|0",
-          "title": "Mattel Jurassic World Hammond Collection Dilophosaurus Action Figure",
-          "price": 38.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/189046705777?_skw=Mattel+Hammond+Collection+dinosaur&hash=item2c040fce71:g:3nEAAeSwRMlqvsMe",
-          "image": "https://i.ebayimg.com/images/g/3nEAAeSwRMlqvsMe/s-l225.jpg",
-          "condition": "New",
-          "seller": "jfringer",
           "buyingOptions": [
             "FIXED_PRICE",
             "AUCTION"
