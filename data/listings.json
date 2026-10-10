@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T06:25:57Z",
+  "updated_at": "2026-10-10T06:51:35Z",
   "median_price": 56.99,
   "total_items": 479,
   "categories": [
@@ -1569,20 +1569,6 @@
           "seller": "velocy2300",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|117343627954|0",
-          "title": "Mattel Jurassic World Hammond Collection Indominus Rex True FX Action Figure",
-          "price": 139.66,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/117343627954?_skw=Hammond+Collection+True+FX&hash=item1b5239aab2:g:~6QAAeSwjYdqdCkE",
-          "image": "https://i.ebayimg.com/images/g/~6QAAeSwjYdqdCkE/s-l225.jpg",
-          "condition": "New",
-          "seller": "natasblanc",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
           ]
         }
       ]
@@ -4142,6 +4128,19 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|286757148836|0",
+          "title": "Jurassic World Hammond Collection Stegosaurus Action Figure True FX New",
+          "price": 75.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/286757148836?_skw=Hammond+Collection+True+FX&hash=item42c40ed8a4:g:aJcAAeSwboVol6rt",
+          "image": "https://i.ebayimg.com/images/g/aJcAAeSwboVol6rt/s-l225.jpg",
+          "condition": "New",
+          "seller": "anime.gadgetsemergencyroom",
+          "buyingOptions": [
+            "FIXED_PRICE"
           ]
         },
         {
