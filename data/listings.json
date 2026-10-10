@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-10T01:47:30Z",
-  "median_price": 56.99,
+  "updated_at": "2026-10-10T02:02:00Z",
+  "median_price": 56.95,
   "total_items": 481,
   "categories": [
     {
@@ -1830,20 +1830,6 @@
           "currency": "USD",
           "url": "https://www.ebay.com/itm/198664541526?_skw=Mattel+Hammond+Collection+dinosaur&hash=item2e41545556:g:pdoAAeSwKRxqtWdu",
           "image": "https://i.ebayimg.com/images/g/pdoAAeSwKRxqtWdu/s-l225.jpg",
-          "condition": "New",
-          "seller": "trashurechest",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|198664527299|0",
-          "title": "Mattel Jurassic Park 3 Hammond Collection Male Velociraptor Dinosaur Figure",
-          "price": 49.49,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/198664527299?_skw=Mattel+Hammond+Collection+dinosaur&hash=item2e41541dc3:g:jwMAAeSwlQNqtWZE",
-          "image": "https://i.ebayimg.com/images/g/jwMAAeSwlQNqtWZE/s-l225.jpg",
           "condition": "New",
           "seller": "trashurechest",
           "buyingOptions": [
@@ -4606,6 +4592,20 @@
           "seller": "jmatts23",
           "buyingOptions": [
             "FIXED_PRICE"
+          ]
+        },
+        {
+          "id": "v1|327397080413|0",
+          "title": "Mattel Collectible - Jurassic World Hammond Collection Sinoceratops Brand New",
+          "price": 28.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/327397080413?_skw=Mattel+Hammond+Collection+dinosaur&hash=item4c3a62fd5d:g:LnYAAeSw-h9qfPMy",
+          "image": "https://i.ebayimg.com/images/g/LnYAAeSw-h9qfPMy/s-l225.jpg",
+          "condition": "New",
+          "seller": "strattoncardz",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
           ]
         },
         {
