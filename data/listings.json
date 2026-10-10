@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-10T17:33:14Z",
-  "median_price": 55.555,
+  "updated_at": "2026-10-10T17:51:01Z",
+  "median_price": 55.0,
   "total_items": 475,
   "categories": [
     {
@@ -2844,20 +2844,6 @@
       "name": "Ankylosaurus",
       "items": [
         {
-          "id": "v1|820224775729|0",
-          "title": "Mattel Jurassic Park Hammond Collection 30th Anniv Ankylosaurus Action Figure",
-          "price": 95.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/820224775729?_skw=Hammond+Collection+Jurassic+Park&hash=itembef934d631:g:QCUAAeSwfwBqynQT",
-          "image": "https://i.ebayimg.com/images/g/QCUAAeSwfwBqynQT/s-l225.jpg",
-          "condition": "New",
-          "seller": "sparrowsthrift",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
           "id": "v1|377555485719|0",
           "title": "Mattel 2022 Jurassic Park III Hammond Collection Ankylosaurus Figure HLT25",
           "price": 199.99,
@@ -2895,6 +2881,20 @@
           "seller": "liondeals-usa",
           "buyingOptions": [
             "FIXED_PRICE"
+          ]
+        },
+        {
+          "id": "v1|237095912034|0",
+          "title": "Mattel Hammond Collection Ankylosaurus Dinosaur Figure 25cm Toy Jurassic Park",
+          "price": 375.34,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/237095912034?_skw=Mattel+Hammond+Collection+dinosaur&hash=item3734048262:g:w0cAAeSwqcpquvhj",
+          "image": "https://i.ebayimg.com/images/g/w0cAAeSwqcpquvhj/s-l225.jpg",
+          "condition": "Used",
+          "seller": "sports_from_japan",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
           ]
         }
       ]
@@ -4181,7 +4181,7 @@
           "title": "Jurassic World Hammond Collection Spinosaurus Jurassic Park III",
           "price": 150.0,
           "currency": "USD",
-          "url": "https://www.ebay.com/itm/377542331823?_skw=Jurassic+World+Hammond+Collection&hash=item57e746cdaf:g:AXAAAeSw7tFqwb-n",
+          "url": "https://www.ebay.com/itm/377542331823?_skw=Hammond+Collection+Jurassic+Park&hash=item57e746cdaf:g:AXAAAeSw7tFqwb-n",
           "image": "https://i.ebayimg.com/images/g/AXAAAeSw7tFqwb-n/s-l225.jpg",
           "condition": "New",
           "seller": "inquisitiveturquoise",
