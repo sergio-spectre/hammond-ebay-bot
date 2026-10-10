@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-10T18:57:48Z",
+  "updated_at": "2026-10-10T19:16:55Z",
   "median_price": 55.0,
-  "total_items": 477,
+  "total_items": 478,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -703,6 +703,19 @@
     {
       "name": "Outhouse Chaos Set",
       "items": [
+        {
+          "id": "v1|920027574834|0",
+          "title": "SDCC 2022 Mattel Jurassic Park Hammond Collection Outhouse Chaos Set w/ T-Rex!",
+          "price": 249.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/920027574834?_skw=Hammond+Collection+Jurassic+Park&hash=itemd635eab232:g:-FQAAeSwajxqyowQ",
+          "image": "https://i.ebayimg.com/images/g/-FQAAeSwajxqyowQ/s-l225.jpg",
+          "condition": "New",
+          "seller": "celestialdrift-popup",
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ]
+        },
         {
           "id": "v1|257786151121|0",
           "title": "SDCC 2022 Mattel Jurassic Park Hammond Collection Outhouse Chaos Set w/ T-Rex",
@@ -4183,7 +4196,7 @@
           "title": "Jurassic World Hammond Collection Spinosaurus Jurassic Park III",
           "price": 150.0,
           "currency": "USD",
-          "url": "https://www.ebay.com/itm/377542331823?_skw=Hammond+Collection+Jurassic+Park&hash=item57e746cdaf:g:AXAAAeSw7tFqwb-n",
+          "url": "https://www.ebay.com/itm/377542331823?_skw=Jurassic+World+Hammond+Collection&hash=item57e746cdaf:g:AXAAAeSw7tFqwb-n",
           "image": "https://i.ebayimg.com/images/g/AXAAAeSw7tFqwb-n/s-l225.jpg",
           "condition": "New",
           "seller": "inquisitiveturquoise",
