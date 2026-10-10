@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-10T16:35:16Z",
-  "median_price": 56.53,
-  "total_items": 477,
+  "updated_at": "2026-10-10T16:53:29Z",
+  "median_price": 56.11,
+  "total_items": 476,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -473,20 +473,6 @@
           "seller": "king_crossing",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|198664558408|0",
-          "title": "Jurassic World Park Hammond Collection Velociraptor Delta",
-          "price": 59.99,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/198664558408?_skw=Mattel+Hammond+Collection+dinosaur&hash=item2e41549748:g:zIwAAeSws~pqtWo7",
-          "image": "https://i.ebayimg.com/images/g/zIwAAeSws~pqtWo7/s-l225.jpg",
-          "condition": "New",
-          "seller": "trashurechest",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
           ]
         }
       ]
@@ -1256,19 +1242,6 @@
           "image": "https://i.ebayimg.com/images/g/ALUAAeSw5s1qxmJz/s-l225.jpg",
           "condition": "New",
           "seller": "wilflo-6",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|820197351141|0",
-          "title": "Jurassic Park World 2023 Hammond Collection Indominus Rex Figure NEAR-MINT",
-          "price": 65.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/820197351141?_skw=Jurassic+World+Hammond+Collection&hash=itembef7925ee5:g:Rn8AAeSwLwxqwCOL",
-          "image": "https://i.ebayimg.com/images/g/Rn8AAeSwLwxqwCOL/s-l225.jpg",
-          "condition": "Used",
-          "seller": "comicstoonsntoys",
           "buyingOptions": [
             "FIXED_PRICE"
           ]
@@ -6588,6 +6561,20 @@
           "image": "https://i.ebayimg.com/images/g/0W4AAeSw78VqxbS8/s-l225.jpg",
           "condition": "New",
           "seller": "coltsbrent",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "AUCTION"
+          ]
+        },
+        {
+          "id": "v1|800779854260|0",
+          "title": "Jurassic Park World Hammond Collection Baryonyx no box",
+          "price": 85.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/800779854260?_skw=Mattel+Hammond+Collection+dinosaur&hash=itemba7232e1b4:g:iIcAAeSw0u1qymnC",
+          "image": "https://i.ebayimg.com/images/g/iIcAAeSw0u1qymnC/s-l225.jpg",
+          "condition": "Used",
+          "seller": "smatt11ma_0",
           "buyingOptions": [
             "FIXED_PRICE",
             "AUCTION"
