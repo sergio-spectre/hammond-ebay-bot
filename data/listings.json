@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T17:51:01Z",
+  "updated_at": "2026-10-10T18:15:07Z",
   "median_price": 55.0,
   "total_items": 475,
   "categories": [
@@ -454,19 +454,6 @@
       "name": "Dolores (Aquilops)",
       "items": [
         {
-          "id": "v1|920014678037|0",
-          "title": "Jurassic World / Hammond Collection / Aquilops 'Dolores' / Mattel / Ships Now",
-          "price": 84.99,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/920014678037?_skw=Jurassic+World+Hammond+Collection&hash=itemd63525e815:g:UNcAAeSwU9tqxTPm",
-          "image": "https://i.ebayimg.com/images/g/UNcAAeSwU9tqxTPm/s-l225.jpg",
-          "condition": "New",
-          "seller": "zklc-collectibles",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
           "id": "v1|178564215359|0",
           "title": "Mattel Jurassic World Hammond Collection Aquilops Dolores JKG90 IN HAND",
           "price": 94.99,
@@ -727,20 +714,6 @@
           "seller": "skyline0209_8",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|237088770190|0",
-          "title": "SDCC Jurassic World Park Hammond Collection Outhouse Chaos T-Rex Tyrannosaurus",
-          "price": 449.99,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/237088770190?_skw=Mattel+Hammond+Collection+dinosaur&hash=item373397888e:g:HlIAAeSw~mRqtXGX",
-          "image": "https://i.ebayimg.com/images/g/HlIAAeSw~mRqtXGX/s-l225.jpg",
-          "condition": "New",
-          "seller": "the_imperial_castle",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
           ]
         }
       ]
@@ -3401,6 +3374,20 @@
           "image": "https://i.ebayimg.com/images/g/WY4AAeSwGNRqxv2h/s-l225.jpg",
           "condition": "Used",
           "seller": "sotos-sells",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|366723102424|0",
+          "title": "Hammond Collection Therizinosaurus",
+          "price": 179.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/366723102424?_skw=Hammond+Collection+Jurassic+Park&hash=item55626676d8:g:ea4AAeSwN9NqySTO",
+          "image": "https://i.ebayimg.com/images/g/ea4AAeSwN9NqySTO/s-l225.jpg",
+          "condition": "New",
+          "seller": "llmitc_73",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -6575,6 +6562,20 @@
           "image": "https://i.ebayimg.com/images/g/EJ0AAeSw5Vdqyl6t/s-l225.jpg",
           "condition": "New",
           "seller": "bldumas84",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|920027470774|0",
+          "title": "Mattel Jurassic World Hammond Collection Hypsilophodon Action Figure Lot of 2",
+          "price": 99.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/920027470774?_skw=Mattel+Hammond+Collection+dinosaur&hash=itemd635e91bb6:g:4MsAAeSwBx5qyn95",
+          "image": "https://i.ebayimg.com/images/g/4MsAAeSwBx5qyn95/s-l225.jpg",
+          "condition": "New",
+          "seller": "jakpredd-0",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
