@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-10T19:34:36Z",
+  "updated_at": "2026-10-10T19:51:02Z",
   "median_price": 55.0,
-  "total_items": 477,
+  "total_items": 476,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -3314,19 +3314,6 @@
             "FIXED_PRICE",
             "BEST_OFFER"
           ]
-        },
-        {
-          "id": "v1|227555986127|0",
-          "title": "Jurassic World Hammond Collection Carnotaurus Mattel Jurassic World",
-          "price": 149.99,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/227555986127?_skw=Mattel+Hammond+Collection+dinosaur&hash=item34fb64cacf:g:m~AAAeSwMgZqxYSg",
-          "image": "https://i.ebayimg.com/images/g/m~AAAeSwMgZqxYSg/s-l225.jpg",
-          "condition": "Used",
-          "seller": "king_crossing",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
         }
       ]
     },
@@ -4092,19 +4079,6 @@
           ]
         },
         {
-          "id": "v1|286757148836|0",
-          "title": "Jurassic World Hammond Collection Stegosaurus Action Figure True FX New",
-          "price": 75.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/286757148836?_skw=Hammond+Collection+True+FX&hash=item42c40ed8a4:g:aJcAAeSwboVol6rt",
-          "image": "https://i.ebayimg.com/images/g/aJcAAeSwboVol6rt/s-l225.jpg",
-          "condition": "New",
-          "seller": "anime.gadgetsemergencyroom",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
           "id": "v1|117449109207|0",
           "title": "Jurassic World Hammond Collection Stegosaurus Dinosaur Action Figure Mattel 2025",
           "price": 77.16,
@@ -4200,6 +4174,20 @@
           "image": "https://i.ebayimg.com/images/g/X64AAeSweVZqvny6/s-l225.jpg",
           "condition": "New",
           "seller": "mtcrs13-5",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|800780306318|0",
+          "title": "Hammond Collection-Spinosaurus Dinosaur-Jurassic World Park 3-Mattel True FX-NEW",
+          "price": 164.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/800780306318?_skw=Hammond+Collection+True+FX&hash=itemba7239c78e:g:at8AAeSwwshqypSE",
+          "image": "https://i.ebayimg.com/images/g/at8AAeSwwshqypSE/s-l225.jpg",
+          "condition": "New",
+          "seller": "thingstosells",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
