@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-10T04:01:51Z",
+  "updated_at": "2026-10-10T04:26:01Z",
   "median_price": 56.99,
-  "total_items": 480,
+  "total_items": 479,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -460,20 +460,6 @@
           "seller": "king_crossing",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|198664558408|0",
-          "title": "Jurassic World Park Hammond Collection Velociraptor Delta",
-          "price": 59.99,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/198664558408?_skw=Mattel+Hammond+Collection+dinosaur&hash=item2e41549748:g:zIwAAeSws~pqtWo7",
-          "image": "https://i.ebayimg.com/images/g/zIwAAeSws~pqtWo7/s-l225.jpg",
-          "condition": "New",
-          "seller": "trashurechest",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
           ]
         }
       ]
@@ -1462,6 +1448,19 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|377558563789|0",
+          "title": "Jurassic World Hammond Collection Indominus Rex Dinosaur Mattel JKG98 NEW SEALED",
+          "price": 99.95,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/377558563789?_skw=Mattel+Hammond+Collection+dinosaur&hash=item57e83e7bcd:g:e4gAAeSw1Fdqybis",
+          "image": "https://i.ebayimg.com/images/g/e4gAAeSw1Fdqybis/s-l225.jpg",
+          "condition": "New",
+          "seller": "with-love-from-iowa",
+          "buyingOptions": [
+            "FIXED_PRICE"
           ]
         },
         {
@@ -5426,19 +5425,6 @@
           "currency": "USD",
           "url": "https://www.ebay.com/itm/168762089261?_skw=Jurassic+World+Hammond+Collection&hash=item274b011f2d:g:nHYAAeSw8tlqwxAU",
           "image": "https://i.ebayimg.com/images/g/nHYAAeSw8tlqwxAU/s-l225.jpg",
-          "condition": "New",
-          "seller": "primefindsco2",
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|168757445376|0",
-          "title": "Jurassic World Hammond Collection Omitholestes Figure",
-          "price": 28.45,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/168757445376?_skw=Jurassic+World+Hammond+Collection&hash=item274aba4300:g:WNMAAeSwWyBqwGZg",
-          "image": "https://i.ebayimg.com/images/g/WNMAAeSwWyBqwGZg/s-l225.jpg",
           "condition": "New",
           "seller": "primefindsco2",
           "buyingOptions": [
