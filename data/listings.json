@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T11:12:33Z",
+  "updated_at": "2026-10-10T11:34:18Z",
   "median_price": 56.99,
   "total_items": 477,
   "categories": [
@@ -1243,6 +1243,19 @@
           "image": "https://i.ebayimg.com/images/g/ALUAAeSw5s1qxmJz/s-l225.jpg",
           "condition": "New",
           "seller": "wilflo-6",
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ]
+        },
+        {
+          "id": "v1|820197351141|0",
+          "title": "Jurassic Park World 2023 Hammond Collection Indominus Rex Figure NEAR-MINT",
+          "price": 65.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/820197351141?_skw=Jurassic+World+Hammond+Collection&hash=itembef7925ee5:g:Rn8AAeSwLwxqwCOL",
+          "image": "https://i.ebayimg.com/images/g/Rn8AAeSwLwxqwCOL/s-l225.jpg",
+          "condition": "Used",
+          "seller": "comicstoonsntoys",
           "buyingOptions": [
             "FIXED_PRICE"
           ]
@@ -4202,19 +4215,6 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|820221408208|0",
-          "title": "Hammond Collection Spinosaurus Mattel Jurassic World Near MINT!",
-          "price": 140.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/820221408208?_skw=Jurassic+World+Hammond+Collection&hash=itembef90173d0:g:qF4AAeSwi2pqyTwn",
-          "image": "https://i.ebayimg.com/images/g/qF4AAeSwi2pqyTwn/s-l225.jpg",
-          "condition": "Used",
-          "seller": "chamb0311",
-          "buyingOptions": [
-            "FIXED_PRICE"
           ]
         },
         {
