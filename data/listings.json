@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T11:34:18Z",
+  "updated_at": "2026-10-10T11:52:43Z",
   "median_price": 56.99,
   "total_items": 477,
   "categories": [
@@ -195,6 +195,20 @@
       "name": "Jimmy Buffett ‘Bubbles Up’ (SDCC)",
       "items": [
         {
+          "id": "v1|227550961480|0",
+          "title": "Mattel Creations Jurassic World JIMMY BUFFET Bubbles Up Hammond Collection SDCC",
+          "price": 69.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/227550961480?_skw=Jurassic+World+Hammond+Collection&hash=item34fb181f48:g:XJYAAeSwWsdqwZ~D",
+          "image": "https://i.ebayimg.com/images/g/XJYAAeSwWsdqwZ~D/s-l225.jpg",
+          "condition": "New",
+          "seller": "onerealdude",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
           "id": "v1|117448997564|0",
           "title": "Mattel Creations Jurassic World JIMMY BUFFET Bubbles Up Hammond Collection SDCC",
           "price": 75.0,
@@ -218,20 +232,6 @@
           "seller": "filly1959",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
-        },
-        {
-          "id": "v1|227550961480|0",
-          "title": "Mattel Creations Jurassic World JIMMY BUFFET Bubbles Up Hammond Collection SDCC",
-          "price": 87.5,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/227550961480?_skw=Jurassic+World+Hammond+Collection&hash=item34fb181f48:g:XJYAAeSwWsdqwZ~D",
-          "image": "https://i.ebayimg.com/images/g/XJYAAeSwWsdqwZ~D/s-l225.jpg",
-          "condition": "New",
-          "seller": "onerealdude",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
           ]
         }
       ]
