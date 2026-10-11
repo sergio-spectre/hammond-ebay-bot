@@ -163,6 +163,16 @@ a.card.deal{border-color:var(--good)}
   font-size:.64rem;text-transform:uppercase;letter-spacing:.04em;color:#c7a86b;
   border:1px solid currentColor;border-radius:4px;padding:1px 5px;
 }
+.target-badge{
+  font-size:.64rem;text-transform:uppercase;letter-spacing:.04em;color:var(--good);
+  border:1px solid currentColor;border-radius:4px;padding:1px 5px;
+}
+.target-badge.near{color:var(--accent)}
+.offer-badge{
+  font-size:.64rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);
+  border:1px solid currentColor;border-radius:4px;padding:1px 5px;
+}
+a.card.target{border-color:var(--good)}
 .cat-pill{
   font-size:.64rem;color:var(--muted);border:1px solid var(--line);border-radius:999px;
   padding:1px 8px;align-self:flex-start;
@@ -179,6 +189,30 @@ a.card.deal{border-color:var(--good)}
 
 .highlights-section{margin-bottom:30px}
 .highlights-section .main-head h2::before{content:"\1F525  ";}
+.target-hits-section{margin-bottom:30px}
+
+/* ---- alvo de preco por categoria ---- */
+.target-control{
+  display:flex;align-items:center;gap:8px;margin-top:10px;font-size:.78rem;color:var(--muted);
+  flex-wrap:wrap;
+}
+.target-control input{
+  width:110px;background:var(--surface-2);border:1px solid var(--line);color:var(--ink);
+  border-radius:6px;padding:5px 8px;font-size:.78rem;
+}
+.target-control button{
+  border:1px solid var(--line);background:var(--surface-2);color:var(--ink);border-radius:6px;
+  padding:5px 10px;font-size:.76rem;cursor:pointer;
+}
+.target-control button:hover{border-color:var(--accent)}
+.target-control .hit{color:var(--good)}
+.targets-overview{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.target-chip{
+  display:inline-flex;align-items:center;gap:4px;font-size:.72rem;color:var(--ink);
+  background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:3px 10px 3px 10px;
+}
+.target-chip-x{border:none;background:none;color:var(--muted);cursor:pointer;font-size:.85rem;line-height:1;padding:0}
+.target-chip-x:hover{color:var(--bad)}
 
 footer{color:var(--muted);font-size:.72rem;padding-block:18px 10px}
 footer a{color:var(--accent)}
@@ -382,6 +416,8 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
   var COLL_KEY = "hammond_minha_colecao_v1";
   var FX_KEY = "hammond_fx_usd_brl_v1";
   var ACTIVE_TAB_KEY = "hammond_active_tab_v1";
+  var TARGETS_KEY = "hammond_price_targets_v1";
+  var TARGET_NEAR_RATIO = 1.15; // ate 15% acima do alvo conta como "perto"
 
   var savedTab = null;
   try{ savedTab = localStorage.getItem(ACTIVE_TAB_KEY); }catch(e){}
@@ -390,7 +426,18 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
   var lancerState = { items: [], updatedAt: null };
   var collection = loadCollection();
   var fx = loadFx();
+  var targets = loadTargets();
   var editingId = null;
+
+  function loadTargets(){
+    try{
+      var raw = localStorage.getItem(TARGETS_KEY);
+      return raw ? JSON.parse(raw) : {};
+    }catch(e){ return {}; }
+  }
+  function saveTargets(){
+    try{ localStorage.setItem(TARGETS_KEY, JSON.stringify(targets)); }catch(e){}
+  }
 
   var tabsEl = document.getElementById("tabs");
   var mainEl = document.getElementById("main");
@@ -517,20 +564,25 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
       ? '<img src="' + item.image.replace(/"/g,"&quot;") + '" alt="" loading="lazy">'
       : '<span class="ph">🦴</span>';
     var isAuction = (item.buyingOptions || []).indexOf("AUCTION") !== -1;
+    var isOffer = (item.buyingOptions || []).indexOf("BEST_OFFER") !== -1;
     var isDeal = opts.deal === true;
     var isRare = opts.rare === true;
+    var isTargetHit = opts.targetHit === true;
+    var isTargetNear = !isTargetHit && opts.targetNear === true;
     var title = (item.title || "").replace(/</g,"&lt;");
     var seller = item.seller ? item.seller.replace(/</g,"&lt;") : "vendedor desconhecido";
     var cond = item.condition ? item.condition.replace(/</g,"&lt;") : "";
     var catPill = item.__cat ? '<span class="cat-pill">' + item.__cat + '</span>' : "";
     return (
-      '<a class="card' + (isDeal ? ' deal' : '') + '" href="' + (item.url||"#") + '" target="_blank" rel="noopener">' +
+      '<a class="card' + (isDeal ? ' deal' : '') + (isTargetHit ? ' target' : '') + '" href="' + (item.url||"#") + '" target="_blank" rel="noopener">' +
         '<div class="thumb">' + img + '</div>' +
         '<div class="card-body">' +
           catPill +
           '<div class="price-row"><span class="price">' + fmtPrice(item.price, item.currency) + '</span>' +
+            (isTargetHit ? '<span class="target-badge">🎯 Dentro do alvo</span>' : (isTargetNear ? '<span class="target-badge near">🎯 Perto do alvo</span>' : '')) +
             (isDeal ? '<span class="deal-badge">Bom preco</span>' : '') +
             (isRare ? '<span class="rare-badge">Raro</span>' : '') +
+            (isOffer ? '<span class="offer-badge">Aceita oferta</span>' : '') +
             (isAuction ? '<span class="badge">Leilao</span>' : '') +
           '</div>' +
           '<div class="ctitle">' + title + '</div>' +
@@ -583,28 +635,100 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
       });
   }
 
+  function targetsOverviewHtml(){
+    var names = Object.keys(targets);
+    if (!names.length) return "";
+    var chips = names.map(function(n){
+      var safe = n.replace(/"/g,"&quot;");
+      return '<span class="target-chip">' + n.replace(/</g,"&lt;") + ": " + fmtUSD(targets[n]) +
+        ' <button type="button" class="target-chip-x" data-cat="' + safe + '" title="Remover alvo">×</button></span>';
+    }).join("");
+    return '<div class="targets-overview">' + chips + '</div>';
+  }
+
   function renderHighlights(){
     var items = allSingleItems();
     if (!items.length){
       mainEl.innerHTML = '<div class="empty"><strong>Nenhum anuncio ainda</strong>Assim que o robo encontrar anuncios, os melhores achados aparecem aqui.</div>';
       return;
     }
-    var scored = computeHighlightScores(items);
+
+    // ---- secao de alvos: anuncios que bateram o preco que voce definiu
+    // (definido na propria pagina de cada categoria). So aparece se houver
+    // pelo menos um alvo configurado.
+    var targetNames = Object.keys(targets);
+    var targetSection = "";
+    if (targetNames.length){
+      var targetHits = items.filter(function(it){
+        var t = targets[it.__cat];
+        return t != null && it.price != null && it.price <= t;
+      });
+      targetHits.sort(function(a,b){
+        return (a.price / targets[a.__cat]) - (b.price / targets[b.__cat]);
+      });
+      var hitCards = targetHits.map(function(it){
+        return cardHtml(it, { targetHit: true });
+      }).join("");
+      targetSection =
+        '<div class="target-hits-section">' +
+          '<div class="main-head"><h2>🎯 Dentro do seu alvo</h2><div class="sub">' +
+            'Anuncios ja no preco (ou abaixo) que voce definiu pra cada categoria.' +
+            targetsOverviewHtml() +
+          '</div></div>' +
+          (targetHits.length
+            ? '<div class="grid">' + hitCards + '</div>'
+            : '<div class="empty" style="padding:20px"><strong>Nenhum agora</strong>Assim que aparecer um anuncio dentro do alvo, ele cai aqui.</div>') +
+        '</div>';
+    }
+
+    var hitIds = {};
+    if (targetNames.length){
+      items.forEach(function(it){
+        var t = targets[it.__cat];
+        if (t != null && it.price != null && it.price <= t) hitIds[it.id] = true;
+      });
+    }
+
+    var scored = computeHighlightScores(items).filter(function(it){ return !hitIds[it.id]; });
     scored.sort(function(a,b){ return a.__score - b.__score; });
     var top = scored.slice(0, HIGHLIGHTS_COUNT);
     var cards = top.map(function(it){
+      var target = targets[it.__cat];
       return cardHtml(it, {
         deal: it.__ratio <= 1,
         rare: it.__catCount <= 5,
+        targetNear: target != null && it.price != null && it.price <= target * TARGET_NEAR_RATIO,
       });
     }).join("");
     mainEl.innerHTML =
+      targetSection +
       '<div class="highlights-section">' +
         '<div class="main-head"><h2>Melhores achados agora</h2><div class="sub">' +
           'Ranking por preco relativo a mediana de cada categoria + raridade (categorias com poucos anuncios ganham destaque), nao preco bruto.' +
         '</div></div>' +
         '<div class="grid">' + cards + '</div>' +
       '</div>';
+
+    mainEl.querySelectorAll(".target-chip-x").forEach(function(btn){
+      btn.addEventListener("click", function(){
+        delete targets[btn.dataset.cat];
+        saveTargets();
+        renderMain();
+      });
+    });
+  }
+
+  function targetControlHtml(catName){
+    var val = targets[catName] != null ? targets[catName] : "";
+    return (
+      '<div class="target-control">' +
+        '<span>🎯 Meu preco alvo pra essa categoria:</span>' +
+        '<input type="number" step="0.01" min="0" id="targetInput" value="' + val + '" placeholder="US$">' +
+        '<button type="button" id="targetSaveBtn">Salvar</button>' +
+        (targets[catName] != null ? '<button type="button" id="targetClearBtn">Remover</button>' : '') +
+        (targets[catName] != null ? '<span class="hit">alvo: ' + fmtUSD(targets[catName]) + '</span>' : '') +
+      '</div>'
+    );
   }
 
   function renderCategory(){
@@ -613,13 +737,43 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
       mainEl.innerHTML = '<div class="empty"><strong>Nenhum anuncio nesta categoria agora</strong>Volte mais tarde, o robo atualiza a cada 10 minutos.</div>';
       return;
     }
-    var threshold = cat.name === "Lotes e Leilao" ? null : dealThreshold(cat.items);
+    var isLot = cat.name === "Lotes e Leilao";
+    var threshold = isLot ? null : dealThreshold(cat.items);
+    var target = isLot ? null : targets[cat.name];
     var cards = cat.items.map(function(it){
-      return cardHtml(it, { deal: threshold != null && it.price != null && it.price <= threshold });
+      var isHit = target != null && it.price != null && it.price <= target;
+      var isNear = !isHit && target != null && it.price != null && it.price <= target * TARGET_NEAR_RATIO;
+      return cardHtml(it, {
+        deal: threshold != null && it.price != null && it.price <= threshold,
+        targetHit: isHit,
+        targetNear: isNear,
+      });
     }).join("");
     mainEl.innerHTML =
-      '<div class="main-head"><h2>' + cat.name + '</h2><div class="sub">' + cat.items.length + ' anuncio(s), do menor pro maior preco.</div></div>' +
+      '<div class="main-head"><h2>' + cat.name + '</h2><div class="sub">' + cat.items.length + ' anuncio(s), do menor pro maior preco.' +
+      (isLot ? "" : targetControlHtml(cat.name)) +
+      '</div></div>' +
       '<div class="grid">' + cards + '</div>';
+
+    if (!isLot){
+      document.getElementById("targetSaveBtn").addEventListener("click", function(){
+        var raw = document.getElementById("targetInput").value;
+        var v = parseFloat(raw);
+        if (!isNaN(v) && v > 0){
+          targets[cat.name] = v;
+          saveTargets();
+          renderMain();
+        }
+      });
+      var clearBtn = document.getElementById("targetClearBtn");
+      if (clearBtn){
+        clearBtn.addEventListener("click", function(){
+          delete targets[cat.name];
+          saveTargets();
+          renderMain();
+        });
+      }
+    }
   }
 
   // ---- Cambio Lancer: anuncios do Mercado Livre e OLX ---------------------
