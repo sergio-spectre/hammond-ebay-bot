@@ -469,6 +469,24 @@ def main() -> int:
             continue
 
         price = it.get("price", {})
+
+        # frete: o eBay manda isso nos proprios resultados de busca (nao
+        # precisa de outra chamada). Quando o vendedor usa frete calculado
+        # (depende do endereco do comprador), o valor as vezes nao vem --
+        # nesses casos ship_cost fica None e o site mostra "frete a calcular".
+        shipping_options = it.get("shippingOptions") or []
+        ship_cost = None
+        ship_currency = None
+        if shipping_options:
+            ship_info = shipping_options[0].get("shippingCost") or {}
+            raw_val = ship_info.get("value")
+            if raw_val is not None:
+                try:
+                    ship_cost = float(raw_val)
+                    ship_currency = ship_info.get("currency")
+                except (TypeError, ValueError):
+                    ship_cost = None
+
         entry = {
             "id": item_id,
             "title": it.get("title", ""),
@@ -479,6 +497,8 @@ def main() -> int:
             "condition": it.get("condition"),
             "seller": (it.get("seller") or {}).get("username"),
             "buyingOptions": it.get("buyingOptions", []),
+            "shippingCost": ship_cost,
+            "shippingCurrency": ship_currency,
         }
         groups.setdefault(category, []).append(entry)
 
