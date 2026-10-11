@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T02:13:17Z",
+  "updated_at": "2026-10-11T02:36:42Z",
   "median_price": 55.0,
   "total_items": 470,
   "categories": [
@@ -3443,20 +3443,6 @@
           ]
         },
         {
-          "id": "v1|820218254905|0",
-          "title": "Hammond Collection Giganotosaurus Action Figure",
-          "price": 95.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/820218254905?_skw=Mattel+Hammond+Collection+dinosaur&hash=itembef8d15639:g:r3wAAeSwXslqx~pv",
-          "image": "https://i.ebayimg.com/images/g/r3wAAeSwXslqx~pv/s-l225.jpg",
-          "condition": "Used",
-          "seller": "brakat7242",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
           "id": "v1|407264379629|0",
           "title": "Jurassic World Hammond Collection Giganotosaurus Mattel Dinosaur Figure Loose",
           "price": 95.0,
@@ -5874,6 +5860,20 @@
           "image": "https://i.ebayimg.com/images/g/VhsAAeSwQ7dqajWy/s-l225.jpg",
           "condition": "New",
           "seller": "connorgulbranson",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|206618064305|0",
+          "title": "Mattel Jurassic World Hammond Collection Mutadon Action Figure NEW",
+          "price": 30.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/206618064305?_skw=Mattel+Hammond+Collection+dinosaur&hash=item301b6575b1:g:JX8AAeSwAmdqyvTS",
+          "image": "https://i.ebayimg.com/images/g/JX8AAeSwAmdqyvTS/s-l225.jpg",
+          "condition": "New",
+          "seller": "rbb41",
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
