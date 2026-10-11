@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-11T03:56:57Z",
+  "updated_at": "2026-10-11T04:18:27Z",
   "median_price": 55.0,
-  "total_items": 471,
+  "total_items": 472,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -18,7 +18,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|398245266169|0",
@@ -31,7 +33,9 @@
           "seller": "max_bay_sale",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 99.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|407191397565|0",
@@ -44,7 +48,9 @@
           "seller": "j5skicks",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|407268263069|0",
@@ -58,7 +64,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|327322185531|0",
@@ -72,7 +80,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|860008054309|0",
@@ -86,7 +96,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|406964864077|0",
@@ -100,7 +112,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -118,7 +132,9 @@
           "seller": "marcolfmazariego-0",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|147615512061|0",
@@ -132,7 +148,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|377559902632|0",
@@ -145,7 +163,9 @@
           "seller": "the10thinning",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|178568257691|0",
@@ -159,7 +179,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|298715540095|0",
@@ -172,7 +194,9 @@
           "seller": "ljm.enterprises",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|287639611287|0",
@@ -186,7 +210,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|820192631193|0",
@@ -200,7 +226,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 31.42,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|227543440246|0",
@@ -214,7 +242,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -232,7 +262,9 @@
           "seller": "filly1959",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 14.5,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|227550961480|0",
@@ -246,7 +278,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|117448997564|0",
@@ -259,7 +293,9 @@
           "seller": "og19812007",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -277,7 +313,9 @@
           "seller": "mundieunlimited",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|227555999716|0",
@@ -290,7 +328,9 @@
           "seller": "king_crossing",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|206610544865|0",
@@ -303,7 +343,9 @@
           "seller": "metalwolf4714",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|168784266024|0",
@@ -317,7 +359,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|920014971084|0",
@@ -330,7 +374,9 @@
           "seller": "78freestyle",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -348,7 +394,9 @@
           "seller": "king_crossing",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|800754580211|0",
@@ -362,7 +410,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|880001533254|0",
@@ -375,7 +425,9 @@
           "seller": "batman3012",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|278434198730|0",
@@ -388,7 +440,9 @@
           "seller": "*meigara*",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|820218304315|0",
@@ -402,7 +456,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -420,7 +476,9 @@
           "seller": "mundieunlimited",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|206607908093|0",
@@ -434,7 +492,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 6.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|227555993588|0",
@@ -447,7 +507,9 @@
           "seller": "king_crossing",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -466,7 +528,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 15.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|278436639825|0",
@@ -480,7 +544,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|800766263184|0",
@@ -494,7 +560,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|287621862109|0",
@@ -507,7 +575,9 @@
           "seller": "berni_the_star",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|198697459156|0",
@@ -520,7 +590,9 @@
           "seller": "deadstockscoots",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|137827480793|0",
@@ -534,7 +606,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|227551893733|0",
@@ -547,7 +621,9 @@
           "seller": "mainstreetrevive",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|920019072575|0",
@@ -561,7 +637,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|366713854363|0",
@@ -575,7 +653,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -594,7 +674,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|227555998205|0",
@@ -607,7 +689,9 @@
           "seller": "king_crossing",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -625,7 +709,9 @@
           "seller": "farley_singles",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -644,7 +730,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|198676100575|0",
@@ -657,7 +745,9 @@
           "seller": "stoopk1d89",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|237104102254|0",
@@ -670,7 +760,9 @@
           "seller": "swe3t23",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 6.97,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|198694343436|0",
@@ -684,7 +776,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -702,7 +796,9 @@
           "seller": "skyline0209_8",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -720,7 +816,9 @@
           "seller": "emmanuel_topete7",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -739,7 +837,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|257791121501|0",
@@ -753,7 +853,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 29.5,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -772,7 +874,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 7.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|189028638242|0",
@@ -785,7 +889,9 @@
           "seller": "tbaytreasure",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 7.8,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|237109091055|0",
@@ -799,7 +905,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|117456708156|0",
@@ -813,7 +921,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -831,7 +941,9 @@
           "seller": "olispoe41",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 7.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|227552205421|0",
@@ -845,7 +957,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -864,7 +978,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -882,7 +998,9 @@
           "seller": "thegamecrusher",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 7.99,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -900,7 +1018,9 @@
           "seller": "pinheadss",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 6.3,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|237114839319|0",
@@ -914,7 +1034,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|237114839370|0",
@@ -928,7 +1050,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -947,7 +1071,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -965,7 +1091,9 @@
           "seller": "flashbacktoyz",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -984,7 +1112,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -1003,7 +1133,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -1021,7 +1153,9 @@
           "seller": "nineinchtailz",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 9.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|307216456732|0",
@@ -1035,7 +1169,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|227557406463|0",
@@ -1049,7 +1185,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|336835860538|0",
@@ -1063,7 +1201,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|820215702187|0",
@@ -1077,7 +1217,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 133.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|257777863935|0",
@@ -1090,7 +1232,9 @@
           "seller": "scroozellc",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|298724799403|0",
@@ -1104,7 +1248,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|407271349665|0",
@@ -1118,7 +1264,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|366712992194|0",
@@ -1132,7 +1280,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|366700127605|0",
@@ -1146,7 +1296,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -1164,7 +1316,9 @@
           "seller": "wilflo-6",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|137789889235|0",
@@ -1177,7 +1331,9 @@
           "seller": "juice_1212",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|318414147443|0",
@@ -1191,7 +1347,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|800753987756|0",
@@ -1204,7 +1362,9 @@
           "seller": "straw_hat_toys",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 7.95,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|128109342008|0",
@@ -1217,7 +1377,9 @@
           "seller": "collector_of_all",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|860025396376|0",
@@ -1231,7 +1393,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 10.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|257578743319|0",
@@ -1245,7 +1409,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|127982546610|0",
@@ -1259,7 +1425,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|227452820858|0",
@@ -1273,7 +1441,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|117305434713|0",
@@ -1287,7 +1457,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|327376433028|0",
@@ -1301,7 +1473,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|327373122392|0",
@@ -1315,7 +1489,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|178564190674|0",
@@ -1328,7 +1504,9 @@
           "seller": "velociraptorken",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 4.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|377558563789|0",
@@ -1341,7 +1519,9 @@
           "seller": "with-love-from-iowa",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|287563490885|0",
@@ -1354,7 +1534,9 @@
           "seller": "tnfsales11",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|358832741092|0",
@@ -1368,7 +1550,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|147345789112|0",
@@ -1381,7 +1565,9 @@
           "seller": "arksemporium",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 14.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|336830142889|0",
@@ -1394,7 +1580,9 @@
           "seller": "aozoramanten",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 50.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|147397387368|0",
@@ -1408,7 +1596,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|800070585571|0",
@@ -1422,7 +1612,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|206349831203|0",
@@ -1436,7 +1628,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|206310544837|0",
@@ -1449,7 +1643,9 @@
           "seller": "primema_65",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|157970589844|0",
@@ -1462,7 +1658,9 @@
           "seller": "velocy2300",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 10.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -1481,7 +1679,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|820218286139|0",
@@ -1495,7 +1695,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|287621482683|0",
@@ -1508,7 +1710,9 @@
           "seller": "germed-96",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|820218254513|0",
@@ -1522,7 +1726,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|198664522698|0",
@@ -1536,7 +1742,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 6.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|257786319243|0",
@@ -1550,7 +1758,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 9.5,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|168730814552|0",
@@ -1564,7 +1774,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|147624675591|0",
@@ -1578,7 +1790,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|920006102496|0",
@@ -1592,7 +1806,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|820218315170|0",
@@ -1606,7 +1822,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|920024258149|0",
@@ -1619,7 +1837,9 @@
           "seller": "olispoe41",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 7.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|127961230931|0",
@@ -1632,7 +1852,9 @@
           "seller": "lukelbs",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|880005132002|0",
@@ -1646,7 +1868,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|366712774125|0",
@@ -1660,7 +1884,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|820218250039|0",
@@ -1674,7 +1900,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|860009328450|0",
@@ -1688,7 +1916,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 6.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|336834509595|0",
@@ -1701,7 +1931,9 @@
           "seller": "jobatrontoys",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|168784269126|0",
@@ -1715,7 +1947,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -1733,7 +1967,9 @@
           "seller": "t09028_93",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|227549212875|0",
@@ -1746,7 +1982,9 @@
           "seller": "ruu_japan",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|117449114847|0",
@@ -1760,12 +1998,14 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 17.54,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|920028059333|0",
           "title": "Jurassic World / Hammond Collection / Triceratops Juvenile / Mattel / 2024 / New",
-          "price": 49.99,
+          "price": 47.99,
           "currency": "USD",
           "url": "https://www.ebay.com/itm/920028059333?_skw=Jurassic+World+Hammond+Collection&hash=itemd635f216c5:g:-qEAAeSwYu9qysVn",
           "image": "https://i.ebayimg.com/images/g/-qEAAeSwYu9qysVn/s-l225.jpg",
@@ -1773,7 +2013,9 @@
           "seller": "zklc-collectibles",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 6.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|920015780131|0",
@@ -1786,7 +2028,9 @@
           "seller": "78freestyle",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|820218283834|0",
@@ -1800,7 +2044,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|267806100631|0",
@@ -1814,7 +2060,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 9.5,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|920021852188|0",
@@ -1828,7 +2076,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|257787112537|0",
@@ -1841,7 +2091,9 @@
           "seller": "vintage_st00fs",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|117449111235|0",
@@ -1855,7 +2107,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 17.54,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|178561829802|0",
@@ -1868,7 +2122,9 @@
           "seller": "batman3012",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|198688532467|0",
@@ -1882,7 +2138,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|820218497765|0",
@@ -1895,7 +2153,9 @@
           "seller": "toyfederationshop",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -1914,7 +2174,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|158377841611|0",
@@ -1927,7 +2189,9 @@
           "seller": "funkytowntoys",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 5.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|117434874703|0",
@@ -1940,7 +2204,9 @@
           "seller": "chronbeast",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 8.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|198688530424|0",
@@ -1954,7 +2220,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|860012058029|0",
@@ -1968,7 +2236,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|128127494088|0",
@@ -1982,7 +2252,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|257790262923|0",
@@ -1996,7 +2268,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -2015,7 +2289,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|366723687642|0",
@@ -2029,7 +2305,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|336835194855|0",
@@ -2043,7 +2321,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 6.5,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|407257733477|0",
@@ -2056,7 +2336,9 @@
           "seller": "mundieunlimited",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|307214438695|0",
@@ -2069,7 +2351,9 @@
           "seller": "eclectic-treasure-hunt",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 7.65,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|920025348771|0",
@@ -2083,7 +2367,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 10.5,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|117449114010|0",
@@ -2097,7 +2383,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 17.54,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|920025339454|0",
@@ -2111,7 +2399,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 10.5,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|168784258463|0",
@@ -2125,7 +2415,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -2144,7 +2436,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|137794594262|0",
@@ -2158,7 +2452,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|128127498258|0",
@@ -2172,7 +2468,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|860013174363|0",
@@ -2186,7 +2484,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 200.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|860013174325|0",
@@ -2200,7 +2500,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 239.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|227553226425|0",
@@ -2214,7 +2516,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 14.9,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|227553226596|0",
@@ -2228,7 +2532,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 14.9,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -2247,7 +2553,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|128113222750|0",
@@ -2261,7 +2569,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 6.2,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|257593421141|0",
@@ -2274,7 +2584,9 @@
           "seller": "biggdealsanddiscounts",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 5.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|257736175381|0",
@@ -2288,7 +2600,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|206498059977|0",
@@ -2301,7 +2615,9 @@
           "seller": "groundhoggs",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 6.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|336832812729|0",
@@ -2315,7 +2631,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|267689975320|0",
@@ -2328,7 +2646,9 @@
           "seller": "collectorstreasures15",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|800687467816|0",
@@ -2342,7 +2662,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|158122385313|0",
@@ -2356,7 +2678,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 8.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|257574522637|0",
@@ -2369,7 +2693,9 @@
           "seller": "altship",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|327356879278|0",
@@ -2383,7 +2709,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|147385936869|0",
@@ -2397,7 +2725,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|227409301258|0",
@@ -2411,7 +2741,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|820206905706|0",
@@ -2424,7 +2756,9 @@
           "seller": "popcultureexperts2",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|227385306172|0",
@@ -2437,7 +2771,9 @@
           "seller": "gilleysgadgetsandgifts",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|307035551028|0",
@@ -2451,7 +2787,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|318484316048|0",
@@ -2464,7 +2802,9 @@
           "seller": "hm3essential",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|227553450841|0",
@@ -2477,7 +2817,9 @@
           "seller": "brynalo",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|336648306699|0",
@@ -2491,7 +2833,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|206349841116|0",
@@ -2504,7 +2848,9 @@
           "seller": "primema_65",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 5.9,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|168441163743|0",
@@ -2517,7 +2863,9 @@
           "seller": "penyos",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|198439715540|0",
@@ -2531,7 +2879,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 9.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|127929934360|0",
@@ -2544,7 +2894,9 @@
           "seller": "velocipeak",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|236872269711|0",
@@ -2557,7 +2909,9 @@
           "seller": "nocoo38",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|327385054816|0",
@@ -2570,7 +2924,9 @@
           "seller": "balkpatel814",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|287466340143|0",
@@ -2584,7 +2940,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 8.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|318512365000|0",
@@ -2597,7 +2955,9 @@
           "seller": "antda3048",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|406996997959|0",
@@ -2611,7 +2971,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|157959392210|0",
@@ -2624,7 +2986,9 @@
           "seller": "velocy2300",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 6.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|137411760837|0",
@@ -2637,7 +3001,9 @@
           "seller": "tbeach01",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|137423402847|0",
@@ -2650,7 +3016,9 @@
           "seller": "blbricks",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 8.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|188897279796|0",
@@ -2663,7 +3031,9 @@
           "seller": "unkiescollectables",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 29.33,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|117245717246|0",
@@ -2677,7 +3047,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|236870515692|0",
@@ -2690,7 +3062,9 @@
           "seller": "swe3t23",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 8.97,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|920014983489|0",
@@ -2704,7 +3078,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -2723,7 +3099,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|820218497768|0",
@@ -2736,7 +3114,9 @@
           "seller": "toyfederationshop",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|820218497766|0",
@@ -2749,7 +3129,9 @@
           "seller": "toyfederationshop",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -2768,7 +3150,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|128115011069|0",
@@ -2781,7 +3165,9 @@
           "seller": "ejopvtgsales",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|336823061475|0",
@@ -2794,7 +3180,9 @@
           "seller": "totre8459",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -2812,7 +3200,9 @@
           "seller": "garysmusicmadness",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|168761565894|0",
@@ -2826,7 +3216,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 8.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|820218497770|0",
@@ -2839,7 +3231,9 @@
           "seller": "toyfederationshop",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|820218289012|0",
@@ -2853,7 +3247,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -2871,7 +3267,9 @@
           "seller": "toyfederationshop",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|257793024019|0",
@@ -2885,7 +3283,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 12.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|307223110201|0",
@@ -2899,7 +3299,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 5.78,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|206593091746|0",
@@ -2912,7 +3314,9 @@
           "seller": "liondeals-usa",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -2931,7 +3335,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|377555485721|0",
@@ -2944,7 +3350,9 @@
           "seller": "toyfederationshop",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -2963,7 +3371,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 11.95,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -2981,7 +3391,9 @@
           "seller": "nightmarecruise",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 10.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|407257727200|0",
@@ -2994,7 +3406,9 @@
           "seller": "mundieunlimited",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|820218262703|0",
@@ -3008,7 +3422,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|820218497764|0",
@@ -3021,7 +3437,9 @@
           "seller": "toyfederationshop",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -3040,7 +3458,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|398162559176|0",
@@ -3053,7 +3473,9 @@
           "seller": "jordanswish327",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|389644698699|0",
@@ -3067,7 +3489,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|168628968834|0",
@@ -3080,7 +3504,9 @@
           "seller": "northbuynw_1",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 109.44,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|820218252701|0",
@@ -3094,7 +3520,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 150.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|178477453619|0",
@@ -3108,7 +3536,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 40.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|377404168727|0",
@@ -3122,7 +3552,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|237066591215|0",
@@ -3136,7 +3568,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|407274503367|0",
@@ -3150,7 +3584,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|257732466822|0",
@@ -3163,7 +3599,9 @@
           "seller": "goodbyeretail",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|257763294107|0",
@@ -3176,7 +3614,9 @@
           "seller": "michelle_884",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|198470499535|0",
@@ -3189,7 +3629,9 @@
           "seller": "merjcho",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|236361210269|0",
@@ -3202,7 +3644,9 @@
           "seller": "pikabrick",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 17.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|407016207456|0",
@@ -3215,7 +3659,9 @@
           "seller": "crystallakeco-0",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|227540418498|0",
@@ -3228,7 +3674,9 @@
           "seller": "lemony_gem_toys",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 73.32,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|188450085510|0",
@@ -3242,7 +3690,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 78.56,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|357502029274|0",
@@ -3256,7 +3706,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 11.2,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|267774712643|0",
@@ -3270,7 +3722,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|177308964166|0",
@@ -3283,7 +3737,9 @@
           "seller": "velociraptorken",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 4.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|406060877439|0",
@@ -3296,7 +3752,9 @@
           "seller": "secondstryder",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 18.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|336574184504|0",
@@ -3310,7 +3768,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 90.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -3328,7 +3788,9 @@
           "seller": "andsoldit",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 7.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|860021057916|0",
@@ -3342,7 +3804,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|198688523022|0",
@@ -3356,7 +3820,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -3375,7 +3841,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -3394,7 +3862,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|336839069140|0",
@@ -3407,7 +3877,9 @@
           "seller": "dragonmight72",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 17.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|366723102424|0",
@@ -3421,7 +3893,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|189041644526|0",
@@ -3435,7 +3909,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -3453,7 +3929,9 @@
           "seller": "anttr-9491",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|407264379629|0",
@@ -3467,7 +3945,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|860024520407|0",
@@ -3481,7 +3961,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|237099654792|0",
@@ -3495,7 +3977,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|307216465378|0",
@@ -3509,7 +3993,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|178564205720|0",
@@ -3522,7 +4008,9 @@
           "seller": "velociraptorken",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 4.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|158361947747|0",
@@ -3536,7 +4024,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|168737107724|0",
@@ -3550,7 +4040,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 15.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -3568,7 +4060,9 @@
           "seller": "bobasaur-ships-fast",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 6.95,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -3586,7 +4080,9 @@
           "seller": "bobasaur-ships-fast",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 6.95,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|189062750446|0",
@@ -3600,7 +4096,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|820218251802|0",
@@ -3614,7 +4112,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|336814658416|0",
@@ -3628,7 +4128,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|860009343736|0",
@@ -3642,7 +4144,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 6.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|178205954195|0",
@@ -3656,7 +4160,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|336154422830|0",
@@ -3669,7 +4175,9 @@
           "seller": "grande_deals",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -3687,7 +4195,9 @@
           "seller": "profar6",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|178425465456|0",
@@ -3701,7 +4211,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 24.44,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|236809180517|0",
@@ -3715,7 +4227,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|206515363470|0",
@@ -3729,7 +4243,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|206352409569|0",
@@ -3743,7 +4259,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|820218252321|0",
@@ -3757,7 +4275,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|116758994411|0",
@@ -3770,7 +4290,9 @@
           "seller": "tiz_bargains",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|188865199413|0",
@@ -3783,7 +4305,9 @@
           "seller": "unkiescollectables",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 29.33,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -3802,7 +4326,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|128125073473|0",
@@ -3815,7 +4341,9 @@
           "seller": "westicide92",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|327389992266|0",
@@ -3828,7 +4356,9 @@
           "seller": "lotsoftoys.813",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|327389991240|0",
@@ -3841,7 +4371,9 @@
           "seller": "lotsoftoys.813",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|920011298939|0",
@@ -3854,7 +4386,9 @@
           "seller": "lotsoftoys.813",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -3873,7 +4407,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|178316948995|0",
@@ -3886,7 +4422,9 @@
           "seller": "jtstoys25",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|147337612667|445747308133",
@@ -3899,7 +4437,9 @@
           "seller": "katanatoyz",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|227011020516|0",
@@ -3913,7 +4453,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|366721609339|0",
@@ -3927,7 +4469,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 12.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|237053854197|0",
@@ -3941,7 +4485,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|820218249021|0",
@@ -3955,7 +4501,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|178301231127|0",
@@ -3969,7 +4517,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|178489300386|0",
@@ -3983,7 +4533,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|287359753952|0",
@@ -3997,7 +4549,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|188568403421|0",
@@ -4010,7 +4564,9 @@
           "seller": "tigger6069",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|860009315896|0",
@@ -4024,7 +4580,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 8.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|318614519913|0",
@@ -4037,7 +4595,9 @@
           "seller": "midwestmarket2",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|287076859244|0",
@@ -4050,7 +4610,9 @@
           "seller": "wiigotit",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|178205950118|0",
@@ -4064,7 +4626,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|317193751697|0",
@@ -4078,7 +4642,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|117449109207|0",
@@ -4092,7 +4658,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 17.54,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|358025279229|0",
@@ -4106,7 +4674,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -4125,7 +4695,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|137810432932|0",
@@ -4138,7 +4710,9 @@
           "seller": "nancysk88",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|800637962853|0",
@@ -4152,7 +4726,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|377542331823|0",
@@ -4165,7 +4741,9 @@
           "seller": "inquisitiveturquoise",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|880005592048|0",
@@ -4179,7 +4757,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|206617853347|0",
@@ -4193,7 +4773,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|800780306318|0",
@@ -4207,7 +4789,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|327397113692|0",
@@ -4221,7 +4805,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|287512552269|0",
@@ -4235,7 +4821,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|137620955226|0",
@@ -4249,7 +4837,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|267767110464|0",
@@ -4262,7 +4852,9 @@
           "seller": "theroyalalbatross",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|800608570369|0",
@@ -4276,7 +4868,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|257624968266|0",
@@ -4289,7 +4883,9 @@
           "seller": "flashbacktoyz",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|800321994186|0",
@@ -4303,7 +4899,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|860020770251|0",
@@ -4317,7 +4915,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|117445248871|0",
@@ -4331,7 +4931,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|407177739352|0",
@@ -4345,7 +4947,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|407169944278|0",
@@ -4359,7 +4963,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|278234791569|0",
@@ -4372,7 +4978,9 @@
           "seller": "emmanuel_topete7",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|147485448929|0",
@@ -4385,7 +4993,9 @@
           "seller": "ravenshiddentreasures",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|227469098018|0",
@@ -4398,7 +5008,9 @@
           "seller": "eddie5ball",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|128000714895|0",
@@ -4412,7 +5024,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|117320400673|0",
@@ -4426,7 +5040,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 15.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|128074893832|0",
@@ -4439,7 +5055,9 @@
           "seller": "dinoguy_new_and_finds",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|306447461504|0",
@@ -4453,7 +5071,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 60.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -4472,7 +5092,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|297834623280|0",
@@ -4485,7 +5107,9 @@
           "seller": "jmatts23",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 10.95,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|327397080413|0",
@@ -4499,7 +5123,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|800743764572|0",
@@ -4512,7 +5138,9 @@
           "seller": "dllmtrading",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 6.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|127746910738|0",
@@ -4526,7 +5154,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 11.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|137464679308|0",
@@ -4539,7 +5169,9 @@
           "seller": "dkcollectors",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|336821678577|0",
@@ -4552,7 +5184,9 @@
           "seller": "jennyc2086",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|407264762062|0",
@@ -4566,7 +5200,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|198676467219|0",
@@ -4579,7 +5215,9 @@
           "seller": "stoopk1d89",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|307212331910|0",
@@ -4593,7 +5231,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|820070811240|0",
@@ -4607,7 +5247,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|287005187864|0",
@@ -4621,7 +5263,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|397394580536|0",
@@ -4634,7 +5278,9 @@
           "seller": "violet.v_61",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|287154004827|0",
@@ -4647,7 +5293,9 @@
           "seller": "anime.gadgetsemergencyroom",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|227147757763|0",
@@ -4660,7 +5308,9 @@
           "seller": "hotwheels4lif",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|327371364128|0",
@@ -4674,7 +5324,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|298047515580|0",
@@ -4687,7 +5339,9 @@
           "seller": "bobasaur-ships-fast",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 6.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|188887391521|0",
@@ -4701,7 +5355,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|117228123680|0",
@@ -4715,7 +5371,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|336363525276|0",
@@ -4728,7 +5386,9 @@
           "seller": "grande_deals",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|188000510177|0",
@@ -4741,7 +5401,9 @@
           "seller": "trinik65",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|157800597787|0",
@@ -4755,7 +5417,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|128104171961|0",
@@ -4769,7 +5433,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 10.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|236516656527|0",
@@ -4783,7 +5449,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|257243083576|0",
@@ -4796,7 +5464,9 @@
           "seller": "italia11283",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|157528263067|0",
@@ -4809,7 +5479,9 @@
           "seller": "velocy2300",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 6.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|147622179082|0",
@@ -4822,7 +5494,9 @@
           "seller": "trouvaillia",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -4841,7 +5515,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|178001196410|0",
@@ -4855,7 +5531,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|117445418264|0",
@@ -4868,7 +5546,9 @@
           "seller": "timoleon",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|157606885918|0",
@@ -4882,7 +5562,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|257258965495|0",
@@ -4896,7 +5578,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|389343041654|0",
@@ -4909,7 +5593,9 @@
           "seller": "tbhouse",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|236708328395|0",
@@ -4922,7 +5608,9 @@
           "seller": "toys-figuraciones",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 5.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|127641937721|0",
@@ -4936,7 +5624,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 6.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|188000495823|0",
@@ -4949,7 +5639,9 @@
           "seller": "trinik65",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|267776364559|0",
@@ -4962,7 +5654,9 @@
           "seller": "lushsales",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|267741064388|0",
@@ -4975,7 +5669,9 @@
           "seller": "brick_emporium",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|336332896736|0",
@@ -4988,7 +5684,9 @@
           "seller": "grande_deals",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|187823032572|0",
@@ -5001,7 +5699,9 @@
           "seller": "thriiscompany",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|800583907210|0",
@@ -5014,7 +5714,9 @@
           "seller": "blacktiecollectibles",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|157528232333|0",
@@ -5027,7 +5729,9 @@
           "seller": "velocy2300",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 6.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|188865199330|0",
@@ -5040,7 +5744,9 @@
           "seller": "unkiescollectables",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 29.33,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|198675939026|0",
@@ -5053,7 +5759,9 @@
           "seller": "stoopk1d89",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|317643788674|0",
@@ -5066,7 +5774,9 @@
           "seller": "figuramacarolina",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 10.88,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|318511802267|0",
@@ -5079,7 +5789,9 @@
           "seller": "antda3048",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -5098,7 +5810,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|920021891659|0",
@@ -5112,7 +5826,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 5.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|800739877611|0",
@@ -5125,7 +5841,9 @@
           "seller": "dllmtrading",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 6.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|236752596373|0",
@@ -5138,7 +5856,9 @@
           "seller": "toys-figuraciones",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 5.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|157606888196|0",
@@ -5152,7 +5872,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|178533257193|0",
@@ -5166,7 +5888,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|147492456220|0",
@@ -5180,7 +5904,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|147492455708|0",
@@ -5194,7 +5920,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|178031580630|0",
@@ -5207,7 +5935,9 @@
           "seller": "trinik65",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|257315112262|0",
@@ -5220,7 +5950,9 @@
           "seller": "brick_emporium",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|257258954238|0",
@@ -5234,7 +5966,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|198676079879|0",
@@ -5247,7 +5981,9 @@
           "seller": "stoopk1d89",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 5.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|336330650565|0",
@@ -5260,7 +5996,9 @@
           "seller": "grande_deals",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|177815038675|0",
@@ -5273,7 +6011,9 @@
           "seller": "trinik65",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|800745915756|0",
@@ -5286,7 +6026,9 @@
           "seller": "blacktiecollectibles",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|376876803124|0",
@@ -5300,7 +6042,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|257243067214|0",
@@ -5313,7 +6057,9 @@
           "seller": "italia11283",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|318512042901|0",
@@ -5326,7 +6072,9 @@
           "seller": "antda3048",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|168762089261|0",
@@ -5339,7 +6087,9 @@
           "seller": "primefindsco2",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|157669945137|0",
@@ -5353,7 +6103,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 8.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|137622731339|0",
@@ -5367,7 +6119,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 6.5,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|920012679087|0",
@@ -5380,7 +6134,9 @@
           "seller": "sarahw-3397",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|157528194248|0",
@@ -5393,7 +6149,9 @@
           "seller": "velocy2300",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 6.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|178301191086|0",
@@ -5407,7 +6165,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|188941159015|0",
@@ -5420,7 +6180,9 @@
           "seller": "unkiescollectables",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 29.33,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|147620322389|0",
@@ -5433,7 +6195,9 @@
           "seller": "lootlodge",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -5451,7 +6215,9 @@
           "seller": "unkiescollectables",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 29.33,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|188000503217|0",
@@ -5464,7 +6230,9 @@
           "seller": "trinik65",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|198676486429|0",
@@ -5477,7 +6245,9 @@
           "seller": "stoopk1d89",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|187965026944|0",
@@ -5490,7 +6260,9 @@
           "seller": "thriiscompany",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|177886200982|0",
@@ -5504,7 +6276,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 8.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|336523763108|0",
@@ -5517,7 +6291,9 @@
           "seller": "grande_deals",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -5536,7 +6312,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|236888487311|0",
@@ -5550,7 +6328,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|206498036511|0",
@@ -5563,7 +6343,9 @@
           "seller": "groundhoggs",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 6.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|158036494584|0",
@@ -5577,7 +6359,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 9.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|336644837807|0",
@@ -5590,7 +6374,9 @@
           "seller": "grande_deals",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|236837051369|0",
@@ -5603,7 +6389,9 @@
           "seller": "pikabrick",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 8.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|206375030061|0",
@@ -5616,7 +6404,9 @@
           "seller": "goodwibesmarket",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|407003664022|0",
@@ -5630,7 +6420,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|127980376053|0",
@@ -5644,7 +6436,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|318511681880|0",
@@ -5657,7 +6451,9 @@
           "seller": "antda3048",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|117453537482|0",
@@ -5671,7 +6467,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|327149761636|0",
@@ -5684,7 +6482,9 @@
           "seller": "flipstx",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 10.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|327385054800|0",
@@ -5697,7 +6497,9 @@
           "seller": "balkpatel814",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|188927494756|0",
@@ -5710,7 +6512,9 @@
           "seller": "unkiescollectables",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 29.33,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|318610264539|0",
@@ -5724,7 +6528,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -5743,7 +6549,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|206498065449|0",
@@ -5756,7 +6564,9 @@
           "seller": "groundhoggs",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 6.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|298668020993|0",
@@ -5769,7 +6579,25 @@
           "seller": "bobasaur-ships-fast",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 6.95,
+          "shippingCurrency": "USD"
+        },
+        {
+          "id": "v1|117445196520|0",
+          "title": "Jurassic World Hammond Collection Mutadon Rebirth Action Figure NIB Damage",
+          "price": 25.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/117445196520?_skw=Jurassic+World+Hammond+Collection&hash=item1b58477ae8:g:uyMAAeSwLTVqwSwR",
+          "image": "https://i.ebayimg.com/images/g/uyMAAeSwLTVqwSwR/s-l225.jpg",
+          "condition": "Used",
+          "seller": "fantasticfindz",
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|198675894545|0",
@@ -5782,7 +6610,9 @@
           "seller": "stoopk1d89",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|198673553429|0",
@@ -5796,7 +6626,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|137542300369|0",
@@ -5809,7 +6641,9 @@
           "seller": "*deckedout*",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|307094139328|0",
@@ -5822,7 +6656,9 @@
           "seller": "toydump",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 6.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|137591444368|0",
@@ -5835,7 +6671,9 @@
           "seller": "deftrhiney",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|800441185442|0",
@@ -5848,7 +6686,9 @@
           "seller": "blacktiecollectibles",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|377379426867|0",
@@ -5862,7 +6702,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|206618064305|0",
@@ -5876,7 +6718,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 8.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|137725729412|0",
@@ -5889,7 +6733,9 @@
           "seller": "adambruce04",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|188750488690|0",
@@ -5903,7 +6749,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 7.29,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|227553462059|0",
@@ -5916,7 +6764,9 @@
           "seller": "brynalo",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|318620692250|0",
@@ -5930,7 +6780,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|167982563603|0",
@@ -5943,7 +6795,9 @@
           "seller": "penyos",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|358836505295|0",
@@ -5957,7 +6811,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|860012563985|0",
@@ -5971,7 +6827,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 10.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|307109734003|0",
@@ -5984,7 +6842,9 @@
           "seller": "glennbarnette",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -6002,7 +6862,9 @@
           "seller": "jmatts23",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 14.95,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|198697816703|0",
@@ -6016,7 +6878,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 8.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|147615512948|0",
@@ -6030,7 +6894,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|227550837196|0",
@@ -6044,7 +6910,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|227553597018|0",
@@ -6057,7 +6925,9 @@
           "seller": "thearktoysandcollectiblescle",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 9.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|920008046241|0",
@@ -6071,7 +6941,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|860015605149|0",
@@ -6084,7 +6956,9 @@
           "seller": "majiafza_2",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|257780015391|0",
@@ -6098,7 +6972,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 19.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|820187475648|0",
@@ -6111,7 +6987,9 @@
           "seller": "lazlothrifts",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|147540063533|0",
@@ -6125,7 +7003,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|307223542913|0",
@@ -6139,7 +7019,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|267809296743|0",
@@ -6152,7 +7034,9 @@
           "seller": "lushsales",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|336693861371|0",
@@ -6165,7 +7049,9 @@
           "seller": "grande_deals",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|398441731136|0",
@@ -6179,7 +7065,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|147622178063|0",
@@ -6192,7 +7080,9 @@
           "seller": "trouvaillia",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|158093595848|0",
@@ -6205,7 +7095,9 @@
           "seller": "velocy2300",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 10.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|860009329584|0",
@@ -6219,7 +7111,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 10.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|327398081800|0",
@@ -6232,7 +7126,9 @@
           "seller": "wvflipz",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|267775828907|0",
@@ -6246,7 +7142,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 22.29,
+          "shippingCurrency": "USD"
         }
       ]
     },
@@ -6265,7 +7163,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|227556955068|0",
@@ -6278,7 +7178,9 @@
           "seller": "ruu_japan",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|820218285428|0",
@@ -6292,7 +7194,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|920012791297|0",
@@ -6306,7 +7210,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|287640571886|0",
@@ -6320,7 +7226,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ]
     },
@@ -6339,7 +7247,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "AUCTION"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|189058741126|0",
@@ -6353,7 +7263,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "AUCTION"
-          ]
+          ],
+          "shippingCost": 8.5,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|168770618553|0",
@@ -6367,7 +7279,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "AUCTION"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|168770602774|0",
@@ -6381,7 +7295,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "AUCTION"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|189058740264|0",
@@ -6395,7 +7311,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "AUCTION"
-          ]
+          ],
+          "shippingCost": 8.5,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|189058738941|0",
@@ -6409,7 +7327,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "AUCTION"
-          ]
+          ],
+          "shippingCost": 8.5,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|178561592450|0",
@@ -6422,7 +7342,9 @@
           "seller": "sawyerschic",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|168770590933|0",
@@ -6436,7 +7358,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "AUCTION"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|168770633739|0",
@@ -6450,7 +7374,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "AUCTION"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|178567723974|0",
@@ -6463,7 +7389,9 @@
           "seller": "guma-4609",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": 7.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|920007816857|0",
@@ -6476,7 +7404,9 @@
           "seller": "swishy_spoons",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|800779854260|0",
@@ -6490,7 +7420,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "AUCTION"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|880004438413|0",
@@ -6504,7 +7436,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|920027470774|0",
@@ -6518,7 +7452,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|168770624127|0",
@@ -6532,7 +7468,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "AUCTION"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|298739279324|0",
@@ -6545,7 +7483,9 @@
           "seller": "capedcrusader70",
           "buyingOptions": [
             "FIXED_PRICE"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|920027488221|0",
@@ -6559,7 +7499,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|860013519331|0",
@@ -6573,7 +7515,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 10.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|168784100418|0",
@@ -6587,7 +7531,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "AUCTION"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|168770584419|0",
@@ -6601,7 +7547,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "AUCTION"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|267804685180|0",
@@ -6615,7 +7563,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|189058703234|0",
@@ -6629,7 +7579,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "AUCTION"
-          ]
+          ],
+          "shippingCost": 18.5,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|377550241769|0",
@@ -6643,7 +7595,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|327396751705|0",
@@ -6657,7 +7611,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 39.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|178291404350|0",
@@ -6671,7 +7627,9 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
+          ],
+          "shippingCost": 135.99,
+          "shippingCurrency": "USD"
         }
       ]
     }
