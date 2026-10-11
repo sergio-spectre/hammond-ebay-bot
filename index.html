@@ -175,6 +175,16 @@ a.card.deal{border-color:var(--good)}
   border:1px solid currentColor;border-radius:4px;padding:1px 5px;
 }
 a.card.target{border-color:var(--good)}
+.low30-badge{
+  font-size:.64rem;text-transform:uppercase;letter-spacing:.04em;color:var(--accent);
+  border:1px solid currentColor;border-radius:4px;padding:1px 5px;
+}
+.seller-rep{
+  font-size:.68rem;margin-left:4px;padding:0 4px;border-radius:3px;font-weight:600;
+}
+.seller-rep.good{color:var(--good)}
+.seller-rep.warn{color:var(--warn)}
+.seller-rep.bad{color:var(--bad)}
 .cat-pill{
   font-size:.64rem;color:var(--muted);border:1px solid var(--line);border-radius:999px;
   padding:1px 8px;align-self:flex-start;
@@ -500,14 +510,25 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
     var out = [];
     state.categories.forEach(function(cat){
       if (cat.name === "Lotes e Leilao") return;
-      cat.items.forEach(function(it){ out.push(Object.assign({ __cat: cat.name }, it)); });
+      cat.items.forEach(function(it){ out.push(Object.assign({ __cat: cat.name, __minPrice30d: cat.minPrice30d }, it)); });
     });
     return out;
   }
 
+  // custo total do item (preco + frete, quando o frete e conhecido). Usado
+  // pra comparar "bom preco", alvo e ranking de destaques de forma mais
+  // justa do que so o preco do anuncio -- um item mais caro com frete
+  // gratis pode sair mais barato no total do que um mais barato com frete
+  // alto. Quando o frete ainda e "a calcular", cai de volta pro preco puro
+  // (nao da pra saber o total ainda).
+  function landedCost(item){
+    if (item.price == null) return null;
+    return item.price + (item.shippingCost != null ? item.shippingCost : 0);
+  }
+
   function dealThreshold(items){
-    var prices = items.map(function(it){ return it.price; }).filter(function(p){ return p != null; });
-    return median(prices);
+    var costs = items.map(landedCost).filter(function(p){ return p != null; });
+    return median(costs);
   }
 
   // ---- navegacao ----------------------------------------------------
@@ -576,6 +597,28 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
     var cond = item.condition ? item.condition.replace(/</g,"&lt;") : "";
     var catPill = item.__cat ? '<span class="cat-pill">' + item.__cat + '</span>' : "";
 
+    // reputacao do vendedor (ja vem na resposta da API do ebay, so nao
+    // estava sendo mostrada). >=98% com 10+ avaliacoes = bom; 95-98% = ok;
+    // abaixo disso, ou vendedor muito novo (poucas avaliacoes), chama atencao.
+    var fbPct = item.sellerFeedbackPct != null ? parseFloat(item.sellerFeedbackPct) : null;
+    var fbScore = item.sellerFeedbackScore != null ? item.sellerFeedbackScore : null;
+    var sellerRepHtml = "";
+    if (fbPct != null && !isNaN(fbPct)){
+      var repClass = "good";
+      if (fbScore != null && fbScore < 10) repClass = "warn";
+      else if (fbPct < 95) repClass = "bad";
+      else if (fbPct < 98) repClass = "warn";
+      sellerRepHtml = '<span class="seller-rep ' + repClass + '">' +
+        fbPct.toFixed(1) + '%' + (fbScore != null ? ' (' + fbScore + ')' : '') +
+        '</span>';
+    }
+
+    // menor preco (preco + frete) visto nos ultimos 30 dias nessa categoria,
+    // calculado no robo a partir do historico diario. Se o anuncio atual
+    // bate ou fica proximo desse minimo, ganha um selo.
+    var isLow30d = item.__minPrice30d != null && landedCost(item) != null &&
+      landedCost(item) <= item.__minPrice30d + 0.01;
+
     var shipLine, shipFree = false;
     if (item.shippingCost == null){
       shipLine = "Frete a calcular";
@@ -599,10 +642,11 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
             (isRare ? '<span class="rare-badge">Raro</span>' : '') +
             (isOffer ? '<span class="offer-badge">Aceita oferta</span>' : '') +
             (isAuction ? '<span class="badge">Leilao</span>' : '') +
+            (isLow30d ? '<span class="low30-badge">📉 Menor em 30 dias</span>' : '') +
           '</div>' +
           '<div class="ship-line' + (shipFree ? ' free' : '') + '">' + shipLine + '</div>' +
           '<div class="ctitle">' + title + '</div>' +
-          '<div class="meta"><span>' + cond + '</span><span>' + seller + '</span></div>' +
+          '<div class="meta"><span>' + cond + '</span><span>' + seller + sellerRepHtml + '</span></div>' +
         '</div>' +
       '</a>'
     );
@@ -629,8 +673,9 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
   function computeHighlightScores(items){
     var byCat = {};
     items.forEach(function(it){
-      if (it.price == null) return;
-      (byCat[it.__cat] = byCat[it.__cat] || []).push(it.price);
+      var lc = landedCost(it);
+      if (lc == null) return;
+      (byCat[it.__cat] = byCat[it.__cat] || []).push(lc);
     });
     var catMedian = {}, catCount = {};
     Object.keys(byCat).forEach(function(cat){
@@ -638,9 +683,9 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
       catCount[cat] = byCat[cat].length;
     });
     return items
-      .filter(function(it){ return it.price != null && catMedian[it.__cat]; })
+      .filter(function(it){ return landedCost(it) != null && catMedian[it.__cat]; })
       .map(function(it){
-        var ratio = it.price / catMedian[it.__cat];
+        var ratio = landedCost(it) / catMedian[it.__cat];
         var count = catCount[it.__cat];
         var score = ratio * rarityMultiplier(count);
         return Object.assign({}, it, {
@@ -677,10 +722,11 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
     if (targetNames.length){
       var targetHits = items.filter(function(it){
         var t = targets[it.__cat];
-        return t != null && it.price != null && it.price <= t;
+        var lc = landedCost(it);
+        return t != null && lc != null && lc <= t;
       });
       targetHits.sort(function(a,b){
-        return (a.price / targets[a.__cat]) - (b.price / targets[b.__cat]);
+        return (landedCost(a) / targets[a.__cat]) - (landedCost(b) / targets[b.__cat]);
       });
       var hitCards = targetHits.map(function(it){
         return cardHtml(it, { targetHit: true });
@@ -688,7 +734,7 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
       targetSection =
         '<div class="target-hits-section">' +
           '<div class="main-head"><h2>🎯 Dentro do seu alvo</h2><div class="sub">' +
-            'Anuncios ja no preco (ou abaixo) que voce definiu pra cada categoria.' +
+            'Anuncios ja no preco (ou abaixo) que voce definiu pra cada categoria, considerando preco + frete.' +
             targetsOverviewHtml() +
           '</div></div>' +
           (targetHits.length
@@ -701,7 +747,8 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
     if (targetNames.length){
       items.forEach(function(it){
         var t = targets[it.__cat];
-        if (t != null && it.price != null && it.price <= t) hitIds[it.id] = true;
+        var lc = landedCost(it);
+        if (t != null && lc != null && lc <= t) hitIds[it.id] = true;
       });
     }
 
@@ -713,14 +760,14 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
       return cardHtml(it, {
         deal: it.__ratio <= 1,
         rare: it.__catCount <= 5,
-        targetNear: target != null && it.price != null && it.price <= target * TARGET_NEAR_RATIO,
+        targetNear: target != null && landedCost(it) != null && landedCost(it) <= target * TARGET_NEAR_RATIO,
       });
     }).join("");
     mainEl.innerHTML =
       targetSection +
       '<div class="highlights-section">' +
         '<div class="main-head"><h2>Melhores achados agora</h2><div class="sub">' +
-          'Ranking por preco relativo a mediana de cada categoria + raridade (categorias com poucos anuncios ganham destaque), nao preco bruto.' +
+          'Ranking por custo total (preco + frete) relativo a mediana de cada categoria + raridade (categorias com poucos anuncios ganham destaque).' +
         '</div></div>' +
         '<div class="grid">' + cards + '</div>' +
       '</div>';
@@ -738,7 +785,7 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
     var val = targets[catName] != null ? targets[catName] : "";
     return (
       '<div class="target-control">' +
-        '<span>🎯 Meu preco alvo pra essa categoria:</span>' +
+        '<span>🎯 Meu preco alvo pra essa categoria (preco + frete):</span>' +
         '<input type="number" step="0.01" min="0" id="targetInput" value="' + val + '" placeholder="US$">' +
         '<button type="button" id="targetSaveBtn">Salvar</button>' +
         (targets[catName] != null ? '<button type="button" id="targetClearBtn">Remover</button>' : '') +
@@ -756,11 +803,13 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
     var isLot = cat.name === "Lotes e Leilao";
     var threshold = isLot ? null : dealThreshold(cat.items);
     var target = isLot ? null : targets[cat.name];
-    var cards = cat.items.map(function(it){
-      var isHit = target != null && it.price != null && it.price <= target;
-      var isNear = !isHit && target != null && it.price != null && it.price <= target * TARGET_NEAR_RATIO;
+    var cards = cat.items.map(function(it0){
+      var it = Object.assign({ __minPrice30d: cat.minPrice30d }, it0);
+      var lc = landedCost(it);
+      var isHit = target != null && lc != null && lc <= target;
+      var isNear = !isHit && target != null && lc != null && lc <= target * TARGET_NEAR_RATIO;
       return cardHtml(it, {
-        deal: threshold != null && it.price != null && it.price <= threshold,
+        deal: threshold != null && lc != null && lc <= threshold,
         targetHit: isHit,
         targetNear: isNear,
       });

@@ -99,6 +99,8 @@ HAMMOND_PATTERN = re.compile(r"hammond\s*collection", re.I)
 ROOT = Path(__file__).parent
 STATE_FILE = ROOT / "seen_items.json"
 DATA_FILE = ROOT / "data" / "listings.json"
+PRICE_HISTORY_FILE = ROOT / "price_history.json"
+PRICE_HISTORY_DAYS = 30
 
 EBAY_OAUTH_URL = "https://api.ebay.com/identity/v1/oauth2/token"
 EBAY_SEARCH_URL = "https://api.ebay.com/buy/browse/v1/item_summary/search"
@@ -292,6 +294,48 @@ def save_state(state: dict) -> None:
 def prune_state(state: dict) -> dict:
     cutoff = time.time() - SEEN_TTL_DAYS * 86400
     return {item_id: ts for item_id, ts in state.items() if ts >= cutoff}
+
+
+# ----------------------------------------------------------------------------
+# Historico de preco: guarda o menor preco visto POR CATEGORIA, por dia, pra
+# poder mostrar "menor preco em 30 dias" no site (ajuda a saber se um preco
+# "bom" hoje e realmente bom ou e so a media de sempre). So compara o VALOR
+# do item (sem frete) pra manter consistencia com o historico anterior.
+# ----------------------------------------------------------------------------
+
+def load_price_history() -> dict:
+    if PRICE_HISTORY_FILE.exists():
+        try:
+            return json.loads(PRICE_HISTORY_FILE.read_text())
+        except json.JSONDecodeError:
+            return {}
+    return {}
+
+
+def save_price_history(history: dict) -> None:
+    PRICE_HISTORY_FILE.write_text(
+        json.dumps(history, indent=2, ensure_ascii=False, sort_keys=True)
+    )
+
+
+def update_price_history(history: dict, groups: dict[str, list[dict]]) -> dict:
+    today = time.strftime("%Y-%m-%d", time.gmtime())
+    cutoff_date = time.strftime(
+        "%Y-%m-%d", time.gmtime(time.time() - PRICE_HISTORY_DAYS * 86400)
+    )
+    for category, entries in groups.items():
+        if category == "Lotes e Leilao":
+            continue  # preco de lote nao e comparavel ao de uma figura avulsa
+        prices = [e["price"] for e in entries if e["price"] is not None]
+        if not prices:
+            continue
+        today_min = min(prices)
+        cat_hist = history.setdefault(category, {})
+        cat_hist[today] = min(cat_hist.get(today, today_min), today_min)
+        for day in list(cat_hist.keys()):
+            if day < cutoff_date:
+                del cat_hist[day]
+    return history
 
 
 # ----------------------------------------------------------------------------
@@ -496,6 +540,8 @@ def main() -> int:
                 except (TypeError, ValueError):
                     ship_cost = None
 
+        seller_obj = it.get("seller") or {}
+
         entry = {
             "id": item_id,
             "title": it.get("title", ""),
@@ -504,7 +550,9 @@ def main() -> int:
             "url": it.get("itemWebUrl"),
             "image": (it.get("image") or {}).get("imageUrl"),
             "condition": it.get("condition"),
-            "seller": (it.get("seller") or {}).get("username"),
+            "seller": seller_obj.get("username"),
+            "sellerFeedbackPct": seller_obj.get("feedbackPercentage"),
+            "sellerFeedbackScore": seller_obj.get("feedbackScore"),
             "buyingOptions": it.get("buyingOptions", []),
             "shippingCost": ship_cost,
             "shippingCurrency": ship_currency,
@@ -528,12 +576,23 @@ def main() -> int:
         if extra in groups:
             ordered_categories.append(extra)
 
+    price_history = update_price_history(load_price_history(), groups)
+    min_price_30d = {
+        cat: (min(price_history[cat].values()) if price_history.get(cat) else None)
+        for cat in ordered_categories
+    }
+
     output = {
         "updated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "median_price": median_price,
         "total_items": sum(len(v) for v in groups.values()),
         "categories": [
-            {"name": cat, "items": groups[cat]} for cat in ordered_categories
+            {
+                "name": cat,
+                "items": groups[cat],
+                "minPrice30d": min_price_30d.get(cat),
+            }
+            for cat in ordered_categories
         ],
     }
 
@@ -542,6 +601,7 @@ def main() -> int:
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     DATA_FILE.write_text(json.dumps(output, indent=2, ensure_ascii=False))
     save_state(state)
+    save_price_history(price_history)
 
     # 2) Notifica o Discord. Se forem muitos itens novos de uma vez (ex.:
     # primeira vez que uma busca nova entra no ar), manda um resumo em vez
