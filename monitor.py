@@ -71,6 +71,12 @@ BROAD_CONFIRM_PATTERN = re.compile(
 MARKETPLACE_ID = "EBAY_US"
 RESULTS_LIMIT = 200          # max por chamada na Browse API
 SORT = "newlyListed"
+# CEP de destino usado pra pedir ao eBay o frete ja calculado (quando o
+# vendedor usa frete "calculado", que depende de pra onde vai) em vez de
+# deixar em branco. O eBay devolve o valor exato pra esse CEP direto na
+# busca, sem precisar de outra chamada por item.
+SHIP_TO_ZIP = "32824"
+SHIP_TO_COUNTRY = "US"
 
 OUTLIER_MULTIPLIER = 1.5
 SEEN_TTL_DAYS = 45
@@ -212,6 +218,9 @@ def search_ebay(token: str, query: str) -> list[dict]:
             headers={
                 "Authorization": f"Bearer {token}",
                 "X-EBAY-C-MARKETPLACE-ID": MARKETPLACE_ID,
+                "X-EBAY-C-ENDUSERCTX": (
+                    f"contextualLocation=country={SHIP_TO_COUNTRY},zip={SHIP_TO_ZIP}"
+                ),
             },
             params={
                 "q": query,
