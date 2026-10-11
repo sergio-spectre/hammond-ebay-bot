@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T23:12:52Z",
+  "updated_at": "2026-10-11T23:34:44Z",
   "median_price": 55.0,
   "total_items": 466,
   "categories": [
@@ -790,24 +790,6 @@
     {
       "name": "Young T-Rex (The Lost World)",
       "items": [
-        {
-          "id": "v1|880008744319|0",
-          "title": "Jurassic Park World Hammond Collection Juvenile Tyrannosaurus Rex Baby T Rex",
-          "price": 199.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/880008744319?_skw=Mattel+Hammond+Collection+dinosaur&hash=itemcce49bcd7f:g:OAYAAeSwFhRqzAqz",
-          "image": "https://i.ebayimg.com/images/g/OAYAAeSwFhRqzAqz/s-l225.jpg",
-          "condition": "Used",
-          "seller": "chjow8373",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 282,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "shippingCost": null,
-          "shippingCurrency": null
-        },
         {
           "id": "v1|227548101724|0",
           "title": "Jurassic Park World Hammond Collection Juvenile Tyrannosaurus Rex Baby T Rex",
@@ -2207,7 +2189,7 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32413,
+          "sellerFeedbackScore": 32414,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2503,6 +2485,24 @@
           "shippingCurrency": null
         },
         {
+          "id": "v1|227563005011|0",
+          "title": "Hammond Collection: Jurassic Park Baryonyx - HFG69 - New. Sealed.",
+          "price": 150.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/227563005011?_skw=Mattel+Hammond+Collection+dinosaur&hash=item34fbcfe453:g:1z8AAeSwLTZqzBdL",
+          "image": "https://i.ebayimg.com/images/g/1z8AAeSwLTZqzBdL/s-l225.jpg",
+          "condition": "New",
+          "seller": "dug333",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 350,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
+        },
+        {
           "id": "v1|257790262923|0",
           "title": "Jurassic World Hammond Collection Baryonyx ",
           "price": 157.0,
@@ -2619,7 +2619,7 @@
           "title": "Mattel Hammond Collection Jurassic Lost World - Parasaurolophus - NEW - Sealed",
           "price": 70.0,
           "currency": "USD",
-          "url": "https://www.ebay.com/itm/307214438695?_skw=Hammond+Collection+Jurassic+Park&hash=item4787685127:g:gTAAAeSwUPVqwxOG",
+          "url": "https://www.ebay.com/itm/307214438695?_skw=Jurassic+World+Hammond+Collection&hash=item4787685127:g:gTAAAeSwUPVqwxOG",
           "image": "https://i.ebayimg.com/images/g/gTAAAeSwUPVqwxOG/s-l225.jpg",
           "condition": "New",
           "seller": "eclectic-treasure-hunt",
@@ -2833,7 +2833,7 @@
           "condition": "New",
           "seller": "japan-hobby-clubs",
           "sellerFeedbackPct": "98.9",
-          "sellerFeedbackScore": 2188,
+          "sellerFeedbackScore": 2189,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -2851,7 +2851,7 @@
           "condition": "New",
           "seller": "japan-hobby-clubs",
           "sellerFeedbackPct": "98.9",
-          "sellerFeedbackScore": 2188,
+          "sellerFeedbackScore": 2189,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -7428,7 +7428,7 @@
           "condition": "New",
           "seller": "*deckedout*",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 3254,
+          "sellerFeedbackScore": 3256,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -8017,7 +8017,7 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32413,
+          "sellerFeedbackScore": 32414,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
