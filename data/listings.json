@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-11T01:15:18Z",
+  "updated_at": "2026-10-11T01:35:52Z",
   "median_price": 55.0,
-  "total_items": 472,
+  "total_items": 471,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -3332,6 +3332,19 @@
       "name": "Carnotaurus",
       "items": [
         {
+          "id": "v1|327398689909|0",
+          "title": "Mattel Jurassic World Hammond Collection Carnotaurus brown black and red",
+          "price": 22.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/327398689909?_skw=Mattel+Hammond+Collection+dinosaur&hash=item4c3a7b8c75:g:x7YAAeSwmZNqyuR2",
+          "image": "https://i.ebayimg.com/images/g/x7YAAeSwmZNqyuR2/s-l225.jpg",
+          "condition": "Used",
+          "seller": "andsoldit",
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ]
+        },
+        {
           "id": "v1|860021057916|0",
           "title": "(Only) Mattel Hammond Collection Jurassic World Carnotaurus (Read Description)",
           "price": 130.0,
@@ -3974,20 +3987,6 @@
           ]
         },
         {
-          "id": "v1|178301231127|0",
-          "title": "Mattel 2025 True FX Jurassic World Hammond Collection Stegosaurus Figure",
-          "price": 45.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/178301231127?_skw=Hammond+Collection+True+FX&hash=item298394e017:g:FsgAAeSwSwhqUZ1w",
-          "image": "https://i.ebayimg.com/images/g/FsgAAeSwSwhqUZ1w/s-l225.jpg",
-          "condition": "Used",
-          "seller": "platinum_toys_utah",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
           "id": "v1|178489300386|0",
           "title": "Jurassic World Hammond Collection Stegosaurus Dinosaur Action Figure Mattel 2025",
           "price": 49.06,
@@ -4094,6 +4093,19 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
+          ]
+        },
+        {
+          "id": "v1|286757148836|0",
+          "title": "Jurassic World Hammond Collection Stegosaurus Action Figure True FX New",
+          "price": 75.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/286757148836?_skw=Hammond+Collection+True+FX&hash=item42c40ed8a4:g:aJcAAeSwboVol6rt",
+          "image": "https://i.ebayimg.com/images/g/aJcAAeSwboVol6rt/s-l225.jpg",
+          "condition": "New",
+          "seller": "anime.gadgetsemergencyroom",
+          "buyingOptions": [
+            "FIXED_PRICE"
           ]
         },
         {
@@ -5788,20 +5800,6 @@
           ]
         },
         {
-          "id": "v1|117445196520|0",
-          "title": "Jurassic World Hammond Collection Mutadon Rebirth Action Figure NIB Damage",
-          "price": 25.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/117445196520?_skw=Jurassic+World+Hammond+Collection&hash=item1b58477ae8:g:uyMAAeSwLTVqwSwR",
-          "image": "https://i.ebayimg.com/images/g/uyMAAeSwLTVqwSwR/s-l225.jpg",
-          "condition": "Used",
-          "seller": "fantasticfindz",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ]
-        },
-        {
           "id": "v1|198675894545|0",
           "title": "Mattel Jurassic World Rebirth Hammond Collection Mutadon SEALED IN HAND",
           "price": 29.5,
@@ -6046,19 +6044,6 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
-          ]
-        },
-        {
-          "id": "v1|147601343499|0",
-          "title": "Jurassic World Hammond Collection SCORPIOS REX Deluxe Dinosaur Brand New",
-          "price": 56.11,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/147601343499?_skw=Mattel+Hammond+Collection+dinosaur&hash=item225db9c40b:g:9mQAAeSwtnRquEOm",
-          "image": "https://i.ebayimg.com/images/g/9mQAAeSwtnRquEOm/s-l225.jpg",
-          "condition": "New",
-          "seller": "theshelfcartel",
-          "buyingOptions": [
-            "FIXED_PRICE"
           ]
         },
         {
