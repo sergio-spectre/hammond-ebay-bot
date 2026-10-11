@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T15:19:41Z",
+  "updated_at": "2026-10-11T15:38:45Z",
   "median_price": 54.99,
   "total_items": 471,
   "categories": [
@@ -2294,7 +2294,7 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32405,
+          "sellerFeedbackScore": 32406,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4060,6 +4060,23 @@
           "shippingCurrency": "USD"
         },
         {
+          "id": "v1|257763294107|0",
+          "title": "2022 Mattel Jurassic Park Hammond Collection Brachiosaurus - New",
+          "price": 380.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/257763294107?_skw=Jurassic+World+Brachiosaurus+Mattel&hash=item3c03e3bb9b:g:l4gAAeSwbdtqtWSQ",
+          "image": "https://i.ebayimg.com/images/g/l4gAAeSwbdtqtWSQ/s-l225.jpg",
+          "condition": "New",
+          "seller": "michelle_884",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 686,
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
           "id": "v1|377404168727|0",
           "title": "Mattel Hammond Collection Jurassic Park Brachiosaurus Unassembled Figure",
           "price": 399.99,
@@ -4111,23 +4128,6 @@
           ],
           "shippingCost": 0.0,
           "shippingCurrency": "USD"
-        },
-        {
-          "id": "v1|257763294107|0",
-          "title": "2022 Mattel Jurassic Park Hammond Collection Brachiosaurus - New",
-          "price": 450.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/257763294107?_skw=Jurassic+World+Brachiosaurus+Mattel&hash=item3c03e3bb9b:g:l4gAAeSwbdtqtWSQ",
-          "image": "https://i.ebayimg.com/images/g/l4gAAeSwbdtqtWSQ/s-l225.jpg",
-          "condition": "New",
-          "seller": "michelle_884",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 686,
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ],
-          "shippingCost": null,
-          "shippingCurrency": null
         },
         {
           "id": "v1|198470499535|0",
@@ -8099,7 +8099,7 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32405,
+          "sellerFeedbackScore": 32406,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
