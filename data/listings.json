@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T19:01:37Z",
+  "updated_at": "2026-10-11T19:24:49Z",
   "median_price": 54.99,
   "total_items": 465,
   "categories": [
@@ -682,7 +682,7 @@
           "condition": "New",
           "seller": "firstgradejungle",
           "sellerFeedbackPct": "99.3",
-          "sellerFeedbackScore": 16148,
+          "sellerFeedbackScore": 16149,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -2242,7 +2242,7 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32409,
+          "sellerFeedbackScore": 32410,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4279,7 +4279,7 @@
           "title": "Jurassic Park World 2023 Hammond Collection Carnotaurus Figure NEAR MINT",
           "price": 135.0,
           "currency": "USD",
-          "url": "https://www.ebay.com/itm/198688523022?_skw=Hammond+Collection+Jurassic+Park&hash=item2e42c2430e:g:7jYAAeSw3OdqwuUC",
+          "url": "https://www.ebay.com/itm/198688523022?_skw=Jurassic+World+Hammond+Collection&hash=item2e42c2430e:g:7jYAAeSw3OdqwuUC",
           "image": "https://i.ebayimg.com/images/g/7jYAAeSw3OdqwuUC/s-l225.jpg",
           "condition": "Used",
           "seller": "theirre0",
@@ -6183,7 +6183,7 @@
           "condition": "New",
           "seller": "samho.fad",
           "sellerFeedbackPct": "99.3",
-          "sellerFeedbackScore": 3091,
+          "sellerFeedbackScore": 3092,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -7734,23 +7734,6 @@
           "shippingCurrency": null
         },
         {
-          "id": "v1|147601343499|0",
-          "title": "Jurassic World Hammond Collection SCORPIOS REX Deluxe Dinosaur Brand New",
-          "price": 56.11,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/147601343499?_skw=Mattel+Hammond+Collection+dinosaur&hash=item225db9c40b:g:9mQAAeSwtnRquEOm",
-          "image": "https://i.ebayimg.com/images/g/9mQAAeSwtnRquEOm/s-l225.jpg",
-          "condition": "New",
-          "seller": "theshelfcartel",
-          "sellerFeedbackPct": "99.5",
-          "sellerFeedbackScore": 1033,
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ],
-          "shippingCost": 18.94,
-          "shippingCurrency": "USD"
-        },
-        {
           "id": "v1|227550837196|0",
           "title": "Mattel Jurassic World Hammond Collection Scorpios Rex Action Figure JKG97 NEW 🔥",
           "price": 60.0,
@@ -7984,6 +7967,24 @@
       "name": "Outros",
       "items": [
         {
+          "id": "v1|198707329664|0",
+          "title": "Jurassic World Hammond Collection Scorpius Rex Mattel",
+          "price": 70.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/198707329664?_skw=Mattel+Hammond+Collection+dinosaur&hash=item2e43e13a80:g:PtQAAeSwlBNqy99b",
+          "image": "https://i.ebayimg.com/images/g/PtQAAeSwlBNqy99b/s-l225.jpg",
+          "condition": "New",
+          "seller": "badbatchtoyz",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 177,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
           "id": "v1|307226088874|0",
           "title": "Jurassic Park/World Hammond Collection Becklespinax Custom Repaint",
           "price": 100.0,
@@ -8010,7 +8011,7 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32409,
+          "sellerFeedbackScore": 32410,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
