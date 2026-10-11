@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-11T18:15:39Z",
-  "median_price": 55.0,
-  "total_items": 466,
+  "updated_at": "2026-10-11T18:40:42Z",
+  "median_price": 54.99,
+  "total_items": 465,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -1111,7 +1111,7 @@
           "condition": "New",
           "seller": "thegamecrusher",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 8851,
+          "sellerFeedbackScore": 8852,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3045,7 +3045,7 @@
           "condition": "New",
           "seller": "altship",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2517,
+          "sellerFeedbackScore": 2518,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3427,7 +3427,7 @@
           "condition": "New",
           "seller": "unkiescollectables",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 3487,
+          "sellerFeedbackScore": 3488,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3610,6 +3610,23 @@
       "name": "Concavenator",
       "items": [
         {
+          "id": "v1|960053609381|0",
+          "title": "Jurassic World Hammond Collection CONCAVENATOR Action Figure. Mattel",
+          "price": 44.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/960053609381?_skw=Hammond+Collection+Jurassic+Park&hash=itemdf87a783a5:g:UcoAAeSwp4tqy9TW",
+          "image": "https://i.ebayimg.com/images/g/UcoAAeSwp4tqy9TW/s-l225.jpg",
+          "condition": "Used",
+          "seller": "andresguerire",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 465,
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
           "id": "v1|178545615331|0",
           "title": "2022 MATTEL JURASSIC WORLD HAMMOND COLLECTION CONCAVENATOR DINOSAUR FIGURE",
           "price": 49.99,
@@ -3660,27 +3677,9 @@
           ],
           "shippingCost": null,
           "shippingCurrency": null
-        },
-        {
-          "id": "v1|820218289012|0",
-          "title": "Hammond Collection Concavenator",
-          "price": 100.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/820218289012?_skw=Hammond+Collection+Jurassic+Park&hash=itembef8d1db74:g:y8MAAeSwuGBqx~0O",
-          "image": "https://i.ebayimg.com/images/g/y8MAAeSwuGBqx~0O/s-l225.jpg",
-          "condition": "Used",
-          "seller": "brakat7242",
-          "sellerFeedbackPct": "94.1",
-          "sellerFeedbackScore": 27,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "shippingCost": null,
-          "shippingCurrency": null
         }
       ],
-      "minPrice30d": 49.99
+      "minPrice30d": 44.99
     },
     {
       "name": "Ankylosaurus",
@@ -4122,7 +4121,7 @@
           "condition": "New",
           "seller": "crystallakeco-0",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 132,
+          "sellerFeedbackScore": 133,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4835,7 +4834,7 @@
           "condition": "New",
           "seller": "unkiescollectables",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 3487,
+          "sellerFeedbackScore": 3488,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -5363,7 +5362,7 @@
           "condition": "New",
           "seller": "tasb_95",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 570,
+          "sellerFeedbackScore": 571,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -5741,7 +5740,7 @@
           "condition": "New",
           "seller": "jmatts23",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 3786,
+          "sellerFeedbackScore": 3787,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6444,7 +6443,7 @@
           "condition": "New",
           "seller": "unkiescollectables",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 3487,
+          "sellerFeedbackScore": 3488,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6937,7 +6936,7 @@
           "condition": "New",
           "seller": "unkiescollectables",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 3487,
+          "sellerFeedbackScore": 3488,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6977,7 +6976,7 @@
           "condition": "New",
           "seller": "unkiescollectables",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 3487,
+          "sellerFeedbackScore": 3488,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7313,7 +7312,7 @@
           "condition": "New",
           "seller": "unkiescollectables",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 3487,
+          "sellerFeedbackScore": 3488,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7691,7 +7690,7 @@
           "condition": "Used",
           "seller": "jmatts23",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 3786,
+          "sellerFeedbackScore": 3787,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7801,24 +7800,6 @@
             "FIXED_PRICE"
           ],
           "shippingCost": 0.0,
-          "shippingCurrency": "USD"
-        },
-        {
-          "id": "v1|257780015391|0",
-          "title": "2026 JURASSIC World Hammond Collection SCORPIOS  REX",
-          "price": 67.49,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/257780015391?_skw=Jurassic+World+Hammond+Collection&hash=item3c04e2e11f:g:3MoAAeSwPspqwTBD",
-          "image": "https://i.ebayimg.com/images/g/3MoAAeSwPspqwTBD/s-l225.jpg",
-          "condition": "New",
-          "seller": "beardedbargains",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 583,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "shippingCost": 19.99,
           "shippingCurrency": "USD"
         },
         {
