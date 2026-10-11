@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T17:13:18Z",
+  "updated_at": "2026-10-11T17:34:54Z",
   "median_price": 55.0,
   "total_items": 468,
   "categories": [
@@ -1448,7 +1448,7 @@
           "condition": "New",
           "seller": "feral4l47",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 40,
+          "sellerFeedbackScore": 41,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -1514,6 +1514,23 @@
           ],
           "shippingCost": null,
           "shippingCurrency": null
+        },
+        {
+          "id": "v1|147601332487|0",
+          "title": "Jurassic World Hammond Collection Indominus Rex DELUXE 26\" Dinosaur Brand New",
+          "price": 74.35,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/147601332487?_skw=Mattel+Hammond+Collection+dinosaur&hash=item225db99907:g:-2kAAeSwiKpquEG9",
+          "image": "https://i.ebayimg.com/images/g/-2kAAeSwiKpquEG9/s-l225.jpg",
+          "condition": "New",
+          "seller": "theshelfcartel",
+          "sellerFeedbackPct": "99.5",
+          "sellerFeedbackScore": 1033,
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ],
+          "shippingCost": 25.25,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|137789889235|0",
@@ -5630,7 +5647,7 @@
           "condition": "New",
           "seller": "ravenshiddentreasures",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 9767,
+          "sellerFeedbackScore": 9768,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7802,24 +7819,6 @@
             "FIXED_PRICE"
           ],
           "shippingCost": 9.99,
-          "shippingCurrency": "USD"
-        },
-        {
-          "id": "v1|920008046241|0",
-          "title": "Jurassic World Hammond Collection SCORPIOS REX Dinosaur Figure *IN HAND*",
-          "price": 65.95,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/920008046241?_skw=Mattel+Hammond+Collection+dinosaur&hash=itemd634c0b6a1:g:CkIAAeSw3LpqwrCh",
-          "image": "https://i.ebayimg.com/images/g/CkIAAeSw3LpqwrCh/s-l225.jpg",
-          "condition": "New",
-          "seller": "lylestore",
-          "sellerFeedbackPct": "99.3",
-          "sellerFeedbackScore": 395,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "shippingCost": 0.0,
           "shippingCurrency": "USD"
         },
         {
