@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-11T19:24:49Z",
+  "updated_at": "2026-10-11T19:43:59Z",
   "median_price": 54.99,
-  "total_items": 465,
+  "total_items": 466,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -2505,7 +2505,7 @@
           "title": "Jurassic Park World 2021 Hammond Collection Baryonx Figure  NEAR MINT",
           "price": 100.0,
           "currency": "USD",
-          "url": "https://www.ebay.com/itm/198688530424?_skw=Hammond+Collection+Jurassic+Park&hash=item2e42c25ff8:g:30UAAeSwRWxqwuZt",
+          "url": "https://www.ebay.com/itm/198688530424?_skw=Jurassic+World+Hammond+Collection&hash=item2e42c25ff8:g:30UAAeSwRWxqwuZt",
           "image": "https://i.ebayimg.com/images/g/30UAAeSwRWxqwuZt/s-l225.jpg",
           "condition": "Used",
           "seller": "theirre0",
@@ -7997,6 +7997,24 @@
           "sellerFeedbackScore": 421,
           "buyingOptions": [
             "FIXED_PRICE"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
+          "id": "v1|198707334296|0",
+          "title": "Mattel Jurassic Park Hammond Collection Idominous  Rex Action Figure",
+          "price": 100.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/198707334296?_skw=Mattel+Hammond+Collection+dinosaur&hash=item2e43e14c98:g:cIEAAeSwL1Nqy-Ec",
+          "image": "https://i.ebayimg.com/images/g/cIEAAeSwL1Nqy-Ec/s-l225.jpg",
+          "condition": "New",
+          "seller": "badbatchtoyz",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 177,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
           ],
           "shippingCost": null,
           "shippingCurrency": null
