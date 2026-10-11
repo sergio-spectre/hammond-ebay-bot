@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-11T19:43:59Z",
+  "updated_at": "2026-10-11T19:59:27Z",
   "median_price": 54.99,
-  "total_items": 466,
+  "total_items": 467,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -1005,7 +1005,7 @@
           "condition": "New",
           "seller": "tbaytreasure",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 5127,
+          "sellerFeedbackScore": 5128,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -1151,7 +1151,7 @@
           "condition": "Ungraded",
           "seller": "thedealcellar",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2219,
+          "sellerFeedbackScore": 2220,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -1169,7 +1169,7 @@
           "condition": "Ungraded",
           "seller": "thedealcellar",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2219,
+          "sellerFeedbackScore": 2220,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -2242,11 +2242,28 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32410,
+          "sellerFeedbackScore": 32412,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
           "shippingCost": 0.0,
+          "shippingCurrency": "USD"
+        },
+        {
+          "id": "v1|920028059333|0",
+          "title": "Jurassic World / Hammond Collection / Triceratops Juvenile / Mattel / 2024 / New",
+          "price": 44.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/920028059333?_skw=Jurassic+World+Hammond+Collection&hash=itemd635f216c5:g:-qEAAeSwYu9qysVn",
+          "image": "https://i.ebayimg.com/images/g/-qEAAeSwYu9qysVn/s-l225.jpg",
+          "condition": "New",
+          "seller": "zklc-collectibles",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 157,
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ],
+          "shippingCost": 6.99,
           "shippingCurrency": "USD"
         },
         {
@@ -2265,23 +2282,6 @@
             "BEST_OFFER"
           ],
           "shippingCost": 17.54,
-          "shippingCurrency": "USD"
-        },
-        {
-          "id": "v1|920028059333|0",
-          "title": "Jurassic World / Hammond Collection / Triceratops Juvenile / Mattel / 2024 / New",
-          "price": 47.99,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/920028059333?_skw=Jurassic+World+Hammond+Collection&hash=itemd635f216c5:g:-qEAAeSwYu9qysVn",
-          "image": "https://i.ebayimg.com/images/g/-qEAAeSwYu9qysVn/s-l225.jpg",
-          "condition": "New",
-          "seller": "zklc-collectibles",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 157,
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ],
-          "shippingCost": 6.99,
           "shippingCurrency": "USD"
         },
         {
@@ -2740,6 +2740,30 @@
         }
       ],
       "minPrice30d": 30.0
+    },
+    {
+      "name": "Gallimimus",
+      "items": [
+        {
+          "id": "v1|128129280590|0",
+          "title": "Mattel Jurassic Park | Hammond Collection | Gallimimus 3.75\" Dinosaur ",
+          "price": 99.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/128129280590?_skw=Mattel+Hammond+Collection+dinosaur&hash=item1dd519aa4e:g:sAgAAeSwuV5qy-b2",
+          "image": "https://i.ebayimg.com/images/g/sAgAAeSwuV5qy-b2/s-l225.jpg",
+          "condition": "New",
+          "seller": "popculturecomicspgh",
+          "sellerFeedbackPct": "99.9",
+          "sellerFeedbackScore": 14042,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        }
+      ],
+      "minPrice30d": 99.99
     },
     {
       "name": "Ceratosaurus",
@@ -4557,7 +4581,7 @@
           "condition": "Used",
           "seller": "bobasaur-ships-fast",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 764,
+          "sellerFeedbackScore": 765,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4580,7 +4604,7 @@
           "condition": "Used",
           "seller": "bobasaur-ships-fast",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 764,
+          "sellerFeedbackScore": 765,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6002,7 +6026,7 @@
           "condition": "New",
           "seller": "bobasaur-ships-fast",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 764,
+          "sellerFeedbackScore": 765,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7388,7 +7412,7 @@
           "condition": "New",
           "seller": "bobasaur-ships-fast",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 764,
+          "sellerFeedbackScore": 765,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -8029,7 +8053,7 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32410,
+          "sellerFeedbackScore": 32412,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
