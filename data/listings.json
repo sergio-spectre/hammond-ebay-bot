@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T22:54:01Z",
+  "updated_at": "2026-10-11T23:12:52Z",
   "median_price": 55.0,
   "total_items": 466,
   "categories": [
@@ -4059,7 +4059,7 @@
           "condition": "New",
           "seller": "goodbyeretail",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 157006,
+          "sellerFeedbackScore": 157005,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4451,24 +4451,6 @@
           "seller": "dh34-42",
           "sellerFeedbackPct": "100.0",
           "sellerFeedbackScore": 1,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "shippingCost": null,
-          "shippingCurrency": null
-        },
-        {
-          "id": "v1|237099654792|0",
-          "title": "Mattel Hammond Collection Giganotosaurus Dinosaur Plastic Figure",
-          "price": 140.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/237099654792?_skw=Mattel+Hammond+Collection+dinosaur&hash=item37343d9e88:g:RZcAAeSwbHBqvaRc",
-          "image": "https://i.ebayimg.com/images/g/RZcAAeSwbHBqvaRc/s-l225.jpg",
-          "condition": "New",
-          "seller": "angelsmangel",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 15,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -6959,7 +6941,7 @@
           "condition": "New",
           "seller": "lootlodge",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 164533,
+          "sellerFeedbackScore": 164534,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -8420,6 +8402,23 @@
             "BEST_OFFER"
           ],
           "shippingCost": 10.0,
+          "shippingCurrency": "USD"
+        },
+        {
+          "id": "v1|327400267976|0",
+          "title": "Jurassic World 2024 Hammond Collection Carnotaurus Fallen Kingdom Figure Lot",
+          "price": 179.19,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/327400267976?_skw=Mattel+Hammond+Collection+dinosaur&hash=item4c3a93a0c8:g:tHIAAeSwHbxqzAEY",
+          "image": "https://i.ebayimg.com/images/g/tHIAAeSwHbxqzAEY/s-l225.jpg",
+          "condition": "Used",
+          "seller": "bizarrefind",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 549,
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ],
+          "shippingCost": 32.48,
           "shippingCurrency": "USD"
         },
         {
