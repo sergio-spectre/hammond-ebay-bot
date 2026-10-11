@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T04:18:27Z",
+  "updated_at": "2026-10-11T04:39:08Z",
   "median_price": 55.0,
   "total_items": 472,
   "categories": [
@@ -326,6 +326,21 @@
           "image": "https://i.ebayimg.com/images/g/wbgAAeSwO2lqxYhZ/s-l225.jpg",
           "condition": "Used",
           "seller": "king_crossing",
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
+          "id": "v1|189038078050|0",
+          "title": "Jurassic World Hammond Collection Atrociraptor Ghost",
+          "price": 70.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/189038078050?_skw=Jurassic+World+Hammond+Collection&hash=item2c038c2862:g:520AAeSwRHNqlK39",
+          "image": "https://i.ebayimg.com/images/g/520AAeSwRHNqlK39/s-l225.jpg",
+          "condition": "New",
+          "seller": "tolucafc",
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3791,22 +3806,6 @@
           ],
           "shippingCost": 7.0,
           "shippingCurrency": "USD"
-        },
-        {
-          "id": "v1|860021057916|0",
-          "title": "(Only) Mattel Hammond Collection Jurassic World Carnotaurus (Read Description)",
-          "price": 130.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/860021057916?_skw=Mattel+Hammond+Collection+dinosaur&hash=itemc83d3fe97c:g:qm4AAeSwtChqxt~b",
-          "image": "https://i.ebayimg.com/images/g/qm4AAeSwtChqxt~b/s-l225.jpg",
-          "condition": "Used",
-          "seller": "cisc88",
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "shippingCost": null,
-          "shippingCurrency": null
         },
         {
           "id": "v1|198688523022|0",
