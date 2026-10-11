@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T20:56:06Z",
+  "updated_at": "2026-10-11T21:15:06Z",
   "median_price": 55.0,
   "total_items": 466,
   "categories": [
@@ -1977,24 +1977,6 @@
           ],
           "shippingCost": 9.5,
           "shippingCurrency": "USD"
-        },
-        {
-          "id": "v1|168730814552|0",
-          "title": "Mattel Jurassic World Hammond Collection Velociraptor SDCC 2026 exclusive",
-          "price": 40.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/168730814552?_skw=Mattel+Hammond+Collection+dinosaur&hash=item274923e858:g:Ow8AAeSw2YBquX9-",
-          "image": "https://i.ebayimg.com/images/g/Ow8AAeSw2YBquX9-/s-l225.jpg",
-          "condition": "New",
-          "seller": "hellofafi",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 449,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "shippingCost": null,
-          "shippingCurrency": null
         },
         {
           "id": "v1|147624675591|0",
@@ -4364,6 +4346,23 @@
           "shippingCurrency": "USD"
         },
         {
+          "id": "v1|128129376933|0",
+          "title": "HAMMOND COLLECTION Therizinosaurus (Jurassic World: Dominion)",
+          "price": 169.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/128129376933?_skw=Mattel+Hammond+Collection+dinosaur&hash=item1dd51b22a5:g:TzAAAeSwqs9qy~Zr",
+          "image": "https://i.ebayimg.com/images/g/TzAAAeSwqs9qy~Zr/s-l225.jpg",
+          "condition": "New",
+          "seller": "inhabitant_of_cybertron",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 394,
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
           "id": "v1|366723102424|0",
           "title": "Hammond Collection Therizinosaurus",
           "price": 179.99,
@@ -5145,7 +5144,7 @@
           "title": "Mattel Jurassic World Hammond Collection Stegosaurus The Lost World 1/18 Scale ",
           "price": 55.0,
           "currency": "USD",
-          "url": "https://www.ebay.com/itm/860009315896?_skw=Hammond+Collection+Jurassic+Park&hash=itemc83c8cbe38:g:E~sAAeSwyIdqwvdQ",
+          "url": "https://www.ebay.com/itm/860009315896?_skw=Jurassic+World+Hammond+Collection&hash=itemc83c8cbe38:g:E~sAAeSwyIdqwvdQ",
           "image": "https://i.ebayimg.com/images/g/E~sAAeSwyIdqwvdQ/s-l225.jpg",
           "condition": "New",
           "seller": "cojak-collectables",
@@ -6216,23 +6215,6 @@
           "shippingCurrency": null
         },
         {
-          "id": "v1|117445418264|0",
-          "title": "Jurassic World Hammond Collection Mussaurus Action Figure NIB Fast Free Shipping",
-          "price": 21.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/117445418264?_skw=Jurassic+World+Hammond+Collection&hash=item1b584add18:g:W1gAAeSw9VhqwVOg",
-          "image": "https://i.ebayimg.com/images/g/W1gAAeSw9VhqwVOg/s-l225.jpg",
-          "condition": "New",
-          "seller": "timoleon",
-          "sellerFeedbackPct": "99.7",
-          "sellerFeedbackScore": 1757,
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ],
-          "shippingCost": null,
-          "shippingCurrency": null
-        },
-        {
           "id": "v1|157606885918|0",
           "title": "JURASSIC WORLD MUSSAURUS DINOSAUR HAMMOND COLLECTION TRUE FX JURASSIC PARK New",
           "price": 21.99,
@@ -6505,6 +6487,23 @@
             "FIXED_PRICE"
           ],
           "shippingCost": 0.0,
+          "shippingCurrency": "USD"
+        },
+        {
+          "id": "v1|267759299136|0",
+          "title": "Jurassic World Hammond Collection True FX Mussaurus + Ornitholestes Dino Figures",
+          "price": 39.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/267759299136?_skw=Hammond+Collection+True+FX&hash=item3e57b2aa40:g:d10AAeSwWUhqghFy",
+          "image": "https://i.ebayimg.com/images/g/d10AAeSwWUhqghFy/s-l225.jpg",
+          "condition": "New",
+          "seller": "nofriendz808",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 931,
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ],
+          "shippingCost": 12.87,
           "shippingCurrency": "USD"
         }
       ],
@@ -6959,7 +6958,7 @@
           "condition": "New",
           "seller": "lootlodge",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 164531,
+          "sellerFeedbackScore": 164532,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
