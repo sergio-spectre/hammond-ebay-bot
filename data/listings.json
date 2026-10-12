@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-12T08:52:17Z",
-  "median_price": 55.975,
+  "updated_at": "2026-10-12T09:17:59Z",
+  "median_price": 55.0,
   "total_items": 464,
   "categories": [
     {
@@ -103,7 +103,7 @@
           "condition": "New",
           "seller": "kkelly78",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2285,
+          "sellerFeedbackScore": 2286,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -1031,6 +1031,23 @@
             "FIXED_PRICE"
           ],
           "shippingCost": 7.0,
+          "shippingCurrency": "USD"
+        },
+        {
+          "id": "v1|237120191907|0",
+          "title": "HAMMOND COLLECTION DR ELLIE SATTLER JURASSIC PARK ACTION FIGURE MOSC 1:18 2022",
+          "price": 22.95,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/237120191907?_skw=Mattel+Hammond+Collection+dinosaur&hash=item373576fda3:g:LiUAAeSwFJJqzJ6A",
+          "image": "https://i.ebayimg.com/images/g/LiUAAeSwFJJqzJ6A/s-l225.jpg",
+          "condition": "New",
+          "seller": "05kamars",
+          "sellerFeedbackPct": "99.6",
+          "sellerFeedbackScore": 2699,
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ],
+          "shippingCost": 6.95,
           "shippingCurrency": "USD"
         }
       ],
@@ -2171,7 +2188,7 @@
           "condition": "New",
           "seller": "t09028_93",
           "sellerFeedbackPct": "99.3",
-          "sellerFeedbackScore": 5040,
+          "sellerFeedbackScore": 5041,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2188,7 +2205,7 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32426,
+          "sellerFeedbackScore": 32428,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2381,7 +2398,7 @@
           "condition": "Used",
           "seller": "toyfederationshop",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 8854,
+          "sellerFeedbackScore": 8855,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2926,7 +2943,7 @@
           "condition": "New",
           "seller": "pop.market",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 3502627,
+          "sellerFeedbackScore": 3502635,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3507,7 +3524,7 @@
           "condition": "Used",
           "seller": "toyfederationshop",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 8854,
+          "sellerFeedbackScore": 8855,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3524,7 +3541,7 @@
           "condition": "Used",
           "seller": "toyfederationshop",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 8854,
+          "sellerFeedbackScore": 8855,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3657,7 +3674,7 @@
           "condition": "Used",
           "seller": "toyfederationshop",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 8854,
+          "sellerFeedbackScore": 8855,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3680,7 +3697,7 @@
           "condition": "Used",
           "seller": "toyfederationshop",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 8854,
+          "sellerFeedbackScore": 8855,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3792,7 +3809,7 @@
           "condition": "Used",
           "seller": "toyfederationshop",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 8854,
+          "sellerFeedbackScore": 8855,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3891,7 +3908,7 @@
           "condition": "Used",
           "seller": "toyfederationshop",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 8854,
+          "sellerFeedbackScore": 8855,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6485,7 +6502,7 @@
           "condition": "New",
           "seller": "dealsbydesign",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 4854,
+          "sellerFeedbackScore": 4855,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -7841,24 +7858,6 @@
           "shippingCurrency": "USD"
         },
         {
-          "id": "v1|398441731136|0",
-          "title": "SCORPIOS REX Jurassic World Hammond Collection Dinosaur Action Figure Mattel",
-          "price": 74.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/398441731136?_skw=Mattel+Hammond+Collection+dinosaur&hash=item5cc4fa5440:g:Ck8AAeSwNnNquwFb",
-          "image": "https://i.ebayimg.com/images/g/Ck8AAeSwNnNquwFb/s-l225.jpg",
-          "condition": "New",
-          "seller": "gfeliz99",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 3269,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "shippingCost": null,
-          "shippingCurrency": null
-        },
-        {
           "id": "v1|158093595848|0",
           "title": "Jurassic World Hammond Collection Scorpios Rex True FX Action Figure Exclusive",
           "price": 79.95,
@@ -7997,7 +7996,7 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32426,
+          "sellerFeedbackScore": 32428,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
