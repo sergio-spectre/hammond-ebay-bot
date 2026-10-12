@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-12T00:57:04Z",
+  "updated_at": "2026-10-12T01:21:47Z",
   "median_price": 55.0,
-  "total_items": 468,
+  "total_items": 469,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -698,8 +698,8 @@
           "image": "https://i.ebayimg.com/images/g/i6UAAeSwOJ1qxuTc/s-l225.jpg",
           "condition": "New",
           "seller": "lylestore",
-          "sellerFeedbackPct": "99.3",
-          "sellerFeedbackScore": 395,
+          "sellerFeedbackPct": "99.5",
+          "sellerFeedbackScore": 397,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -773,6 +773,23 @@
       "name": "Young T-Rex (The Lost World)",
       "items": [
         {
+          "id": "v1|860034730236|0",
+          "title": "Jurassic Park World Hammond Collection Juvenile Tyrannosaurus Rex Baby T Rex",
+          "price": 149.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/860034730236?_skw=Hammond+Collection+Jurassic+Park&hash=itemc83e1088fc:g:in0AAeSwwQtqzDGP",
+          "image": "https://i.ebayimg.com/images/g/in0AAeSwwQtqzDGP/s-l225.jpg",
+          "condition": "New",
+          "seller": "sabs1867",
+          "sellerFeedbackPct": "99.5",
+          "sellerFeedbackScore": 207,
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
           "id": "v1|227548101724|0",
           "title": "Jurassic Park World Hammond Collection Juvenile Tyrannosaurus Rex Baby T Rex",
           "price": 220.0,
@@ -790,7 +807,7 @@
           "shippingCurrency": null
         }
       ],
-      "minPrice30d": 199.0
+      "minPrice30d": 149.99
     },
     {
       "name": "Juvenile Triceratops",
@@ -4126,7 +4143,7 @@
           "condition": "New",
           "seller": "lemony_gem_toys",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 28063,
+          "sellerFeedbackScore": 28064,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -5292,14 +5309,15 @@
           "title": "Jurassic World Rebirth Hammond Collection Tail Thrasher Spinosaurus",
           "price": 55.0,
           "currency": "USD",
-          "url": "https://www.ebay.com/itm/137810432932?_skw=Jurassic+World+Hammond+Collection&hash=item20162453a4:g:uNgAAeSwusFqwdIb",
-          "image": "https://i.ebayimg.com/images/g/uNgAAeSwusFqwdIb/s-l225.jpg",
+          "url": "https://www.ebay.com/itm/137810432932?_skw=Jurassic+World+Hammond+Collection&hash=item20162453a4:g:sQ0AAeSw9n9qzDKZ",
+          "image": "https://i.ebayimg.com/images/g/sQ0AAeSw9n9qzDKZ/s-l225.jpg",
           "condition": "Used",
           "seller": "nancysk88",
           "sellerFeedbackPct": "99.7",
           "sellerFeedbackScore": 511,
           "buyingOptions": [
-            "FIXED_PRICE"
+            "FIXED_PRICE",
+            "BEST_OFFER"
           ],
           "shippingCost": null,
           "shippingCurrency": null
@@ -6976,7 +6994,7 @@
           "condition": "New",
           "seller": "lootlodge",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 164534,
+          "sellerFeedbackScore": 164535,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
