@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T01:21:47Z",
+  "updated_at": "2026-10-12T01:49:10Z",
   "median_price": 55.0,
   "total_items": 469,
   "categories": [
@@ -39,6 +39,23 @@
             "FIXED_PRICE"
           ],
           "shippingCost": 99.0,
+          "shippingCurrency": "USD"
+        },
+        {
+          "id": "v1|840011892569|0",
+          "title": "Mattel Jurassic World Hammond Collection T Rex Convention Crasher SDCC 2025",
+          "price": 300.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/840011892569?_skw=Mattel+Hammond+Collection+dinosaur&hash=itemc3949c4759:g:GRYAAeSwXIZqzDZa",
+          "image": "https://i.ebayimg.com/images/g/GRYAAeSwXIZqzDZa/s-l225.jpg",
+          "condition": "Used",
+          "seller": "batman3012",
+          "sellerFeedbackPct": "99.6",
+          "sellerFeedbackScore": 3196,
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ],
+          "shippingCost": 0.0,
           "shippingCurrency": "USD"
         },
         {
@@ -258,24 +275,6 @@
           ],
           "shippingCost": 31.42,
           "shippingCurrency": "USD"
-        },
-        {
-          "id": "v1|227543440246|0",
-          "title": "SHIPS TODAY SDCC Jurassic World Hammond Collection 25th Comic-Style Velociraptor",
-          "price": 64.95,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/227543440246?_skw=Mattel+Hammond+Collection+dinosaur&hash=item34faa55b76:g:d6IAAeSwC7ZqurVV",
-          "image": "https://i.ebayimg.com/images/g/d6IAAeSwC7ZqurVV/s-l225.jpg",
-          "condition": "New",
-          "seller": "turboveedub",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2148,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "shippingCost": 0.0,
-          "shippingCurrency": "USD"
         }
       ],
       "minPrice30d": 32.99
@@ -299,24 +298,6 @@
           ],
           "shippingCost": 14.5,
           "shippingCurrency": "USD"
-        },
-        {
-          "id": "v1|227550961480|0",
-          "title": "Mattel Creations Jurassic World JIMMY BUFFET Bubbles Up Hammond Collection SDCC",
-          "price": 69.99,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/227550961480?_skw=Jurassic+World+Hammond+Collection&hash=item34fb181f48:g:XJYAAeSwWsdqwZ~D",
-          "image": "https://i.ebayimg.com/images/g/XJYAAeSwWsdqwZ~D/s-l225.jpg",
-          "condition": "New",
-          "seller": "onerealdude",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 70,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "shippingCost": null,
-          "shippingCurrency": null
         },
         {
           "id": "v1|117448997564|0",
@@ -1123,6 +1104,24 @@
           "shippingCurrency": "USD"
         },
         {
+          "id": "v1|920031053478|0",
+          "title": "NEW Funk Pop Ad Icons Bullseye Dressed As John Hammond Jurassic Park #178",
+          "price": 12.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/920031053478?_skw=Hammond+Collection+Jurassic+Park&hash=itemd6361fc6a6:g:WAYAAeSwEPJqzDea",
+          "image": "https://i.ebayimg.com/images/g/WAYAAeSwEPJqzDea/s-l225.jpg",
+          "condition": "New",
+          "seller": "troddysemporium",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 30,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
           "id": "v1|237114839319|0",
           "title": "Richard Attenborough as John Hammond, Cryptozoic CZX Jurassic Park, STR PWR #S3",
           "price": 19.99,
@@ -1840,7 +1839,7 @@
           "condition": "New",
           "seller": "velocy2300",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 6085,
+          "sellerFeedbackScore": 6086,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2188,7 +2187,7 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32414,
+          "sellerFeedbackScore": 32417,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2844,7 +2843,7 @@
           "title": "Jurassic Park Hammond Collection Ceratosaurus World Rare SF Cinema Model Limited",
           "price": 997.79,
           "currency": "USD",
-          "url": "https://www.ebay.com/itm/227553226425?_skw=Hammond+Collection+Jurassic+Park&hash=item34fb3aaeb9:g:m~IAAeSwVylqw65X",
+          "url": "https://www.ebay.com/itm/227553226425?_skw=Jurassic+World+Hammond+Collection&hash=item34fb3aaeb9:g:m~IAAeSwVylqw65X",
           "image": "https://i.ebayimg.com/images/g/m~IAAeSwVylqw65X/s-l225.jpg",
           "condition": "New",
           "seller": "japan-hobby-clubs",
@@ -3381,7 +3380,7 @@
           "condition": "New",
           "seller": "velocy2300",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 6085,
+          "sellerFeedbackScore": 6086,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4748,8 +4747,8 @@
           "image": "https://i.ebayimg.com/images/g/1QQAAeSwAU9p-qJY/s-l225.jpg",
           "condition": "New",
           "seller": "wsf199",
-          "sellerFeedbackPct": "99.4",
-          "sellerFeedbackScore": 1479,
+          "sellerFeedbackPct": "99.7",
+          "sellerFeedbackScore": 1481,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -6201,7 +6200,7 @@
           "condition": "New",
           "seller": "velocy2300",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 6085,
+          "sellerFeedbackScore": 6086,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6450,7 +6449,7 @@
           "condition": "New",
           "seller": "velocy2300",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 6085,
+          "sellerFeedbackScore": 6086,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6942,7 +6941,7 @@
           "condition": "New",
           "seller": "velocy2300",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 6085,
+          "sellerFeedbackScore": 6086,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7941,7 +7940,7 @@
           "condition": "New",
           "seller": "velocy2300",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 6085,
+          "sellerFeedbackScore": 6086,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -8070,7 +8069,7 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32414,
+          "sellerFeedbackScore": 32417,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
