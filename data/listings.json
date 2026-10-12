@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-12T00:23:17Z",
+  "updated_at": "2026-10-12T00:57:04Z",
   "median_price": 55.0,
-  "total_items": 467,
+  "total_items": 468,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -2945,7 +2945,7 @@
           "condition": "New",
           "seller": "groundhoggs",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 7833,
+          "sellerFeedbackScore": 7834,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3607,7 +3607,7 @@
           "condition": "Used",
           "seller": "andresguerire",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 465,
+          "sellerFeedbackScore": 466,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4058,7 +4058,7 @@
           "condition": "New",
           "seller": "goodbyeretail",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 157005,
+          "sellerFeedbackScore": 157007,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4731,8 +4731,8 @@
           "image": "https://i.ebayimg.com/images/g/1QQAAeSwAU9p-qJY/s-l225.jpg",
           "condition": "New",
           "seller": "wsf199",
-          "sellerFeedbackPct": "99.7",
-          "sellerFeedbackScore": 1481,
+          "sellerFeedbackPct": "99.4",
+          "sellerFeedbackScore": 1479,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -5315,6 +5315,24 @@
           "seller": "evlo65",
           "sellerFeedbackPct": "100.0",
           "sellerFeedbackScore": 88,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
+          "id": "v1|920030936195|0",
+          "title": "Jurassic World Hammond Collection Spinosaurus Figure",
+          "price": 135.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/920030936195?_skw=Jurassic+World+Hammond+Collection&hash=itemd6361dfc83:g:aPMAAeSwxWhqzCll",
+          "image": "https://i.ebayimg.com/images/g/aPMAAeSwxWhqzCll/s-l225.jpg",
+          "condition": "Used",
+          "seller": "adr611635",
+          "sellerFeedbackPct": "0.0",
+          "sellerFeedbackScore": 2,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -7126,7 +7144,7 @@
           "condition": "New",
           "seller": "groundhoggs",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 7833,
+          "sellerFeedbackScore": 7834,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7376,7 +7394,7 @@
           "condition": "New",
           "seller": "groundhoggs",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 7833,
+          "sellerFeedbackScore": 7834,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
