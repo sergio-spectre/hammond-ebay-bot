@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T05:39:24Z",
+  "updated_at": "2026-10-12T05:59:17Z",
   "median_price": 55.0,
   "total_items": 467,
   "categories": [
@@ -2188,28 +2188,11 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32422,
+          "sellerFeedbackScore": 32423,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
           "shippingCost": 0.0,
-          "shippingCurrency": "USD"
-        },
-        {
-          "id": "v1|920028059333|0",
-          "title": "Jurassic World / Hammond Collection / Triceratops Juvenile / Mattel / 2024 / New",
-          "price": 44.99,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/920028059333?_skw=Jurassic+World+Hammond+Collection&hash=itemd635f216c5:g:-qEAAeSwYu9qysVn",
-          "image": "https://i.ebayimg.com/images/g/-qEAAeSwYu9qysVn/s-l225.jpg",
-          "condition": "New",
-          "seller": "zklc-collectibles",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 157,
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ],
-          "shippingCost": 6.99,
           "shippingCurrency": "USD"
         },
         {
@@ -2228,6 +2211,23 @@
             "BEST_OFFER"
           ],
           "shippingCost": 17.54,
+          "shippingCurrency": "USD"
+        },
+        {
+          "id": "v1|920028059333|0",
+          "title": "Jurassic World / Hammond Collection / Triceratops Juvenile / Mattel / 2024 / New",
+          "price": 49.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/920028059333?_skw=Jurassic+World+Hammond+Collection&hash=itemd635f216c5:g:-qEAAeSwYu9qysVn",
+          "image": "https://i.ebayimg.com/images/g/-qEAAeSwYu9qysVn/s-l225.jpg",
+          "condition": "New",
+          "seller": "zklc-collectibles",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 157,
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ],
+          "shippingCost": 6.99,
           "shippingCurrency": "USD"
         },
         {
@@ -2926,7 +2926,7 @@
           "condition": "New",
           "seller": "pop.market",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 3502569,
+          "sellerFeedbackScore": 3502575,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6956,7 +6956,7 @@
           "condition": "New",
           "seller": "lootlodge",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 164537,
+          "sellerFeedbackScore": 164538,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -8050,7 +8050,7 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32422,
+          "sellerFeedbackScore": 32423,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
