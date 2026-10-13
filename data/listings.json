@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-13T16:22:38Z",
+  "updated_at": "2026-10-13T16:50:29Z",
   "median_price": 59.995000000000005,
-  "total_items": 460,
+  "total_items": 457,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -85,7 +85,7 @@
           "condition": "New",
           "seller": "recollectables_pdx",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 5837,
+          "sellerFeedbackScore": 5838,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -284,23 +284,6 @@
           "shippingCurrency": "USD"
         },
         {
-          "id": "v1|117448997564|0",
-          "title": "Mattel Creations Jurassic World JIMMY BUFFET Bubbles Up Hammond Collection SDCC",
-          "price": 75.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/117448997564?_skw=Jurassic+World+Hammond+Collection&hash=item1b58817abc:g:eOAAAeSwwRFqw9JD",
-          "image": "https://i.ebayimg.com/images/g/eOAAAeSwwRFqw9JD/s-l225.jpg",
-          "condition": "New",
-          "seller": "og19812007",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 304,
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ],
-          "shippingCost": null,
-          "shippingCurrency": null
-        },
-        {
           "id": "v1|168788203999|0",
           "title": "SDCC 2024 Mattel Jurassic World Hammond Collection Bubbles Up JIMMY BUFFETT MISB",
           "price": 95.0,
@@ -354,6 +337,24 @@
           "sellerFeedbackScore": 2175,
           "buyingOptions": [
             "FIXED_PRICE"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
+          "id": "v1|840018177377|0",
+          "title": "Mattel Jurassic World Hammond Collection Atrociraptor Ghost JDJ06 New JAPAN",
+          "price": 79.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/840018177377?_skw=Mattel+Hammond+Collection+dinosaur&hash=itemc394fc2d61:g:F6cAAeSwBVpqzloM",
+          "image": "https://i.ebayimg.com/images/g/F6cAAeSwBVpqzloM/s-l225.jpg",
+          "condition": "New",
+          "seller": "danegooddeals",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 10,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
           ],
           "shippingCost": null,
           "shippingCurrency": null
@@ -795,22 +796,22 @@
           "shippingCurrency": null
         },
         {
-          "id": "v1|198694343436|0",
-          "title": "Mattel Jurassic World Hammond Collection Juvenile Triceratops NEW IN STOCK",
-          "price": 65.99,
+          "id": "v1|840018223539|0",
+          "title": "Jurassic World Hammond Collection Juvenile Baby Triceratops New In Box",
+          "price": 39.99,
           "currency": "USD",
-          "url": "https://www.ebay.com/itm/198694343436?_skw=Mattel+Hammond+Collection+dinosaur&hash=item2e431b130c:g:owkAAeSwYfhpM6N7",
-          "image": "https://i.ebayimg.com/images/g/owkAAeSwYfhpM6N7/s-l225.jpg",
+          "url": "https://www.ebay.com/itm/840018223539?_skw=Jurassic+World+Hammond+Collection&hash=itemc394fce1b3:g:e50AAeSwqRlqzl8a",
+          "image": "https://i.ebayimg.com/images/g/e50AAeSwqRlqzl8a/s-l225.jpg",
           "condition": "New",
-          "seller": "pre_6929",
-          "sellerFeedbackPct": "89.7",
-          "sellerFeedbackScore": 23,
+          "seller": "danegooddeals",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 10,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
           ],
-          "shippingCost": 0.0,
-          "shippingCurrency": "USD"
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ],
       "minPrice30d": 30.0
@@ -957,6 +958,24 @@
           "shippingCurrency": "USD"
         },
         {
+          "id": "v1|840018217027|0",
+          "title": "2021 Jurassic Park Hammond Collection DR IAN MALCOLM 3.75\" ACTION FIGURE NEW",
+          "price": 12.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/840018217027?_skw=Mattel+Hammond+Collection+dinosaur&hash=itemc394fcc843:g:GqUAAeSw0lhqzl4E",
+          "image": "https://i.ebayimg.com/images/g/GqUAAeSw0lhqzl4E/s-l225.jpg",
+          "condition": "New",
+          "seller": "danegooddeals",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 10,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
           "id": "v1|237109091055|0",
           "title": "Mattel Hammond Collection Jurassic Park Dr. Ian Malcolm Action Figure Age 8+",
           "price": 15.99,
@@ -991,23 +1010,6 @@
           ],
           "shippingCost": 0.0,
           "shippingCurrency": "USD"
-        },
-        {
-          "id": "v1|158378977925|0",
-          "title": "2-Jurassic World Hammond Collection Dr. Ian Malcolm Mattel",
-          "price": 24.99,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/158378977925?_skw=Mattel+Hammond+Collection+dinosaur&hash=item24e01f6a85:g:Tq8AAeSwd99pH~wD",
-          "image": "https://i.ebayimg.com/images/g/Tq8AAeSwd99pH~wD/s-l225.jpg",
-          "condition": "New",
-          "seller": "angel11067",
-          "sellerFeedbackPct": "99.5",
-          "sellerFeedbackScore": 3344,
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ],
-          "shippingCost": 4.99,
-          "shippingCurrency": "USD"
         }
       ],
       "minPrice30d": 8.5
@@ -1031,6 +1033,24 @@
           ],
           "shippingCost": 6.95,
           "shippingCurrency": "USD"
+        },
+        {
+          "id": "v1|840018220254|0",
+          "title": "DR. ELLIE SATTLER Jurassic Park Hammond Collection 2022 Mattel  Action Figure ",
+          "price": 22.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/840018220254?_skw=Mattel+Hammond+Collection+dinosaur&hash=itemc394fcd4de:g:N3sAAeSw8wZqzl6M",
+          "image": "https://i.ebayimg.com/images/g/N3sAAeSw8wZqzl6M/s-l225.jpg",
+          "condition": "New",
+          "seller": "danegooddeals",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 10,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ],
       "minPrice30d": 19.0
@@ -1038,6 +1058,24 @@
     {
       "name": "Robert Muldoon",
       "items": [
+        {
+          "id": "v1|840018222200|0",
+          "title": "HAMMOND COLLECTION ROBERT MULDOON JURASSIC PARK ACTION FIGURE MOSC 1:18 2022 HTF",
+          "price": 32.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/840018222200?_skw=Mattel+Hammond+Collection+dinosaur&hash=itemc394fcdc78:g:S7kAAeSwUrVqzl7Y",
+          "image": "https://i.ebayimg.com/images/g/S7kAAeSwUrVqzl7Y/s-l225.jpg",
+          "condition": "New",
+          "seller": "danegooddeals",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 10,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
         {
           "id": "v1|178552304216|0",
           "title": "Hammond Collection Robert Muldoon Jurassic Park Action Figure MOSC 1:18 2022 HTF",
@@ -1057,7 +1095,31 @@
           "shippingCurrency": "USD"
         }
       ],
-      "minPrice30d": 39.93
+      "minPrice30d": 32.99
+    },
+    {
+      "name": "Ray Arnold",
+      "items": [
+        {
+          "id": "v1|840018218598|0",
+          "title": "Jurassic World Hammond Collection John Raymond Arnold 3.75\" Figure New in Box",
+          "price": 11.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/840018218598?_skw=Hammond+Collection+Jurassic+Park&hash=itemc394fcce66:g:r2UAAeSwIiNqzl5D",
+          "image": "https://i.ebayimg.com/images/g/r2UAAeSwIiNqzl5D/s-l225.jpg",
+          "condition": "New",
+          "seller": "danegooddeals",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 10,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        }
+      ],
+      "minPrice30d": 8.99
     },
     {
       "name": "Dennis Nedry",
@@ -1386,6 +1448,24 @@
           ],
           "shippingCost": 0.0,
           "shippingCurrency": "USD"
+        },
+        {
+          "id": "v1|960062654194|0",
+          "title": "Mattel Jurassic World Hammond Collection Spinosaurus & T-Rex Figure",
+          "price": 360.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/960062654194?_skw=Mattel+Hammond+Collection+dinosaur&hash=itemdf883186f2:g:GLYAAeSwyExqzl--",
+          "image": "https://i.ebayimg.com/images/g/GLYAAeSwyExqzl--/s-l225.jpg",
+          "condition": "Used",
+          "seller": "torpecerv-0",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 19,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ],
       "minPrice30d": 50.0
@@ -1633,7 +1713,7 @@
           "condition": "New",
           "seller": "with-love-from-iowa",
           "sellerFeedbackPct": "99.5",
-          "sellerFeedbackScore": 9568,
+          "sellerFeedbackScore": 9571,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2000,24 +2080,6 @@
           "shippingCurrency": null
         },
         {
-          "id": "v1|366712774125|0",
-          "title": "Jurassic Park World Hammond Collection Velociraptor JP1 Brown New Mattel",
-          "price": 49.99,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/366712774125?_skw=Jurassic+World+Hammond+Collection&hash=item5561c8dded:g:4MoAAeSw~C5qw8M7",
-          "image": "https://i.ebayimg.com/images/g/4MoAAeSw~C5qw8M7/s-l225.jpg",
-          "condition": "New",
-          "seller": "cjaven-87",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 244,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "shippingCost": 0.0,
-          "shippingCurrency": "USD"
-        },
-        {
           "id": "v1|860009328450|0",
           "title": "Mattel Jurassic World Hammond Collection Tiger Velociraptor True FX 1/18 Scale ",
           "price": 50.0,
@@ -2103,7 +2165,7 @@
           "condition": "New",
           "seller": "t09028_93",
           "sellerFeedbackPct": "99.4",
-          "sellerFeedbackScore": 5055,
+          "sellerFeedbackScore": 5056,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2137,7 +2199,7 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32522,
+          "sellerFeedbackScore": 32523,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2280,6 +2342,23 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
+          "id": "v1|287645937485|0",
+          "title": "Jurassic Park Hammond Collection Triceratops",
+          "price": 110.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/287645937485?_skw=Hammond+Collection+Jurassic+Park&hash=item42f908af4d:g:8PgAAeSwXIZqzlvf",
+          "image": "https://i.ebayimg.com/images/g/8PgAAeSwXIZqzlvf/s-l225.jpg",
+          "condition": "New",
+          "seller": "jusler",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 459,
+          "buyingOptions": [
+            "FIXED_PRICE"
           ],
           "shippingCost": null,
           "shippingCurrency": null
@@ -2455,23 +2534,6 @@
           "shippingCurrency": "USD"
         },
         {
-          "id": "v1|307214438695|0",
-          "title": "Mattel Hammond Collection Jurassic Lost World - Parasaurolophus - NEW - Sealed",
-          "price": 70.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/307214438695?_skw=Jurassic+World+Hammond+Collection&hash=item4787685127:g:gTAAAeSwUPVqwxOG",
-          "image": "https://i.ebayimg.com/images/g/gTAAAeSwUPVqwxOG/s-l225.jpg",
-          "condition": "New",
-          "seller": "eclectic-treasure-hunt",
-          "sellerFeedbackPct": "99.2",
-          "sellerFeedbackScore": 326,
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ],
-          "shippingCost": 8.25,
-          "shippingCurrency": "USD"
-        },
-        {
           "id": "v1|920025348771|0",
           "title": "Mattel Jurassic Park Hammond Collection Parasaurolophus Dinosaur Figure HCG23",
           "price": 77.0,
@@ -2643,24 +2705,6 @@
           ],
           "shippingCost": 200.0,
           "shippingCurrency": "USD"
-        },
-        {
-          "id": "v1|860013174325|0",
-          "title": "Hammond Collection Ceratosaurus Jurassic Park",
-          "price": 884.51,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/860013174325?_skw=Hammond+Collection+Jurassic+Park&hash=itemc83cc79e35:g:IDIAAeSwaslqxFhC",
-          "image": "https://i.ebayimg.com/images/g/IDIAAeSwaslqxFhC/s-l225.jpg",
-          "condition": "New",
-          "seller": "tetsuykimur_0",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2282,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "shippingCost": 239.0,
-          "shippingCurrency": "USD"
         }
       ],
       "minPrice30d": 134.99
@@ -2713,7 +2757,7 @@
           "condition": "New",
           "seller": "pop.market",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 3504102,
+          "sellerFeedbackScore": 3504119,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2977,24 +3021,7 @@
           "condition": "New",
           "seller": "hm3essential",
           "sellerFeedbackPct": "99.2",
-          "sellerFeedbackScore": 347,
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ],
-          "shippingCost": 0.0,
-          "shippingCurrency": "USD"
-        },
-        {
-          "id": "v1|227553450841|0",
-          "title": "Jurassic World Hammond Collection Dilophosaurus Action Figure",
-          "price": 33.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/227553450841?_skw=Jurassic+World+Hammond+Collection&hash=item34fb3e1b59:g:gsAAAeSw0jZqw88z",
-          "image": "https://i.ebayimg.com/images/g/gsAAAeSw0jZqw88z/s-l225.jpg",
-          "condition": "New",
-          "seller": "brynalo",
-          "sellerFeedbackPct": "99.7",
-          "sellerFeedbackScore": 1487,
+          "sellerFeedbackScore": 348,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3353,6 +3380,23 @@
           ],
           "shippingCost": null,
           "shippingCurrency": null
+        },
+        {
+          "id": "v1|287645926041|0",
+          "title": "Jurassic Park Hammond Collection Pachycephalosaurus Lost World",
+          "price": 65.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/287645926041?_skw=Hammond+Collection+Jurassic+Park&hash=item42f9088299:g:y7gAAeSwOUdqzlmc",
+          "image": "https://i.ebayimg.com/images/g/y7gAAeSwOUdqzlmc/s-l225.jpg",
+          "condition": "New",
+          "seller": "jusler",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 459,
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         }
       ],
       "minPrice30d": 35.0
@@ -3561,23 +3605,6 @@
             "BEST_OFFER"
           ],
           "shippingCost": 5.78,
-          "shippingCurrency": "USD"
-        },
-        {
-          "id": "v1|206593091746|0",
-          "title": "Jurassic Park Hammond Collection Ankylosaurus Dinosaur Figure Authentic ",
-          "price": 269.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/206593091746?_skw=Mattel+Hammond+Collection+dinosaur&hash=item3019e868a2:g:hCYAAeSwIFpqvUAR",
-          "image": "https://i.ebayimg.com/images/g/hCYAAeSwIFpqvUAR/s-l225.jpg",
-          "condition": "New",
-          "seller": "liondeals-usa",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 85,
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ],
-          "shippingCost": 0.0,
           "shippingCurrency": "USD"
         }
       ],
@@ -3932,7 +3959,7 @@
           "condition": "New",
           "seller": "goodbyeretail",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 157120,
+          "sellerFeedbackScore": 157123,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4287,7 +4314,7 @@
           "condition": "Used",
           "seller": "daves_collectibles_n_toys",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 9300,
+          "sellerFeedbackScore": 9302,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -4564,7 +4591,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 15976,
+          "sellerFeedbackScore": 15978,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4786,7 +4813,7 @@
           "condition": "New",
           "seller": "lotsoftoys.813",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 66272,
+          "sellerFeedbackScore": 66274,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4803,7 +4830,7 @@
           "condition": "New",
           "seller": "lotsoftoys.813",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 66272,
+          "sellerFeedbackScore": 66274,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4820,7 +4847,7 @@
           "condition": "New",
           "seller": "lotsoftoys.813",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 66272,
+          "sellerFeedbackScore": 66274,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -5055,7 +5082,7 @@
           "condition": "New",
           "seller": "wiigotit",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 32005,
+          "sellerFeedbackScore": 32006,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -5239,7 +5266,7 @@
           "condition": "New",
           "seller": "tasb_95",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 576,
+          "sellerFeedbackScore": 577,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -5453,7 +5480,7 @@
           "condition": "New",
           "seller": "recollectables_pdx",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 5837,
+          "sellerFeedbackScore": 5838,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -5948,7 +5975,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 15976,
+          "sellerFeedbackScore": 15978,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6165,7 +6192,7 @@
           "condition": "New",
           "seller": "toys-figuraciones",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 6394,
+          "sellerFeedbackScore": 6395,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6234,7 +6261,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 15976,
+          "sellerFeedbackScore": 15978,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6376,24 +6403,6 @@
           ],
           "shippingCost": 12.87,
           "shippingCurrency": "USD"
-        },
-        {
-          "id": "v1|147608745214|0",
-          "title": "Jurassic World Hammond Collection Mussaurus and Ornitholestes",
-          "price": 40.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/147608745214?_skw=Mattel+Hammond+Collection+dinosaur&hash=item225e2ab4fe:g:Fa0AAeSw8~lqvF-r",
-          "image": "https://i.ebayimg.com/images/g/Fa0AAeSw8~lqvF-r/s-l225.jpg",
-          "condition": "New",
-          "seller": "great_sugahbaer",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 28,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "shippingCost": null,
-          "shippingCurrency": null
         }
       ],
       "minPrice30d": 19.99
@@ -6482,7 +6491,7 @@
           "condition": "New",
           "seller": "toys-figuraciones",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 6394,
+          "sellerFeedbackScore": 6395,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6623,7 +6632,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 15976,
+          "sellerFeedbackScore": 15978,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6710,23 +6719,6 @@
           "seller": "antda3048",
           "sellerFeedbackPct": "99.8",
           "sellerFeedbackScore": 878,
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ],
-          "shippingCost": 0.0,
-          "shippingCurrency": "USD"
-        },
-        {
-          "id": "v1|168762089261|0",
-          "title": "Jurassic World Hammond Collection Omitholestes Figure",
-          "price": 28.45,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/168762089261?_skw=Jurassic+World+Hammond+Collection&hash=item274b011f2d:g:nHYAAeSw8tlqwxAU",
-          "image": "https://i.ebayimg.com/images/g/nHYAAeSw8tlqwxAU/s-l225.jpg",
-          "condition": "New",
-          "seller": "primefindsco2",
-          "sellerFeedbackPct": "98.6",
-          "sellerFeedbackScore": 630,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6848,7 +6840,7 @@
           "condition": "New",
           "seller": "lootlodge",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 164689,
+          "sellerFeedbackScore": 164691,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6876,23 +6868,6 @@
             "FIXED_PRICE"
           ],
           "shippingCost": 29.23,
-          "shippingCurrency": "USD"
-        },
-        {
-          "id": "v1|198676486429|0",
-          "title": "Jurassic World Hammond Collection Dryosaurus Dinosaur Figure, Deluxe Design and ",
-          "price": 37.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/198676486429?_skw=Mattel+Hammond+Collection+dinosaur&hash=item2e420a991d:g:JBMAAeSwmL1qvEah",
-          "image": "https://i.ebayimg.com/images/g/JBMAAeSwmL1qvEah/s-l225.jpg",
-          "condition": "New",
-          "seller": "stoopk1d89",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 389,
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ],
-          "shippingCost": 0.0,
           "shippingCurrency": "USD"
         },
         {
@@ -6957,7 +6932,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 15976,
+          "sellerFeedbackScore": 15978,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7051,7 +7026,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 15976,
+          "sellerFeedbackScore": 15978,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7699,23 +7674,6 @@
           "shippingCurrency": "USD"
         },
         {
-          "id": "v1|820187475648|0",
-          "title": "JURASSIC World Hammond Collection SCORPIOS REX Dinosaur ",
-          "price": 68.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/820187475648?_skw=Mattel+Hammond+Collection+dinosaur&hash=itembef6fbaec0:g:JpkAAeSw8~lqvDCj",
-          "image": "https://i.ebayimg.com/images/g/JpkAAeSw8~lqvDCj/s-l225.jpg",
-          "condition": "New",
-          "seller": "lazlothrifts",
-          "sellerFeedbackPct": "98.8",
-          "sellerFeedbackScore": 1484,
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ],
-          "shippingCost": null,
-          "shippingCurrency": null
-        },
-        {
           "id": "v1|147540063533|0",
           "title": "Jurassic World Hammond Collection SCORPIOS REX Camp Cretaceous Mattel True FX",
           "price": 68.99,
@@ -7778,7 +7736,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 15976,
+          "sellerFeedbackScore": 15978,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7810,7 +7768,7 @@
           "url": "https://www.ebay.com/itm/820231797022?_skw=Jurassic+World+Hammond+Collection&hash=itembef99ff91e:g:XxsAAeSw1SdqzScG",
           "image": "https://i.ebayimg.com/images/g/XxsAAeSw1SdqzScG/s-l225.jpg",
           "condition": "New",
-          "seller": "cidr33",
+          "seller": "turbocartllc",
           "sellerFeedbackPct": "0.0",
           "sellerFeedbackScore": 0,
           "buyingOptions": [
@@ -7906,7 +7864,7 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32522,
+          "sellerFeedbackScore": 32523,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
