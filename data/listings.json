@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T17:38:42Z",
+  "updated_at": "2026-10-13T17:58:25Z",
   "median_price": 59.99,
   "total_items": 455,
   "categories": [
@@ -251,7 +251,7 @@
           "condition": "New",
           "seller": "chriwill_4423",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 1807,
+          "sellerFeedbackScore": 1808,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -1140,7 +1140,7 @@
           "condition": "Unspecified",
           "seller": "pinheadss",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 3445,
+          "sellerFeedbackScore": 3446,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -1175,7 +1175,7 @@
           "condition": "Ungraded",
           "seller": "thedealcellar",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2227,
+          "sellerFeedbackScore": 2228,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -1695,7 +1695,7 @@
           "condition": "New",
           "seller": "with-love-from-iowa",
           "sellerFeedbackPct": "99.5",
-          "sellerFeedbackScore": 9571,
+          "sellerFeedbackScore": 9573,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2181,7 +2181,7 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32525,
+          "sellerFeedbackScore": 32526,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2490,30 +2490,13 @@
           "condition": "Used",
           "seller": "johnnyscorner",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 103,
+          "sellerFeedbackScore": 104,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
           ],
           "shippingCost": null,
           "shippingCurrency": null
-        },
-        {
-          "id": "v1|407257733477|0",
-          "title": "Hammond Collection Parasaurolophus - Loose Dinosaur Figure Only",
-          "price": 44.96,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/407257733477?_skw=Mattel+Hammond+Collection+dinosaur&hash=item5ed273d965:g:edsAAeSw6fBqvUnt",
-          "image": "https://i.ebayimg.com/images/g/edsAAeSw6fBqvUnt/s-l225.jpg",
-          "condition": "Used",
-          "seller": "mundieunlimited",
-          "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 1175,
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ],
-          "shippingCost": 0.0,
-          "shippingCurrency": "USD"
         },
         {
           "id": "v1|920025348771|0",
@@ -2680,7 +2663,7 @@
           "condition": "New",
           "seller": "tetsuykimur_0",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2282,
+          "sellerFeedbackScore": 2283,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -2739,7 +2722,7 @@
           "condition": "New",
           "seller": "pop.market",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 3504168,
+          "sellerFeedbackScore": 3504188,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2844,7 +2827,7 @@
           "condition": "New",
           "seller": "dealsbydesign",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 4872,
+          "sellerFeedbackScore": 4873,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -3159,7 +3142,7 @@
           "condition": "New",
           "seller": "antda3048",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 878,
+          "sellerFeedbackScore": 879,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3723,7 +3706,7 @@
           "condition": "Used",
           "seller": "rigo_7n",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 949,
+          "sellerFeedbackScore": 950,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -3924,7 +3907,7 @@
           "condition": "New",
           "seller": "goodbyeretail",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 157125,
+          "sellerFeedbackScore": 157128,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4778,7 +4761,7 @@
           "condition": "New",
           "seller": "lotsoftoys.813",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 66277,
+          "sellerFeedbackScore": 66278,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4795,7 +4778,7 @@
           "condition": "New",
           "seller": "lotsoftoys.813",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 66277,
+          "sellerFeedbackScore": 66278,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4812,7 +4795,7 @@
           "condition": "New",
           "seller": "lotsoftoys.813",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 66277,
+          "sellerFeedbackScore": 66278,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4914,6 +4897,24 @@
           "shippingCurrency": null
         },
         {
+          "id": "v1|137841178271|0",
+          "title": "Mattel Hammond Collection Stegosaurus Dinosaur Figure In Great Condition",
+          "price": 40.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/137841178271?_skw=Mattel+Hammond+Collection+dinosaur&hash=item2017f9769f:g:fNkAAeSwXi1qzmtX",
+          "image": "https://i.ebayimg.com/images/g/fNkAAeSwXi1qzmtX/s-l225.jpg",
+          "condition": "Used",
+          "seller": "toydropinc",
+          "sellerFeedbackPct": "99.9",
+          "sellerFeedbackScore": 4466,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
           "id": "v1|237053854197|0",
           "title": "Mattel Jurassic World Hammond Collection Stegosaurus True FX Boxed Plastic",
           "price": 42.0,
@@ -4977,7 +4978,7 @@
           "condition": "New",
           "seller": "retrogalaxie",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 1211,
+          "sellerFeedbackScore": 1212,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -5100,7 +5101,7 @@
           "condition": "New",
           "seller": "ozonetoyscom",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 53587,
+          "sellerFeedbackScore": 53588,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -5532,7 +5533,7 @@
           "condition": "New",
           "seller": "willij52",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 138,
+          "sellerFeedbackScore": 139,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -5975,7 +5976,7 @@
           "condition": "New",
           "seller": "echobasetradingco",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 3809,
+          "sellerFeedbackScore": 3810,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -6028,7 +6029,7 @@
           "condition": "New",
           "seller": "italia11283",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 42316,
+          "sellerFeedbackScore": 42318,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6068,7 +6069,7 @@
           "condition": "New",
           "seller": "samho.fad",
           "sellerFeedbackPct": "99.3",
-          "sellerFeedbackScore": 3116,
+          "sellerFeedbackScore": 3117,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -6345,7 +6346,7 @@
           "condition": "New",
           "seller": "antda3048",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 878,
+          "sellerFeedbackScore": 879,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6403,7 +6404,7 @@
           "condition": "New",
           "seller": "dealsbydesign",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 4872,
+          "sellerFeedbackScore": 4873,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -6631,7 +6632,7 @@
           "condition": "New",
           "seller": "jamg9011",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 516,
+          "sellerFeedbackScore": 517,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -6649,7 +6650,7 @@
           "condition": "New",
           "seller": "italia11283",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 42316,
+          "sellerFeedbackScore": 42318,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6683,7 +6684,7 @@
           "condition": "New",
           "seller": "antda3048",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 878,
+          "sellerFeedbackScore": 879,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6718,7 +6719,7 @@
           "condition": "New",
           "seller": "echobasetradingco",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 3809,
+          "sellerFeedbackScore": 3810,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -6805,7 +6806,7 @@
           "condition": "New",
           "seller": "lootlodge",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 164694,
+          "sellerFeedbackScore": 164698,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7095,7 +7096,7 @@
           "condition": "New",
           "seller": "antda3048",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 878,
+          "sellerFeedbackScore": 879,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7829,7 +7830,7 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32525,
+          "sellerFeedbackScore": 32526,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
