@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-13T07:50:37Z",
+  "updated_at": "2026-10-13T08:18:28Z",
   "median_price": 59.99,
-  "total_items": 465,
+  "total_items": 466,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -33,7 +33,7 @@
           "image": "https://i.ebayimg.com/images/g/LqAAAeSwS6hojiV~/s-l225.jpg",
           "condition": "New",
           "seller": "max_bay_sale",
-          "sellerFeedbackPct": "92.9",
+          "sellerFeedbackPct": "92.6",
           "sellerFeedbackScore": 32,
           "buyingOptions": [
             "FIXED_PRICE"
@@ -198,7 +198,7 @@
           "condition": "New",
           "seller": "the10thinning",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 11292,
+          "sellerFeedbackScore": 11293,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2127,7 +2127,7 @@
           "condition": "New",
           "seller": "t09028_93",
           "sellerFeedbackPct": "99.4",
-          "sellerFeedbackScore": 5050,
+          "sellerFeedbackScore": 5051,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2161,7 +2161,7 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32490,
+          "sellerFeedbackScore": 32493,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2774,7 +2774,7 @@
           "condition": "New",
           "seller": "pop.market",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 3503911,
+          "sellerFeedbackScore": 3503921,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2868,6 +2868,24 @@
           ],
           "shippingCost": null,
           "shippingCurrency": null
+        },
+        {
+          "id": "v1|920035077524|0",
+          "title": "Mattel Jurassic World Hammond Collection Dilophosaurus Figure New In Hand",
+          "price": 26.04,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/920035077524?_skw=Hammond+Collection+Jurassic+Park&hash=itemd6365d2d94:g:ABUAAeSwf9FqLWMl",
+          "image": "https://i.ebayimg.com/images/g/ABUAAeSwf9FqLWMl/s-l225.jpg",
+          "condition": "New",
+          "seller": "dealsbydesign",
+          "sellerFeedbackPct": "99.9",
+          "sellerFeedbackScore": 4868,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "shippingCost": 5.99,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|158122385313|0",
@@ -6066,7 +6084,7 @@
           "condition": "New",
           "seller": "trinik65",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 3938,
+          "sellerFeedbackScore": 3939,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6298,7 +6316,7 @@
           "condition": "New",
           "seller": "trinik65",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 3938,
+          "sellerFeedbackScore": 3939,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6626,23 +6644,6 @@
           "shippingCurrency": null
         },
         {
-          "id": "v1|178031580630|0",
-          "title": "Mattel Jurassic World True FX Hammond Collection ORNITHOLESTES Figure",
-          "price": 20.69,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/178031580630?_skw=Hammond+Collection+True+FX&hash=item29738255d6:g:Yc8AAeSwsPJp1bTL",
-          "image": "https://i.ebayimg.com/images/g/Yc8AAeSwsPJp1bTL/s-l225.jpg",
-          "condition": "Used",
-          "seller": "trinik65",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 3938,
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ],
-          "shippingCost": null,
-          "shippingCurrency": null
-        },
-        {
           "id": "v1|257315112262|0",
           "title": "ORNITHOLESTES Jurassic World Park HAMMOND COLLECTION dinosaur true fx figure NEW",
           "price": 20.99,
@@ -6693,6 +6694,23 @@
           ],
           "shippingCost": 5.99,
           "shippingCurrency": "USD"
+        },
+        {
+          "id": "v1|178031580630|0",
+          "title": "Mattel Jurassic World True FX Hammond Collection ORNITHOLESTES Figure",
+          "price": 22.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/178031580630?_skw=Hammond+Collection+True+FX&hash=item29738255d6:g:Yc8AAeSwsPJp1bTL",
+          "image": "https://i.ebayimg.com/images/g/Yc8AAeSwsPJp1bTL/s-l225.jpg",
+          "condition": "Used",
+          "seller": "trinik65",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 3939,
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
         },
         {
           "id": "v1|336330650565|0",
@@ -6773,7 +6791,7 @@
           "condition": "New",
           "seller": "trinik65",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 3938,
+          "sellerFeedbackScore": 3939,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6929,7 +6947,7 @@
           "condition": "New",
           "seller": "lootlodge",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 164670,
+          "sellerFeedbackScore": 164671,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6986,7 +7004,7 @@
           "condition": "New",
           "seller": "trinik65",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 3938,
+          "sellerFeedbackScore": 3939,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -8005,7 +8023,7 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32490,
+          "sellerFeedbackScore": 32493,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
