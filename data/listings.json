@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-13T15:57:35Z",
-  "median_price": 59.99,
+  "updated_at": "2026-10-13T16:22:38Z",
+  "median_price": 59.995000000000005,
   "total_items": 460,
   "categories": [
     {
@@ -859,6 +859,23 @@
           "shippingCurrency": "USD"
         },
         {
+          "id": "v1|287645915322|0",
+          "title": "Jurassic Park Hammond Collection Isla Sorna Encounter Pack & JP3 Velociraptor",
+          "price": 135.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/287645915322?_skw=Hammond+Collection+Jurassic+Park&hash=item42f90858ba:g:wpMAAeSwmRFqzlZ7",
+          "image": "https://i.ebayimg.com/images/g/wpMAAeSwmRFqzlZ7/s-l225.jpg",
+          "condition": "New",
+          "seller": "jusler",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 459,
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
           "id": "v1|880013927458|0",
           "title": "Mattel Jurassic World Hammond Collection Isla Sorna Encounter Pack Grant HLN14",
           "price": 150.0,
@@ -1055,7 +1072,7 @@
           "condition": "New",
           "seller": "dug333",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 354,
+          "sellerFeedbackScore": 355,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -1079,7 +1096,7 @@
           "condition": "Unspecified",
           "seller": "pinheadss",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 3444,
+          "sellerFeedbackScore": 3445,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -1114,7 +1131,7 @@
           "condition": "Ungraded",
           "seller": "thedealcellar",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2225,
+          "sellerFeedbackScore": 2226,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -1138,7 +1155,7 @@
           "condition": "New",
           "seller": "dug333",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 354,
+          "sellerFeedbackScore": 355,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -1369,24 +1386,6 @@
           ],
           "shippingCost": 0.0,
           "shippingCurrency": "USD"
-        },
-        {
-          "id": "v1|366700127605|0",
-          "title": "Mattel Hammond Collection Jurassic Park Tyrannosaurus Rex T-Rex Figure",
-          "price": 350.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/366700127605?_skw=Mattel+Hammond+Collection+dinosaur&hash=item556107e575:g:dccAAeSwxCtqvA0r",
-          "image": "https://i.ebayimg.com/images/g/dccAAeSwxCtqvA0r/s-l225.jpg",
-          "condition": "New",
-          "seller": "l_schjo_4gmwyzprw",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 22,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "shippingCost": null,
-          "shippingCurrency": null
         }
       ],
       "minPrice30d": 50.0
@@ -1686,7 +1685,7 @@
           "condition": "New",
           "seller": "arksemporium",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 3231,
+          "sellerFeedbackScore": 3232,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3471,6 +3470,23 @@
           "shippingCurrency": null
         },
         {
+          "id": "v1|117464793257|0",
+          "title": "Mattel 2022 Jurassic World Hammond Collection Concavenator Figure New Sealed",
+          "price": 95.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/117464793257?_skw=Mattel+Hammond+Collection+dinosaur&hash=item1b597280a9:g:iS0AAeSwozhqzlXe",
+          "image": "https://i.ebayimg.com/images/g/iS0AAeSwozhqzlXe/s-l225.jpg",
+          "condition": "New",
+          "seller": "krakow1",
+          "sellerFeedbackPct": "98.8",
+          "sellerFeedbackScore": 14370,
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
+        },
+        {
           "id": "v1|820218289012|0",
           "title": "Hammond Collection Concavenator",
           "price": 100.0,
@@ -4271,7 +4287,7 @@
           "condition": "Used",
           "seller": "daves_collectibles_n_toys",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 9299,
+          "sellerFeedbackScore": 9300,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -4548,7 +4564,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 15975,
+          "sellerFeedbackScore": 15976,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -5932,7 +5948,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 15975,
+          "sellerFeedbackScore": 15976,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6218,7 +6234,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 15975,
+          "sellerFeedbackScore": 15976,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6607,7 +6623,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 15975,
+          "sellerFeedbackScore": 15976,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6791,7 +6807,7 @@
         {
           "id": "v1|920012679087|0",
           "title": "Jurassic World Hammond Collection Omitholestes Figure",
-          "price": 30.91,
+          "price": 30.73,
           "currency": "USD",
           "url": "https://www.ebay.com/itm/920012679087?_skw=Jurassic+World+Hammond+Collection&hash=itemd6350767af:g:glcAAeSwkixqxJCM",
           "image": "https://i.ebayimg.com/images/g/glcAAeSwkixqxJCM/s-l225.jpg",
@@ -6832,7 +6848,7 @@
           "condition": "New",
           "seller": "lootlodge",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 164683,
+          "sellerFeedbackScore": 164689,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6941,7 +6957,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 15975,
+          "sellerFeedbackScore": 15976,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7035,7 +7051,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 15975,
+          "sellerFeedbackScore": 15976,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7762,7 +7778,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 15975,
+          "sellerFeedbackScore": 15976,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7782,24 +7798,6 @@
           "sellerFeedbackScore": 6089,
           "buyingOptions": [
             "FIXED_PRICE"
-          ],
-          "shippingCost": 10.0,
-          "shippingCurrency": "USD"
-        },
-        {
-          "id": "v1|860009329584|0",
-          "title": "Jurassic World Hammond Collection Scorpios Rex Deluxe",
-          "price": 80.75,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/860009329584?_skw=Jurassic+World+Hammond+Collection&hash=itemc83c8cf3b0:g:63MAAeSwAwdqpOxJ",
-          "image": "https://i.ebayimg.com/images/g/63MAAeSwAwdqpOxJ/s-l225.jpg",
-          "condition": "New",
-          "seller": "dhv0510",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 93,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
           ],
           "shippingCost": 10.0,
           "shippingCurrency": "USD"
