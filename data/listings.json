@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-16T20:07:27Z",
-  "median_price": 64.99,
-  "total_items": 460,
+  "updated_at": "2026-10-16T22:50:09Z",
+  "median_price": 60.0,
+  "total_items": 463,
   "categories": [
     {
       "name": "Buck (T-Rex Convention Crasher)",
@@ -155,7 +155,7 @@
         {
           "id": "v1|178568257691|0",
           "title": "SDCC 2026 Mattel Jurassic World Hammond Collection 25th Comic-Style Velociraptor",
-          "price": 44.99,
+          "price": 39.99,
           "currency": "USD",
           "url": "https://www.ebay.com/itm/178568257691?_skw=Mattel+Hammond+Collection+dinosaur&hash=item29937f609b:g:8OsAAeSwVRNqx~DZ",
           "image": "https://i.ebayimg.com/images/g/8OsAAeSwVRNqx~DZ/s-l225.jpg",
@@ -246,7 +246,7 @@
           "condition": "Used",
           "seller": "toydropinc",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 4476,
+          "sellerFeedbackScore": 4477,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -299,7 +299,7 @@
           "condition": "New",
           "seller": "78freestyle",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2472,
+          "sellerFeedbackScore": 2473,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -439,11 +439,28 @@
           "condition": "New",
           "seller": "zklc-collectibles",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 158,
+          "sellerFeedbackScore": 159,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
           "shippingCost": 9.99,
+          "shippingCurrency": "USD"
+        },
+        {
+          "id": "v1|900018606678|0",
+          "title": "Mattel Jurassic World Hammond Collection Aquilops Dolores JKG90 IN HAND",
+          "price": 94.95,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/900018606678?_skw=Mattel+Hammond+Collection+dinosaur&hash=itemd18d4a1256:g:jh0AAeSwiB5q0qB0",
+          "image": "https://i.ebayimg.com/images/g/jh0AAeSwiB5q0qB0/s-l225.jpg",
+          "condition": "New",
+          "seller": "bindisboutique",
+          "sellerFeedbackPct": "97.5",
+          "sellerFeedbackScore": 38,
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ],
+          "shippingCost": 0.0,
           "shippingCurrency": "USD"
         },
         {
@@ -478,6 +495,23 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
+          "id": "v1|407295506202|0",
+          "title": "Mattel Jurassic World Hammond Collection Aquilops Dinosaur Figure Brand New",
+          "price": 99.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/407295506202?_skw=Mattel+Hammond+Collection+dinosaur&hash=item5ed4b4371a:g:ROUAAeSwbiFq0odL",
+          "image": "https://i.ebayimg.com/images/g/ROUAAeSwbiFq0odL/s-l225.jpg",
+          "condition": "New",
+          "seller": "pasylv_0",
+          "sellerFeedbackPct": "0.0",
+          "sellerFeedbackScore": 0,
+          "buyingOptions": [
+            "FIXED_PRICE"
           ],
           "shippingCost": null,
           "shippingCurrency": null
@@ -562,7 +596,7 @@
           "condition": "New",
           "seller": "outstandingcardiecast",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 4363,
+          "sellerFeedbackScore": 4364,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -580,7 +614,7 @@
           "condition": "New",
           "seller": "endlessknightgp",
           "sellerFeedbackPct": "99.1",
-          "sellerFeedbackScore": 1701,
+          "sellerFeedbackScore": 1702,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -685,7 +719,7 @@
           "condition": "Used",
           "seller": "toydropinc",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 4476,
+          "sellerFeedbackScore": 4477,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -827,7 +861,7 @@
           "condition": "New",
           "seller": "78freestyle",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2472,
+          "sellerFeedbackScore": 2473,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -946,7 +980,7 @@
           "condition": "New",
           "seller": "05kamars",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 2720,
+          "sellerFeedbackScore": 2721,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -987,7 +1021,7 @@
           "condition": "Used",
           "seller": "toyfederationshop",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 8880,
+          "sellerFeedbackScore": 8881,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -1112,7 +1146,7 @@
           "condition": "Ungraded",
           "seller": "krystle0415",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 15009,
+          "sellerFeedbackScore": 15013,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -1136,7 +1170,7 @@
           "condition": "New",
           "seller": "nt_collector",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 7186,
+          "sellerFeedbackScore": 7187,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -1293,24 +1327,6 @@
           "shippingCurrency": null
         },
         {
-          "id": "v1|336835860538|0",
-          "title": "Jurassic Park World 2023 Hammond Collection Tyrannosaurus T-Rex Figure",
-          "price": 175.52,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/336835860538?_skw=Hammond+Collection+Jurassic+Park&hash=item4e6cfb583a:g:EeEAAeSwvVdqyBQL",
-          "image": "https://i.ebayimg.com/images/g/EeEAAeSwvVdqyBQL/s-l225.jpg",
-          "condition": "Used",
-          "seller": "balboa476",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 231,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "shippingCost": null,
-          "shippingCurrency": null
-        },
-        {
           "id": "v1|960072300227|0",
           "title": "Jurassic World Hammond Collection Tyrannosaurus Rex Action Figure",
           "price": 179.99,
@@ -1379,7 +1395,7 @@
           "condition": "New",
           "seller": "collectorattic",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 343,
+          "sellerFeedbackScore": 345,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -1449,31 +1465,13 @@
           "condition": "New",
           "seller": "groversfinestitems",
           "sellerFeedbackPct": "99.3",
-          "sellerFeedbackScore": 282,
+          "sellerFeedbackScore": 283,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
           ],
           "shippingCost": null,
           "shippingCurrency": null
-        },
-        {
-          "id": "v1|860025396376|0",
-          "title": "Jurassic World Hammond Collection Indominus Rex",
-          "price": 86.45,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/860025396376?_skw=Jurassic+World+Hammond+Collection&hash=itemc83d821c98:g:KpIAAeSwpCRqpOxX",
-          "image": "https://i.ebayimg.com/images/g/KpIAAeSwpCRqpOxX/s-l225.jpg",
-          "condition": "New",
-          "seller": "dhv0510",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 99,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "shippingCost": 10.0,
-          "shippingCurrency": "USD"
         },
         {
           "id": "v1|257578743319|0",
@@ -1485,7 +1483,7 @@
           "condition": "New",
           "seller": "sportslocker23",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 6009,
+          "sellerFeedbackScore": 6010,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -1629,7 +1627,7 @@
           "condition": "New",
           "seller": "with-love-from-iowa",
           "sellerFeedbackPct": "99.5",
-          "sellerFeedbackScore": 9604,
+          "sellerFeedbackScore": 9609,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -1646,7 +1644,7 @@
           "condition": "New",
           "seller": "tnfsales11",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2688,
+          "sellerFeedbackScore": 2689,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -1769,7 +1767,7 @@
           "condition": "New",
           "seller": "velocy2300",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 6103,
+          "sellerFeedbackScore": 6105,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -1846,7 +1844,7 @@
           "condition": "New",
           "seller": "trashurechest",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 3364,
+          "sellerFeedbackScore": 3366,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -1918,7 +1916,7 @@
           "condition": "Used",
           "seller": "toyfederationshop",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 8880,
+          "sellerFeedbackScore": 8881,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2117,7 +2115,7 @@
           "condition": "New",
           "seller": "zklc-collectibles",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 158,
+          "sellerFeedbackScore": 159,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2134,7 +2132,7 @@
           "condition": "New",
           "seller": "78freestyle",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2472,
+          "sellerFeedbackScore": 2473,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2151,7 +2149,7 @@
           "condition": "Used",
           "seller": "anme598",
           "sellerFeedbackPct": "99.7",
-          "sellerFeedbackScore": 550,
+          "sellerFeedbackScore": 551,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -2186,7 +2184,7 @@
           "condition": "Used",
           "seller": "steampunkpr-9",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 1728,
+          "sellerFeedbackScore": 1729,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2220,27 +2218,9 @@
           "condition": "Used",
           "seller": "toyfederationshop",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 8880,
+          "sellerFeedbackScore": 8881,
           "buyingOptions": [
             "FIXED_PRICE"
-          ],
-          "shippingCost": null,
-          "shippingCurrency": null
-        },
-        {
-          "id": "v1|198688532467|0",
-          "title": "Jurassic Park TRICERATOPS Dinosaur Complete Hammond Collection Mattel 2021",
-          "price": 89.99,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/198688532467?_skw=Mattel+Hammond+Collection+dinosaur&hash=item2e42c267f3:g:CYcAAeSwButqwud2",
-          "image": "https://i.ebayimg.com/images/g/CYcAAeSwButqwud2/s-l225.jpg",
-          "condition": "Used",
-          "seller": "theirre0",
-          "sellerFeedbackPct": "0.0",
-          "sellerFeedbackScore": 13,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
           ],
           "shippingCost": null,
           "shippingCurrency": null
@@ -2261,24 +2241,6 @@
           ],
           "shippingCost": null,
           "shippingCurrency": null
-        },
-        {
-          "id": "v1|128127505290|0",
-          "title": "Mattel 2022 | Jurassic World Hammond Collection Triceratops | Factory Sealed ",
-          "price": 129.99,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/128127505290?_skw=Mattel+Hammond+Collection+dinosaur&hash=item1dd4fe938a:g:FCUAAeSwfc9qyryl",
-          "image": "https://i.ebayimg.com/images/g/FCUAAeSwfc9qyryl/s-l225.jpg",
-          "condition": "New",
-          "seller": "popculturecomicspgh",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 14103,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "shippingCost": null,
-          "shippingCurrency": null
         }
       ],
       "minPrice30d": 15.0
@@ -2296,7 +2258,7 @@
           "condition": "New",
           "seller": "popculturecomicspgh",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 14103,
+          "sellerFeedbackScore": 14106,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -2355,7 +2317,7 @@
           "condition": "Used",
           "seller": "toydropinc",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 4476,
+          "sellerFeedbackScore": 4477,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -2469,7 +2431,7 @@
           "condition": "Used",
           "seller": "toyfederationshop",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 8880,
+          "sellerFeedbackScore": 8881,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2528,7 +2490,7 @@
           "condition": "New",
           "seller": "popculturecomicspgh",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 14103,
+          "sellerFeedbackScore": 14106,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -2552,7 +2514,7 @@
           "condition": "Used",
           "seller": "deepdiscount",
           "sellerFeedbackPct": "99.7",
-          "sellerFeedbackScore": 447660,
+          "sellerFeedbackScore": 447667,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2586,7 +2548,7 @@
           "condition": "New",
           "seller": "pop.market",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 3506621,
+          "sellerFeedbackScore": 3506838,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2726,7 +2688,7 @@
           "condition": "New",
           "seller": "dealsbydesign",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 4908,
+          "sellerFeedbackScore": 4910,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -2744,7 +2706,7 @@
           "condition": "New",
           "seller": "nevergrewupcbt",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2061,
+          "sellerFeedbackScore": 2062,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -2762,7 +2724,7 @@
           "condition": "New",
           "seller": "groversfinestitems",
           "sellerFeedbackPct": "99.3",
-          "sellerFeedbackScore": 282,
+          "sellerFeedbackScore": 283,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -2780,7 +2742,7 @@
           "condition": "New",
           "seller": "altship",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2526,
+          "sellerFeedbackScore": 2527,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2815,7 +2777,7 @@
           "condition": "New",
           "seller": "electronics-n-things0129",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 799,
+          "sellerFeedbackScore": 801,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -2850,7 +2812,7 @@
           "condition": "New",
           "seller": "gilleysgadgetsandgifts",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 4506,
+          "sellerFeedbackScore": 4508,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -2989,7 +2951,7 @@
           "condition": "New",
           "seller": "cungu6424",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 3411,
+          "sellerFeedbackScore": 3412,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -3042,7 +3004,7 @@
           "condition": "New",
           "seller": "velocy2300",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 6103,
+          "sellerFeedbackScore": 6105,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3169,7 +3131,7 @@
           "condition": "Used",
           "seller": "toyfederationshop",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 8880,
+          "sellerFeedbackScore": 8881,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3204,7 +3166,7 @@
           "condition": "Used",
           "seller": "toyfederationshop",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 8880,
+          "sellerFeedbackScore": 8881,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3227,7 +3189,7 @@
           "condition": "Used",
           "seller": "toydropinc",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 4476,
+          "sellerFeedbackScore": 4477,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -3312,6 +3274,24 @@
       "name": "Concavenator",
       "items": [
         {
+          "id": "v1|257801775464|0",
+          "title": "Mattel Jurassic World Hammond Collection Concavenator Dinosaur Figure",
+          "price": 40.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/257801775464?_skw=Mattel+Hammond+Collection+dinosaur&hash=item3c062ee968:g:dRQAAeSw3DBq0oxv",
+          "image": "https://i.ebayimg.com/images/g/dRQAAeSw3DBq0oxv/s-l225.jpg",
+          "condition": "Used",
+          "seller": "codetrauma1",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 141,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
           "id": "v1|137841427490|0",
           "title": "Jurassic World Hammond Collection Concavenator Dinosaur Figure Mattel",
           "price": 50.0,
@@ -3321,7 +3301,7 @@
           "condition": "Used",
           "seller": "toydropinc",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 4476,
+          "sellerFeedbackScore": 4477,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -3375,7 +3355,7 @@
           "condition": "Used",
           "seller": "toyfederationshop",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 8880,
+          "sellerFeedbackScore": 8881,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3398,7 +3378,7 @@
           "condition": "Used",
           "seller": "toyfederationshop",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 8880,
+          "sellerFeedbackScore": 8881,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3415,7 +3395,7 @@
           "condition": "Used",
           "seller": "crown_point_toys",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 20897,
+          "sellerFeedbackScore": 20899,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -3475,7 +3455,7 @@
           "condition": "Used",
           "seller": "toyfederationshop",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 8880,
+          "sellerFeedbackScore": 8881,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3505,6 +3485,24 @@
     {
       "name": "Metriacanthosaurus",
       "items": [
+        {
+          "id": "v1|257801770961|0",
+          "title": "Mattel Jurassic World Hammond Collection Metriacanthosaurus Dinosaur Figure",
+          "price": 50.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/257801770961?_skw=Mattel+Hammond+Collection+dinosaur&hash=item3c062ed7d1:g:W8EAAeSwtzJq0os9",
+          "image": "https://i.ebayimg.com/images/g/W8EAAeSwtzJq0os9/s-l225.jpg",
+          "condition": "Used",
+          "seller": "codetrauma1",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 141,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
         {
           "id": "v1|336846293418|0",
           "title": "Jurassic World Hammond Collection Metriacanthosaurus Mattel Dinosaur Loose",
@@ -3604,7 +3602,7 @@
           "condition": "Used",
           "seller": "toyfederationshop",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 8880,
+          "sellerFeedbackScore": 8881,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3612,7 +3610,7 @@
           "shippingCurrency": null
         }
       ],
-      "minPrice30d": 60.0
+      "minPrice30d": 50.0
     },
     {
       "name": "Brachiosaurus",
@@ -3715,7 +3713,7 @@
           "condition": "Used",
           "seller": "sterlistr",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2785,
+          "sellerFeedbackScore": 2786,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -3769,7 +3767,7 @@
           "condition": "New",
           "seller": "goodbyeretail",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 157288,
+          "sellerFeedbackScore": 157303,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3781,7 +3779,7 @@
           "title": "Mattel Jurassic World Hammond Collection Brachiosaurus Sealed Box Dinosaur 27\"",
           "price": 450.0,
           "currency": "USD",
-          "url": "https://www.ebay.com/itm/198470499535?_skw=Jurassic+World+Brachiosaurus+Mattel&hash=item2e35c37ccf:g:fvQAAeSwve5px-38",
+          "url": "https://www.ebay.com/itm/198470499535?_skw=Jurassic+World+Hammond+Brachiosaurus&hash=item2e35c37ccf:g:fvQAAeSwve5px-38",
           "image": "https://i.ebayimg.com/images/g/fvQAAeSwve5px-38/s-l225.jpg",
           "condition": "New",
           "seller": "merjcho",
@@ -3854,7 +3852,7 @@
           "condition": "New",
           "seller": "lemony_gem_toys",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 28084,
+          "sellerFeedbackScore": 28085,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -3965,7 +3963,7 @@
           "condition": "Used",
           "seller": "toydropinc",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 4476,
+          "sellerFeedbackScore": 4477,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -4015,6 +4013,24 @@
       "name": "Dimetrodon",
       "items": [
         {
+          "id": "v1|257801767075|0",
+          "title": "Mattel Jurassic World Hammond Collection Dimetrodon Dinosaur Figure",
+          "price": 35.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/257801767075?_skw=Mattel+Hammond+Collection+dinosaur&hash=item3c062ec8a3:g:IlkAAeSwlY5q0oqI",
+          "image": "https://i.ebayimg.com/images/g/IlkAAeSwlY5q0oqI/s-l225.jpg",
+          "condition": "Used",
+          "seller": "codetrauma1",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 141,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
           "id": "v1|137841458716|0",
           "title": "Jurassic World Hammond Collection Dimetrodon",
           "price": 40.0,
@@ -4024,7 +4040,7 @@
           "condition": "Used",
           "seller": "toydropinc",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 4476,
+          "sellerFeedbackScore": 4477,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -4033,7 +4049,7 @@
           "shippingCurrency": null
         }
       ],
-      "minPrice30d": 40.0
+      "minPrice30d": 35.0
     },
     {
       "name": "Therizinosaurus",
@@ -4048,7 +4064,7 @@
           "condition": "Used",
           "seller": "toydropinc",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 4476,
+          "sellerFeedbackScore": 4477,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -4141,7 +4157,7 @@
           "condition": "Used",
           "seller": "daves_collectibles_n_toys",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 9337,
+          "sellerFeedbackScore": 9340,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -4265,7 +4281,7 @@
           "condition": "New",
           "seller": "westicide92",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 2734,
+          "sellerFeedbackScore": 2737,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -4333,6 +4349,24 @@
       "name": "Scutosaurus",
       "items": [
         {
+          "id": "v1|257801783128|0",
+          "title": "Mattel Jurassic World Hammond Collection Scutosaurus Dinosaur Figure",
+          "price": 20.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/257801783128?_skw=Mattel+Hammond+Collection+dinosaur&hash=item3c062f0758:g:ghgAAeSwFE9q0o09",
+          "image": "https://i.ebayimg.com/images/g/ghgAAeSwFE9q0o09/s-l225.jpg",
+          "condition": "Used",
+          "seller": "codetrauma1",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 141,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
           "id": "v1|137846813659|0",
           "title": "Hammond Collection Scutosaurus Jurassic Park Loose Excellent",
           "price": 30.0,
@@ -4342,25 +4376,7 @@
           "condition": "Used",
           "seller": "toydropinc",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 4476,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "shippingCost": null,
-          "shippingCurrency": null
-        },
-        {
-          "id": "v1|920030901650|0",
-          "title": "Jurassic World Hammond Collection Scutosaurus",
-          "price": 85.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/920030901650?_skw=Jurassic+World+Hammond+Collection&hash=itemd6361d7592:g:ZP4AAeSwygRqzCTE",
-          "image": "https://i.ebayimg.com/images/g/ZP4AAeSwygRqzCTE/s-l225.jpg",
-          "condition": "Used",
-          "seller": "adr611635",
-          "sellerFeedbackPct": "0.0",
-          "sellerFeedbackScore": 2,
+          "sellerFeedbackScore": 4477,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -4369,7 +4385,7 @@
           "shippingCurrency": null
         }
       ],
-      "minPrice30d": 24.99
+      "minPrice30d": 20.0
     },
     {
       "name": "Stygimoloch",
@@ -4456,7 +4472,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 16026,
+          "sellerFeedbackScore": 16029,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4482,6 +4498,24 @@
           "sellerFeedbackScore": 31,
           "buyingOptions": [
             "FIXED_PRICE"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
+          "id": "v1|257801789974|0",
+          "title": "Mattel Jurassic World Hammond Collection Troodon Dinosaur Figure",
+          "price": 20.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/257801789974?_skw=Mattel+Hammond+Collection+dinosaur&hash=item3c062f2216:g:tyMAAeSwBotq0o4v",
+          "image": "https://i.ebayimg.com/images/g/tyMAAeSwBotq0o4v/s-l225.jpg",
+          "condition": "Used",
+          "seller": "codetrauma1",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 141,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
           ],
           "shippingCost": null,
           "shippingCurrency": null
@@ -4531,7 +4565,7 @@
           "condition": "New",
           "seller": "3576betsyd",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2907,
+          "sellerFeedbackScore": 2908,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -4632,8 +4666,8 @@
           "title": "Jurassic World Mattel 2025 Hammond Collection True FX (TROODON) 8+ New Release!",
           "price": 36.16,
           "currency": "USD",
-          "url": "https://www.ebay.com/itm/188865199413?_skw=Hammond+Collection+True+FX&hash=item2bf93e3d35:g:H-4AAeSwXsFqyFZE",
-          "image": "https://i.ebayimg.com/images/g/H-4AAeSwXsFqyFZE/s-l225.jpg",
+          "url": "https://www.ebay.com/itm/188865199413?_skw=Hammond+Collection+True+FX&hash=item2bf93e3d35:g:1OQAAeSw58Jq0qTD",
+          "image": "https://i.ebayimg.com/images/g/1OQAAeSw58Jq0qTD/s-l225.jpg",
           "condition": "New",
           "seller": "unkiescollectables",
           "sellerFeedbackPct": "100.0",
@@ -4667,24 +4701,6 @@
     {
       "name": "Allosaurus",
       "items": [
-        {
-          "id": "v1|168795237878|0",
-          "title": "Hammond Collection Allosaurus Action Figure",
-          "price": 55.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/168795237878?_skw=Mattel+Hammond+Collection+dinosaur&hash=item274cfaedf6:g:NqAAAeSwgoZq0SHd",
-          "image": "https://i.ebayimg.com/images/g/NqAAAeSwgoZq0SHd/s-l225.jpg",
-          "condition": "Used",
-          "seller": "crown_point_toys",
-          "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 20897,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "shippingCost": 12.0,
-          "shippingCurrency": "USD"
-        },
         {
           "id": "v1|920039674935|0",
           "title": "Hammond Collection Allosaurus (With Box)",
@@ -4731,7 +4747,7 @@
           "condition": "Used",
           "seller": "toydropinc",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 4476,
+          "sellerFeedbackScore": 4477,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -4749,13 +4765,31 @@
           "condition": "Used",
           "seller": "allisondiane99",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 38,
+          "sellerFeedbackScore": 39,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
           ],
           "shippingCost": null,
           "shippingCurrency": null
+        },
+        {
+          "id": "v1|880023174471|0",
+          "title": "Mattel Hammond Collection Battle at Big Rock Allosaurus Dinosaur Figure",
+          "price": 65.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/880023174471?_skw=Mattel+Hammond+Collection+dinosaur&hash=itemcce577fd47:g:WH4AAeSwzgtq0qhH",
+          "image": "https://i.ebayimg.com/images/g/WH4AAeSwzgtq0qhH/s-l225.jpg",
+          "condition": "New",
+          "seller": "overkillex",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 784,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
         },
         {
           "id": "v1|327389992266|0",
@@ -4767,7 +4801,7 @@
           "condition": "New",
           "seller": "lotsoftoys.813",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 66426,
+          "sellerFeedbackScore": 66436,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4784,7 +4818,7 @@
           "condition": "New",
           "seller": "lotsoftoys.813",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 66426,
+          "sellerFeedbackScore": 66436,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4801,7 +4835,7 @@
           "condition": "New",
           "seller": "lotsoftoys.813",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 66426,
+          "sellerFeedbackScore": 66436,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4818,7 +4852,7 @@
           "condition": "New",
           "seller": "wholesale.central.usa",
           "sellerFeedbackPct": "99.3",
-          "sellerFeedbackScore": 4169,
+          "sellerFeedbackScore": 4174,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4867,6 +4901,24 @@
       "name": "Stegosaurus",
       "items": [
         {
+          "id": "v1|257801763839|0",
+          "title": "Mattel Jurassic World Hammond Collection Stegosaurus Dinosaur Figure",
+          "price": 30.0,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/257801763839?_skw=Mattel+Hammond+Collection+dinosaur&hash=item3c062ebbff:g:YuMAAeSwtKBq0olx",
+          "image": "https://i.ebayimg.com/images/g/YuMAAeSwtKBq0olx/s-l225.jpg",
+          "condition": "Used",
+          "seller": "codetrauma1",
+          "sellerFeedbackPct": "100.0",
+          "sellerFeedbackScore": 141,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "BEST_OFFER"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
           "id": "v1|178316948995|0",
           "title": "Jurassic World Hammond Collection Stegosaurus Action Figure True FX New",
           "price": 34.99,
@@ -4876,7 +4928,7 @@
           "condition": "New",
           "seller": "jtstoys25",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 5538,
+          "sellerFeedbackScore": 5539,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4893,7 +4945,7 @@
           "condition": "New",
           "seller": "katanatoyz",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 52085,
+          "sellerFeedbackScore": 52088,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -4928,7 +4980,7 @@
           "condition": "Used",
           "seller": "toydropinc",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 4476,
+          "sellerFeedbackScore": 4477,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -5035,7 +5087,7 @@
           "condition": "New",
           "seller": "midwestmarket2",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 523,
+          "sellerFeedbackScore": 525,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -5052,7 +5104,7 @@
           "condition": "New",
           "seller": "wiigotit",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 32029,
+          "sellerFeedbackScore": 32030,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -5087,7 +5139,7 @@
           "condition": "New",
           "seller": "ozonetoyscom",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 53734,
+          "sellerFeedbackScore": 53749,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -5111,24 +5163,6 @@
           ],
           "shippingCost": 17.62,
           "shippingCurrency": "USD"
-        },
-        {
-          "id": "v1|358025279229|0",
-          "title": "Hammond Collection Stegosaurus (NEW, True FX, Boxed)",
-          "price": 80.0,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/358025279229?_skw=Hammond+Collection+True+FX&hash=item535bf836fd:g:pyQAAeSwVfZpQkn6",
-          "image": "https://i.ebayimg.com/images/g/pyQAAeSwVfZpQkn6/s-l225.jpg",
-          "condition": "New",
-          "seller": "pukao52",
-          "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 29,
-          "buyingOptions": [
-            "FIXED_PRICE",
-            "BEST_OFFER"
-          ],
-          "shippingCost": null,
-          "shippingCurrency": null
         }
       ],
       "minPrice30d": 29.99
@@ -5289,7 +5323,7 @@
           "condition": "New",
           "seller": "strattoncardz",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 6776,
+          "sellerFeedbackScore": 6778,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -5520,7 +5554,7 @@
           "condition": "New",
           "seller": "ravenshiddentreasures",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 9812,
+          "sellerFeedbackScore": 9813,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -5537,7 +5571,7 @@
           "condition": "New",
           "seller": "eddie5ball",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 1975,
+          "sellerFeedbackScore": 1977,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -5666,7 +5700,7 @@
           "condition": "New",
           "seller": "strattoncardz",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 6776,
+          "sellerFeedbackScore": 6778,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -5684,7 +5718,7 @@
           "condition": "New",
           "seller": "solosta",
           "sellerFeedbackPct": "99.1",
-          "sellerFeedbackScore": 6104,
+          "sellerFeedbackScore": 6105,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -5702,7 +5736,7 @@
           "condition": "New",
           "seller": "dkcollectors",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 923,
+          "sellerFeedbackScore": 924,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -5824,7 +5858,7 @@
           "condition": "New",
           "seller": "cungu6424",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 3411,
+          "sellerFeedbackScore": 3412,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -5893,7 +5927,7 @@
           "condition": "New",
           "seller": "hotwheels4lif",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 1015,
+          "sellerFeedbackScore": 1017,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -5910,7 +5944,7 @@
           "condition": "New",
           "seller": "thesupremedream",
           "sellerFeedbackPct": "99.7",
-          "sellerFeedbackScore": 794,
+          "sellerFeedbackScore": 799,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -5998,7 +6032,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 16026,
+          "sellerFeedbackScore": 16029,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6050,7 +6084,7 @@
           "condition": "New",
           "seller": "echobasetradingco",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 3823,
+          "sellerFeedbackScore": 3826,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -6068,7 +6102,7 @@
           "condition": "New",
           "seller": "3576betsyd",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2907,
+          "sellerFeedbackScore": 2908,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -6086,7 +6120,7 @@
           "condition": "New",
           "seller": "ema_outlet",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 308,
+          "sellerFeedbackScore": 309,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6103,7 +6137,7 @@
           "condition": "New",
           "seller": "italia11283",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 42351,
+          "sellerFeedbackScore": 42352,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6120,7 +6154,7 @@
           "condition": "New",
           "seller": "velocy2300",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 6103,
+          "sellerFeedbackScore": 6105,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6143,7 +6177,7 @@
           "condition": "New",
           "seller": "samho.fad",
           "sellerFeedbackPct": "99.3",
-          "sellerFeedbackScore": 3139,
+          "sellerFeedbackScore": 3141,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -6232,7 +6266,7 @@
           "condition": "New",
           "seller": "toys-figuraciones",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 6403,
+          "sellerFeedbackScore": 6404,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6249,7 +6283,7 @@
           "condition": "New",
           "seller": "solosta",
           "sellerFeedbackPct": "99.1",
-          "sellerFeedbackScore": 6104,
+          "sellerFeedbackScore": 6105,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -6318,7 +6352,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 16026,
+          "sellerFeedbackScore": 16029,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6335,7 +6369,7 @@
           "condition": "New",
           "seller": "thriiscompany",
           "sellerFeedbackPct": "99.5",
-          "sellerFeedbackScore": 6309,
+          "sellerFeedbackScore": 6310,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6369,7 +6403,7 @@
           "condition": "New",
           "seller": "velocy2300",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 6103,
+          "sellerFeedbackScore": 6105,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6460,7 +6494,7 @@
           "condition": "New",
           "seller": "dealsbydesign",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 4908,
+          "sellerFeedbackScore": 4910,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -6513,7 +6547,7 @@
           "condition": "New",
           "seller": "toys-figuraciones",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 6403,
+          "sellerFeedbackScore": 6404,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6654,7 +6688,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 16026,
+          "sellerFeedbackScore": 16029,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6723,7 +6757,7 @@
           "condition": "New",
           "seller": "italia11283",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 42351,
+          "sellerFeedbackScore": 42352,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6757,7 +6791,7 @@
           "condition": "New",
           "seller": "nevergrewupcbt",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2061,
+          "sellerFeedbackScore": 2062,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -6775,7 +6809,7 @@
           "condition": "New",
           "seller": "echobasetradingco",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 3823,
+          "sellerFeedbackScore": 3826,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -6793,7 +6827,7 @@
           "condition": "New",
           "seller": "velocy2300",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 6103,
+          "sellerFeedbackScore": 6105,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6828,7 +6862,7 @@
           "condition": "New",
           "seller": "lootlodge",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 164943,
+          "sellerFeedbackScore": 164955,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6902,7 +6936,7 @@
           "condition": "New",
           "seller": "thriiscompany",
           "sellerFeedbackPct": "99.5",
-          "sellerFeedbackScore": 6309,
+          "sellerFeedbackScore": 6310,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6919,7 +6953,7 @@
           "condition": "New",
           "seller": "outstandingcardiecast",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 4363,
+          "sellerFeedbackScore": 4364,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -6937,7 +6971,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 16026,
+          "sellerFeedbackScore": 16029,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -6950,23 +6984,6 @@
     {
       "name": "Hypsilophodon",
       "items": [
-        {
-          "id": "v1|147634235036|0",
-          "title": "Jurassic World Hammond Collection Hypsilophodon Dinosaur Figure",
-          "price": 14.99,
-          "currency": "USD",
-          "url": "https://www.ebay.com/itm/147634235036?_skw=Hammond+Collection+Jurassic+Park&hash=item225fafa69c:g:2okAAeSwVdhqzmJ8",
-          "image": "https://i.ebayimg.com/images/g/2okAAeSwVdhqzmJ8/s-l225.jpg",
-          "condition": "New",
-          "seller": "ash_3492",
-          "sellerFeedbackPct": "86.3",
-          "sellerFeedbackScore": 113,
-          "buyingOptions": [
-            "FIXED_PRICE"
-          ],
-          "shippingCost": null,
-          "shippingCurrency": null
-        },
         {
           "id": "v1|137462424258|0",
           "title": "Jurassic World Hammond Collection Hypsilophodon True FX",
@@ -6995,7 +7012,7 @@
           "condition": "New",
           "seller": "3576betsyd",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2907,
+          "sellerFeedbackScore": 2908,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -7030,7 +7047,7 @@
           "condition": "New",
           "seller": "nevergrewupcbt",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 2061,
+          "sellerFeedbackScore": 2062,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -7048,7 +7065,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 16026,
+          "sellerFeedbackScore": 16029,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7297,7 +7314,7 @@
           "condition": "New",
           "seller": "robihatzidaki-0",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 8647,
+          "sellerFeedbackScore": 8648,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -7525,7 +7542,7 @@
           "condition": "New",
           "seller": "toys_n_fun",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 6041,
+          "sellerFeedbackScore": 6042,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7618,7 +7635,7 @@
           "condition": "New",
           "seller": "thearktoysandcollectiblescle",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 951,
+          "sellerFeedbackScore": 952,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7741,7 +7758,7 @@
           "condition": "New",
           "seller": "grande_deals",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 16026,
+          "sellerFeedbackScore": 16029,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7758,7 +7775,7 @@
           "condition": "New",
           "seller": "velocy2300",
           "sellerFeedbackPct": "99.8",
-          "sellerFeedbackScore": 6103,
+          "sellerFeedbackScore": 6105,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7793,6 +7810,23 @@
           "seller": "wvflipz",
           "sellerFeedbackPct": "100.0",
           "sellerFeedbackScore": 3429,
+          "buyingOptions": [
+            "FIXED_PRICE"
+          ],
+          "shippingCost": 0.0,
+          "shippingCurrency": "USD"
+        },
+        {
+          "id": "v1|407295655760|0",
+          "title": "​Mattel Jurassic World Hammond Collection Scorpios Rex Articulated Action Figure",
+          "price": 90.31,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/407295655760?_skw=Mattel+Hammond+Collection+dinosaur&hash=item5ed4b67f50:i:407295655760",
+          "image": null,
+          "condition": "New",
+          "seller": "rarewaves-usa",
+          "sellerFeedbackPct": "99.6",
+          "sellerFeedbackScore": 670844,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -7874,7 +7908,7 @@
           "condition": "Used",
           "seller": "tcarmody123",
           "sellerFeedbackPct": "99.9",
-          "sellerFeedbackScore": 4371,
+          "sellerFeedbackScore": 4376,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
@@ -7944,7 +7978,7 @@
           "condition": "New",
           "seller": "ruu_japan",
           "sellerFeedbackPct": "99.6",
-          "sellerFeedbackScore": 32683,
+          "sellerFeedbackScore": 32689,
           "buyingOptions": [
             "FIXED_PRICE"
           ],
@@ -8149,6 +8183,24 @@
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
+          ],
+          "shippingCost": null,
+          "shippingCurrency": null
+        },
+        {
+          "id": "v1|117470034135|0",
+          "title": "Mattel Jurassic Park | Hammond Collection | Gallimimus 3.75\" Dinosaur ",
+          "price": 95.99,
+          "currency": "USD",
+          "url": "https://www.ebay.com/itm/117470034135?_skw=Mattel+Hammond+Collection+dinosaur&hash=item1b59c278d7:g:Dp8AAOSwFT9js8PZ",
+          "image": "https://i.ebayimg.com/images/g/Dp8AAOSwFT9js8PZ/s-l225.jpg",
+          "condition": "New",
+          "seller": "ruy2235",
+          "sellerFeedbackPct": "98.9",
+          "sellerFeedbackScore": 9250,
+          "buyingOptions": [
+            "FIXED_PRICE",
+            "AUCTION"
           ],
           "shippingCost": null,
           "shippingCurrency": null
@@ -8413,7 +8465,7 @@
           "condition": "New",
           "seller": "outstandingcardiecast",
           "sellerFeedbackPct": "100.0",
-          "sellerFeedbackScore": 4363,
+          "sellerFeedbackScore": 4364,
           "buyingOptions": [
             "FIXED_PRICE",
             "BEST_OFFER"
