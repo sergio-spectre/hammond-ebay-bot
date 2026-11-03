@@ -290,6 +290,46 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
 }
 .coll-form .btn-save{background:var(--accent);color:var(--accent-ink)}
 .coll-form .btn-cancel{background:var(--surface-2);color:var(--ink);border:1px solid var(--line)!important}
+.chk-label{
+  display:flex;align-items:center;gap:6px;font-size:.84rem;color:var(--ink);
+  text-transform:none;letter-spacing:0;cursor:pointer;
+}
+.chk-label input{width:auto!important;padding:0!important}
+.personal-badge{
+  font-size:.62rem;color:var(--muted);border:1px solid var(--line);border-radius:999px;
+  padding:1px 7px;margin-left:5px;white-space:nowrap;vertical-align:middle;
+}
+
+/* ---- calculadora de pacote (frete + alfandega rateados por dino) ---- */
+.pkg-section{margin-top:8px}
+.pkg-card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:18px}
+.pkg-head{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:12px}
+.pkg-head .pkgNameInput{
+  flex:1;min-width:160px;font-family:"Fraunces",Georgia,serif;font-size:1.05rem;
+  background:transparent;border:1px solid transparent;color:var(--ink);border-radius:6px;padding:4px 6px;
+}
+.pkg-head .pkgNameInput:hover, .pkg-head .pkgNameInput:focus{border-color:var(--line);background:var(--surface-2)}
+.pkg-head .pkgDateInput{
+  background:var(--surface-2);border:1px solid var(--line);color:var(--ink);
+  border-radius:6px;padding:5px 8px;font-size:.8rem;
+}
+.pkg-head .pkgDelBtn{
+  margin-left:auto;border:1px solid var(--line);background:transparent;color:var(--bad);
+  border-radius:7px;padding:6px 10px;font-size:.74rem;cursor:pointer;
+}
+.pkg-head .pkgDelBtn:hover{border-color:var(--bad)}
+.pkg-fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-bottom:10px}
+.pkg-fields .field{display:flex;flex-direction:column;gap:4px}
+.pkg-fields label{font-size:.68rem;color:var(--muted);text-transform:uppercase;letter-spacing:.03em}
+.pkg-fields input, .pkg-fields select{
+  background:var(--surface-2);border:1px solid var(--line);color:var(--ink);
+  border-radius:7px;padding:7px 9px;font-size:.82rem;
+}
+.pkg-summary{font-size:.78rem;color:var(--muted);margin-bottom:12px}
+.pkg-item-form{margin-top:12px;margin-bottom:0}
+table.pkg-table{min-width:760px}
+table.coll-table td.actions .pkgApplyBtn{border-color:var(--good);color:var(--good)}
+table.coll-table tfoot td{border-bottom:none;border-top:1px solid var(--line);background:var(--surface-2)}
 
 /* ---- celular: sidebar vira tira horizontal no topo ---- */
 @media (max-width: 760px){
@@ -426,6 +466,7 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
   var LANCER_ID = "__lancer__";
   var HIGHLIGHTS_COUNT = 14;
   var COLL_KEY = "hammond_minha_colecao_v1";
+  var PACKAGES_KEY = "hammond_pacotes_v1";
   var FX_KEY = "hammond_fx_usd_brl_v1";
   var ACTIVE_TAB_KEY = "hammond_active_tab_v1";
   var TARGETS_KEY = "hammond_price_targets_v1";
@@ -437,6 +478,7 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
   var state = { categories: [], updatedAt: null, activeTab: savedTab || HIGHLIGHTS_ID };
   var lancerState = { items: [], updatedAt: null };
   var collection = loadCollection();
+  var packages = loadPackages();
   var fx = loadFx();
   var targets = loadTargets();
   var editingId = null;
@@ -905,6 +947,59 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
     try{ localStorage.setItem(COLL_KEY, JSON.stringify(collection)); }catch(e){}
   }
 
+  function loadPackages(){
+    try{
+      var raw = localStorage.getItem(PACKAGES_KEY);
+      return raw ? JSON.parse(raw) : [];
+    }catch(e){ return []; }
+  }
+
+  function savePackages(){
+    try{ localStorage.setItem(PACKAGES_KEY, JSON.stringify(packages)); }catch(e){}
+  }
+
+  // ---- calculadora de pacote: rateia frete (sempre por peso) e alfandega
+  // (por peso ou por valor, a sua escolha) entre os dinos de um mesmo
+  // pacote, considerando tambem o peso so de embalagem (papelao/plastico
+  // bolha), que entra na conta do frete mas nao e um item em si. --------
+
+  function pkgItemsWeight(pkg){
+    return (pkg.items || []).reduce(function(s, it){ return s + (Number(it.weightLbs) || 0); }, 0);
+  }
+
+  function pkgItemsValue(pkg){
+    return (pkg.items || []).reduce(function(s, it){ return s + (Number(it.valueUsd) || 0); }, 0);
+  }
+
+  function pkgShippingWeight(pkg){
+    // peso total que o frete do pacote cobre: itens + embalagem.
+    return pkgItemsWeight(pkg) + (Number(pkg.packagingWeightLbs) || 0);
+  }
+
+  function pkgItemCalc(pkg, item){
+    var shipWeightTotal = pkgShippingWeight(pkg);
+    var itemWeight = Number(item.weightLbs) || 0;
+    var itemValue = Number(item.valueUsd) || 0;
+    var shipTotal = Number(pkg.shipTotalUsd) || 0;
+    var customsTotal = Number(pkg.customsTotalUsd) || 0;
+
+    var shipAlloc = shipWeightTotal > 0 ? (itemWeight / shipWeightTotal) * shipTotal : 0;
+
+    var customsAlloc = 0;
+    if (pkg.customsBasis === "peso"){
+      var wBase = pkgItemsWeight(pkg);
+      customsAlloc = wBase > 0 ? (itemWeight / wBase) * customsTotal : 0;
+    } else {
+      var vBase = pkgItemsValue(pkg);
+      customsAlloc = vBase > 0 ? (itemValue / vBase) * customsTotal : 0;
+    }
+
+    var totalCost = itemValue + shipAlloc + customsAlloc;
+    var costPerLb = itemWeight > 0 ? totalCost / itemWeight : null;
+
+    return { shipAlloc: shipAlloc, customsAlloc: customsAlloc, totalCost: totalCost, costPerLb: costPerLb };
+  }
+
   function loadFx(){
     var fallback = { rate: 5.4, updatedAt: null, manual: false };
     try{
@@ -959,7 +1054,7 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
   }
 
   function collFormHtml(entry){
-    entry = entry || { id:null, category:"", title:"", purchaseDate:"", paidUsd:"", shipUsd:"", feesUsd:"", resaleBrl:"", notes:"" };
+    entry = entry || { id:null, category:"", title:"", purchaseDate:"", paidUsd:"", shipUsd:"", feesUsd:"", resaleBrl:"", notes:"", notForSale:false };
     return (
       '<form class="coll-form" id="collForm">' +
         '<div class="field"><label>Categoria</label>' +
@@ -977,6 +1072,8 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
           '<input type="number" step="0.01" min="0" name="feesUsd" value="' + (entry.feesUsd ?? "") + '"></div>' +
         '<div class="field"><label>Revenda estimada (R$)</label>' +
           '<input type="number" step="0.01" min="0" name="resaleBrl" value="' + (entry.resaleBrl ?? "") + '"></div>' +
+        '<div class="field"><label>Para mim</label>' +
+          '<label class="chk-label"><input type="checkbox" name="notForSale"' + (entry.notForSale ? " checked" : "") + '> Uso pessoal, nao vou revender</label></div>' +
         '<div class="field wide"><label>Notas</label>' +
           '<input type="text" name="notes" value="' + (entry.notes||"").replace(/"/g,"&quot;") + '" placeholder="Opcional"></div>' +
         '<div class="actions-row">' +
@@ -987,12 +1084,124 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
     );
   }
 
+  function pkgCardHtml(pkg){
+    var shipWeightTotal = pkgShippingWeight(pkg);
+    var itemsWeight = pkgItemsWeight(pkg);
+    var itemsValue = pkgItemsValue(pkg);
+    var shipPerLb = shipWeightTotal > 0 ? (Number(pkg.shipTotalUsd) || 0) / shipWeightTotal : null;
+    var items = pkg.items || [];
+
+    var totalShipAlloc = 0, totalCustomsAlloc = 0, totalCost = 0;
+    items.forEach(function(it){
+      var c = pkgItemCalc(pkg, it);
+      totalShipAlloc += c.shipAlloc;
+      totalCustomsAlloc += c.customsAlloc;
+      totalCost += c.totalCost;
+    });
+
+    var itemsRows = items.length ? items.map(function(it){
+      var calc = pkgItemCalc(pkg, it);
+      return (
+        '<tr data-item="' + it.id + '">' +
+          '<td>' + (it.title || "—").replace(/</g,"&lt;") +
+            (it.notForSale ? ' <span class="personal-badge">uso pessoal</span>' : '') + '</td>' +
+          '<td>' + (it.category || "—").replace(/</g,"&lt;") + '</td>' +
+          '<td class="num">' + (Number(it.weightLbs) || 0).toFixed(2) + ' lb</td>' +
+          '<td class="num">' + fmtUSD(Number(it.valueUsd) || 0) + '</td>' +
+          '<td class="num">' + fmtUSD(calc.shipAlloc) + '</td>' +
+          '<td class="num">' + fmtUSD(calc.customsAlloc) + '</td>' +
+          '<td class="num" style="font-weight:600">' + fmtUSD(calc.totalCost) + '</td>' +
+          '<td class="num">' + (calc.costPerLb != null ? fmtUSD(calc.costPerLb) + "/lb" : "—") + '</td>' +
+          '<td class="actions">' +
+            '<button type="button" class="pkgApplyBtn">' + (it.appliedCollEntryId ? "Atualizar na Colecao" : "Aplicar a Colecao") + '</button>' +
+            '<button type="button" class="pkgItemDelBtn">Excluir</button>' +
+          '</td>' +
+        '</tr>'
+      );
+    }).join("") : '<tr><td colspan="9" style="color:var(--muted);text-align:center;padding:16px">Nenhum item neste pacote ainda.</td></tr>';
+
+    var tfoot = items.length ? (
+      '<tfoot><tr>' +
+        '<td colspan="2" style="font-weight:600">Total</td>' +
+        '<td class="num" style="font-weight:600">' + itemsWeight.toFixed(2) + ' lb</td>' +
+        '<td class="num" style="font-weight:600">' + fmtUSD(itemsValue) + '</td>' +
+        '<td class="num" style="font-weight:600">' + fmtUSD(totalShipAlloc) + '</td>' +
+        '<td class="num" style="font-weight:600">' + fmtUSD(totalCustomsAlloc) + '</td>' +
+        '<td class="num" style="font-weight:600">' + fmtUSD(totalCost) + '</td>' +
+        '<td></td><td></td>' +
+      '</tr></tfoot>'
+    ) : "";
+
+    return (
+      '<div class="pkg-card" data-pkg="' + pkg.id + '">' +
+        '<div class="pkg-head">' +
+          '<input type="text" class="pkgNameInput" value="' + (pkg.name || "").replace(/"/g,"&quot;") + '" placeholder="Nome do pacote (ex.: Pacote Outubro)">' +
+          '<input type="date" class="pkgDateInput" value="' + (pkg.date || "") + '">' +
+          '<button type="button" class="pkgDelBtn">Excluir pacote</button>' +
+        '</div>' +
+        '<div class="pkg-fields">' +
+          '<div class="field"><label>Peso so de papelao/plastico bolha (lb)</label>' +
+            '<input type="number" step="0.01" min="0" class="pkgPackagingInput" value="' + (pkg.packagingWeightLbs ?? "") + '"></div>' +
+          '<div class="field"><label>Frete total pago do pacote (US$)</label>' +
+            '<input type="number" step="0.01" min="0" class="pkgShipInput" value="' + (pkg.shipTotalUsd ?? "") + '"></div>' +
+          '<div class="field"><label>Alfandega total paga (US$)</label>' +
+            '<input type="number" step="0.01" min="0" class="pkgCustomsInput" value="' + (pkg.customsTotalUsd ?? "") + '"></div>' +
+          '<div class="field"><label>Ratear alfandega por</label>' +
+            '<select class="pkgBasisInput">' +
+              '<option value="valor"' + (pkg.customsBasis !== "peso" ? " selected" : "") + '>Valor pago de cada item</option>' +
+              '<option value="peso"' + (pkg.customsBasis === "peso" ? " selected" : "") + '>Peso de cada item</option>' +
+            '</select></div>' +
+        '</div>' +
+        '<div class="pkg-summary">' +
+          'Peso total do pacote (itens + embalagem): <strong>' + shipWeightTotal.toFixed(2) + ' lb</strong>' +
+          (shipPerLb != null ? ' &middot; &asymp; ' + fmtUSD(shipPerLb) + '/lb de frete' : '') +
+          ' &middot; ' + items.length + ' item(ns) somando ' + itemsWeight.toFixed(2) + ' lb e ' + fmtUSD(itemsValue) + ' pagos' +
+        '</div>' +
+        '<div class="coll-table-wrap"><table class="coll-table pkg-table">' +
+          '<thead><tr><th>Item</th><th>Categoria</th><th>Peso</th><th>Valor pago</th><th>Frete alocado</th><th>Alfandega alocada</th><th>Custo total</th><th>Custo/lb</th><th></th></tr></thead>' +
+          '<tbody>' + itemsRows + '</tbody>' +
+          tfoot +
+        '</table></div>' +
+        '<form class="coll-form pkg-item-form">' +
+          '<div class="field"><label>Categoria</label><select name="category">' + categoryOptionsHtml("") + '</select></div>' +
+          '<div class="field wide"><label>Titulo / apelido</label><input type="text" name="title" placeholder="Ex.: Blue (BAF)"></div>' +
+          '<div class="field"><label>Peso (lb)</label><input type="number" step="0.01" min="0" name="weightLbs"></div>' +
+          '<div class="field"><label>Valor pago (US$)</label><input type="number" step="0.01" min="0" name="valueUsd"></div>' +
+          '<div class="field"><label>Para mim</label>' +
+            '<label class="chk-label"><input type="checkbox" name="notForSale"> Uso pessoal, nao vou revender</label></div>' +
+          '<div class="actions-row"><button type="submit" class="btn-save">+ Adicionar item ao pacote</button></div>' +
+        '</form>' +
+      '</div>'
+    );
+  }
+
+  function packagesSectionHtml(){
+    var cards = packages.length
+      ? packages.map(pkgCardHtml).join("")
+      : '<div class="empty" style="padding:20px"><strong>Nenhum pacote ainda</strong>Cadastre um pacote pra calcular quanto cada dino saiu de verdade (preco + frete rateado + alfandega rateada, considerando o peso de cada um).</div>';
+    return (
+      '<div class="pkg-section">' +
+        '<div class="main-head" style="margin-top:28px"><h2>&#128230; Calculadora de pacote</h2><div class="sub">' +
+          'Voce traz varios dinos juntos num pacote (ex.: 20 lb). Informe o frete total pago e a alfandega paga do pacote inteiro, ' +
+          'o peso so da embalagem (papelao/plastico bolha, conta no frete mas nao e item) e o peso + valor pago de cada dino. ' +
+          'O frete e sempre rateado pelo peso; a alfandega voce escolhe se e por peso ou por valor.' +
+        '</div></div>' +
+        '<div class="coll-toolbar"><button type="button" id="addPackageBtn">+ Novo pacote</button></div>' +
+        cards +
+      '</div>'
+    );
+  }
+
   function renderCollection(){
-    var totalCostUsd = 0, totalResaleBrl = 0, totalProfitBrl = 0;
+    var totalCostUsd = 0, totalResaleBrl = 0, totalProfitBrl = 0, personalCount = 0;
     collection.forEach(function(e){
       totalCostUsd += collEntryCost(e);
-      totalResaleBrl += Number(e.resaleBrl) || 0;
-      totalProfitBrl += collEntryProfit(e);
+      if (e.notForSale){
+        personalCount++;
+      } else {
+        totalResaleBrl += Number(e.resaleBrl) || 0;
+        totalProfitBrl += collEntryProfit(e);
+      }
     });
     var totalCostBrl = totalCostUsd * (fx.rate || 0);
 
@@ -1001,15 +1210,23 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
       var costBrl = cost * (fx.rate || 0);
       var profit = collEntryProfit(e);
       var profitClass = profit > 0 ? "pos" : (profit < 0 ? "neg" : "");
+      var titleCell = (e.title || "—").replace(/</g,"&lt;") +
+        (e.notForSale ? ' <span class="personal-badge">uso pessoal</span>' : '');
+      var resaleCell = e.notForSale
+        ? '<td class="num" style="color:var(--muted)">—</td>'
+        : '<td class="num">' + fmtBRL(Number(e.resaleBrl) || 0) + '</td>';
+      var profitCell = e.notForSale
+        ? '<td class="num" style="color:var(--muted)">Uso pessoal</td>'
+        : '<td class="num profit ' + profitClass + '">' + fmtBRL(profit) + '</td>';
       return (
         '<tr data-id="' + e.id + '">' +
           '<td>' + (e.purchaseDate || "—") + '</td>' +
           '<td>' + (e.category || "—").replace(/</g,"&lt;") + '</td>' +
-          '<td>' + (e.title || "—").replace(/</g,"&lt;") + '</td>' +
+          '<td>' + titleCell + '</td>' +
           '<td class="num">' + fmtUSD(cost) + '</td>' +
           '<td class="num">' + fmtBRL(costBrl) + '</td>' +
-          '<td class="num">' + fmtBRL(Number(e.resaleBrl) || 0) + '</td>' +
-          '<td class="num profit ' + profitClass + '">' + fmtBRL(profit) + '</td>' +
+          resaleCell +
+          profitCell +
           '<td class="actions">' +
             '<button type="button" class="editBtn">Editar</button>' +
             '<button type="button" class="delBtn">Excluir</button>' +
@@ -1031,7 +1248,8 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
       '</div>' +
       '<div id="collFormWrap"></div>' +
       '<div class="coll-summary">' +
-        '<div class="coll-stat"><div class="k">Itens registrados</div><div class="v">' + collection.length + '</div></div>' +
+        '<div class="coll-stat"><div class="k">Itens registrados</div><div class="v">' + collection.length +
+          (personalCount ? ' <span class="personal-badge">' + personalCount + ' uso pessoal</span>' : '') + '</div></div>' +
         '<div class="coll-stat"><div class="k">Custo total</div><div class="v">' + fmtBRL(totalCostBrl) + '</div></div>' +
         '<div class="coll-stat"><div class="k">Revenda estimada</div><div class="v">' + fmtBRL(totalResaleBrl) + '</div></div>' +
         '<div class="coll-stat"><div class="k">Lucro estimado</div><div class="v ' + (totalProfitBrl > 0 ? "pos" : (totalProfitBrl < 0 ? "neg" : "")) + '">' + fmtBRL(totalProfitBrl) + '</div></div>' +
@@ -1042,7 +1260,8 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
           '<th>Revenda (R$)</th><th>Lucro (R$)</th><th></th>' +
         '</tr></thead>' +
         '<tbody>' + rowsHtml + '</tbody>' +
-      '</table></div>';
+      '</table></div>' +
+      packagesSectionHtml();
 
     document.getElementById("addEntryBtn").addEventListener("click", function(){
       editingId = null;
@@ -1076,6 +1295,128 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
         renderCollection();
       });
     });
+
+    document.getElementById("addPackageBtn").addEventListener("click", function(){
+      packages.push({
+        id: uid(),
+        name: "Pacote " + (packages.length + 1),
+        date: new Date().toISOString().slice(0, 10),
+        packagingWeightLbs: 0,
+        shipTotalUsd: 0,
+        customsTotalUsd: 0,
+        customsBasis: "valor",
+        items: [],
+      });
+      savePackages();
+      renderCollection();
+    });
+
+    mainEl.querySelectorAll(".pkg-card").forEach(function(card){
+      var pkgId = card.dataset.pkg;
+      var pkg = packages.find(function(p){ return p.id === pkgId; });
+      if (!pkg) return;
+
+      card.querySelector(".pkgNameInput").addEventListener("change", function(ev){
+        pkg.name = ev.target.value;
+        savePackages();
+      });
+      card.querySelector(".pkgDateInput").addEventListener("change", function(ev){
+        pkg.date = ev.target.value;
+        savePackages();
+      });
+      card.querySelector(".pkgDelBtn").addEventListener("click", function(){
+        if (!confirm("Excluir este pacote? Isso nao apaga itens ja aplicados na Minha Colecao.")) return;
+        packages = packages.filter(function(p){ return p.id !== pkgId; });
+        savePackages();
+        renderCollection();
+      });
+      card.querySelector(".pkgPackagingInput").addEventListener("change", function(ev){
+        pkg.packagingWeightLbs = parseFloat(ev.target.value) || 0;
+        savePackages();
+        renderCollection();
+      });
+      card.querySelector(".pkgShipInput").addEventListener("change", function(ev){
+        pkg.shipTotalUsd = parseFloat(ev.target.value) || 0;
+        savePackages();
+        renderCollection();
+      });
+      card.querySelector(".pkgCustomsInput").addEventListener("change", function(ev){
+        pkg.customsTotalUsd = parseFloat(ev.target.value) || 0;
+        savePackages();
+        renderCollection();
+      });
+      card.querySelector(".pkgBasisInput").addEventListener("change", function(ev){
+        pkg.customsBasis = ev.target.value;
+        savePackages();
+        renderCollection();
+      });
+
+      card.querySelector(".pkg-item-form").addEventListener("submit", function(ev){
+        ev.preventDefault();
+        var fd = new FormData(ev.target);
+        var title = (fd.get("title") || "").trim();
+        var weightLbs = parseFloat(fd.get("weightLbs")) || 0;
+        if (!title || weightLbs <= 0){
+          alert("Informe pelo menos o titulo e o peso (em lb) do item.");
+          return;
+        }
+        pkg.items = pkg.items || [];
+        pkg.items.push({
+          id: uid(),
+          title: title,
+          category: fd.get("category") || "",
+          weightLbs: weightLbs,
+          valueUsd: parseFloat(fd.get("valueUsd")) || 0,
+          notForSale: !!fd.get("notForSale"),
+          appliedCollEntryId: null,
+        });
+        savePackages();
+        renderCollection();
+      });
+
+      card.querySelectorAll(".pkgItemDelBtn").forEach(function(btn){
+        btn.addEventListener("click", function(){
+          var itemId = btn.closest("tr").dataset.item;
+          if (!confirm("Excluir este item do pacote?")) return;
+          pkg.items = pkg.items.filter(function(it){ return it.id !== itemId; });
+          savePackages();
+          renderCollection();
+        });
+      });
+
+      card.querySelectorAll(".pkgApplyBtn").forEach(function(btn){
+        btn.addEventListener("click", function(){
+          var itemId = btn.closest("tr").dataset.item;
+          var item = (pkg.items || []).find(function(it){ return it.id === itemId; });
+          if (!item) return;
+          var calc = pkgItemCalc(pkg, item);
+          var prevEntry = item.appliedCollEntryId
+            ? collection.find(function(e){ return e.id === item.appliedCollEntryId; })
+            : null;
+          var data = {
+            id: item.appliedCollEntryId || uid(),
+            category: item.category || "",
+            title: item.title || "",
+            purchaseDate: pkg.date || "",
+            paidUsd: item.valueUsd || 0,
+            shipUsd: Number(calc.shipAlloc.toFixed(2)),
+            feesUsd: Number(calc.customsAlloc.toFixed(2)),
+            resaleBrl: prevEntry ? (Number(prevEntry.resaleBrl) || 0) : 0,
+            notForSale: !!item.notForSale,
+            notes: "Pacote: " + (pkg.name || ""),
+          };
+          if (prevEntry){
+            collection = collection.map(function(e){ return e.id === data.id ? data : e; });
+          } else {
+            collection.push(data);
+            item.appliedCollEntryId = data.id;
+          }
+          saveCollection();
+          savePackages();
+          renderCollection();
+        });
+      });
+    });
   }
 
   function openCollForm(){
@@ -1098,6 +1439,7 @@ table.coll-table td.actions button:hover{border-color:var(--accent);color:var(--
         shipUsd: fd.get("shipUsd") || 0,
         feesUsd: fd.get("feesUsd") || 0,
         resaleBrl: fd.get("resaleBrl") || 0,
+        notForSale: !!fd.get("notForSale"),
         notes: fd.get("notes") || "",
       };
       if (editingId){
