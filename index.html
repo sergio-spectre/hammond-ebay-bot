@@ -960,8 +960,10 @@ table.coll-table tfoot td{border-bottom:none;border-top:1px solid var(--line);ba
 
   // ---- calculadora de pacote: rateia frete (sempre por peso) e alfandega
   // (por peso ou por valor, a sua escolha) entre os dinos de um mesmo
-  // pacote, considerando tambem o peso so de embalagem (papelao/plastico
-  // bolha), que entra na conta do frete mas nao e um item em si. --------
+  // pacote. Voce so informa o peso total que pesou pra enviar (o que pagou
+  // de frete e baseado nele) e o peso de cada dino -- a diferenca entre os
+  // dois e automaticamente o peso de papelao/plastico bolha, sem precisar
+  // pesar a embalagem a parte. --------------------------------------------
 
   function pkgItemsWeight(pkg){
     return (pkg.items || []).reduce(function(s, it){ return s + (Number(it.weightLbs) || 0); }, 0);
@@ -972,8 +974,17 @@ table.coll-table tfoot td{border-bottom:none;border-top:1px solid var(--line);ba
   }
 
   function pkgShippingWeight(pkg){
-    // peso total que o frete do pacote cobre: itens + embalagem.
-    return pkgItemsWeight(pkg) + (Number(pkg.packagingWeightLbs) || 0);
+    // peso total que o frete do pacote cobre (o que voce pesou/pagou pra
+    // enviar). Enquanto nao informado, cai de volta pra soma dos dinos.
+    var total = Number(pkg.totalWeightLbs) || 0;
+    return total > 0 ? total : pkgItemsWeight(pkg);
+  }
+
+  function pkgPackagingWeight(pkg){
+    // a diferenca entre o peso total enviado e a soma dos dinos: isso e
+    // papelao, plastico bolha etc. Nunca negativo.
+    var diff = pkgShippingWeight(pkg) - pkgItemsWeight(pkg);
+    return diff > 0 ? diff : 0;
   }
 
   function pkgItemCalc(pkg, item){
@@ -1088,6 +1099,7 @@ table.coll-table tfoot td{border-bottom:none;border-top:1px solid var(--line);ba
     var shipWeightTotal = pkgShippingWeight(pkg);
     var itemsWeight = pkgItemsWeight(pkg);
     var itemsValue = pkgItemsValue(pkg);
+    var packagingWeight = pkgPackagingWeight(pkg);
     var shipPerLb = shipWeightTotal > 0 ? (Number(pkg.shipTotalUsd) || 0) / shipWeightTotal : null;
     var items = pkg.items || [];
 
@@ -1140,8 +1152,8 @@ table.coll-table tfoot td{border-bottom:none;border-top:1px solid var(--line);ba
           '<button type="button" class="pkgDelBtn">Excluir pacote</button>' +
         '</div>' +
         '<div class="pkg-fields">' +
-          '<div class="field"><label>Peso so de papelao/plastico bolha (lb)</label>' +
-            '<input type="number" step="0.01" min="0" class="pkgPackagingInput" value="' + (pkg.packagingWeightLbs ?? "") + '"></div>' +
+          '<div class="field"><label>Peso total que pesou pra enviar (lb)</label>' +
+            '<input type="number" step="0.01" min="0" class="pkgTotalWeightInput" value="' + (pkg.totalWeightLbs ?? "") + '"></div>' +
           '<div class="field"><label>Frete total pago do pacote (US$)</label>' +
             '<input type="number" step="0.01" min="0" class="pkgShipInput" value="' + (pkg.shipTotalUsd ?? "") + '"></div>' +
           '<div class="field"><label>Alfandega total paga (US$)</label>' +
@@ -1153,9 +1165,10 @@ table.coll-table tfoot td{border-bottom:none;border-top:1px solid var(--line);ba
             '</select></div>' +
         '</div>' +
         '<div class="pkg-summary">' +
-          'Peso total do pacote (itens + embalagem): <strong>' + shipWeightTotal.toFixed(2) + ' lb</strong>' +
+          'Peso total enviado: <strong>' + shipWeightTotal.toFixed(2) + ' lb</strong>' +
           (shipPerLb != null ? ' &middot; &asymp; ' + fmtUSD(shipPerLb) + '/lb de frete' : '') +
           ' &middot; ' + items.length + ' item(ns) somando ' + itemsWeight.toFixed(2) + ' lb e ' + fmtUSD(itemsValue) + ' pagos' +
+          ' &middot; &asymp; ' + packagingWeight.toFixed(2) + ' lb de papelao/plastico bolha (a diferenca)' +
         '</div>' +
         '<div class="coll-table-wrap"><table class="coll-table pkg-table">' +
           '<thead><tr><th>Item</th><th>Categoria</th><th>Peso</th><th>Valor pago</th><th>Frete alocado</th><th>Alfandega alocada</th><th>Custo total</th><th>Custo/lb</th><th></th></tr></thead>' +
@@ -1182,9 +1195,10 @@ table.coll-table tfoot td{border-bottom:none;border-top:1px solid var(--line);ba
     return (
       '<div class="pkg-section">' +
         '<div class="main-head" style="margin-top:28px"><h2>&#128230; Calculadora de pacote</h2><div class="sub">' +
-          'Voce traz varios dinos juntos num pacote (ex.: 20 lb). Informe o frete total pago e a alfandega paga do pacote inteiro, ' +
-          'o peso so da embalagem (papelao/plastico bolha, conta no frete mas nao e item) e o peso + valor pago de cada dino. ' +
-          'O frete e sempre rateado pelo peso; a alfandega voce escolhe se e por peso ou por valor.' +
+          'Voce traz varios dinos juntos num pacote (ex.: 20 lb). Informe o peso total que pesou pra enviar, o frete total pago e a ' +
+          'alfandega paga do pacote inteiro, e o peso + valor pago de cada dino. O peso de papelao/plastico bolha nao precisa ser ' +
+          'pesado a parte: e so a diferenca entre o peso total e a soma dos dinos. O frete e sempre rateado pelo peso; a alfandega ' +
+          'voce escolhe se e por peso ou por valor.' +
         '</div></div>' +
         '<div class="coll-toolbar"><button type="button" id="addPackageBtn">+ Novo pacote</button></div>' +
         cards +
@@ -1301,7 +1315,7 @@ table.coll-table tfoot td{border-bottom:none;border-top:1px solid var(--line);ba
         id: uid(),
         name: "Pacote " + (packages.length + 1),
         date: new Date().toISOString().slice(0, 10),
-        packagingWeightLbs: 0,
+        totalWeightLbs: 0,
         shipTotalUsd: 0,
         customsTotalUsd: 0,
         customsBasis: "valor",
@@ -1330,8 +1344,8 @@ table.coll-table tfoot td{border-bottom:none;border-top:1px solid var(--line);ba
         savePackages();
         renderCollection();
       });
-      card.querySelector(".pkgPackagingInput").addEventListener("change", function(ev){
-        pkg.packagingWeightLbs = parseFloat(ev.target.value) || 0;
+      card.querySelector(".pkgTotalWeightInput").addEventListener("change", function(ev){
+        pkg.totalWeightLbs = parseFloat(ev.target.value) || 0;
         savePackages();
         renderCollection();
       });
